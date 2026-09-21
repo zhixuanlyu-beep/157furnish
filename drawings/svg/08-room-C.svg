@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 客房C</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 1500双人床</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 衣柜</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 行李</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 到窗清洁</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 客床架1500床垫 1620×21</text>
+<text x="1380.000" y="421.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">20 高950</text>
+<text x="1380.000" y="466.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 客房衣柜 1300×600 高23</text>
+<text x="1380.000" y="495.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">00</text>
+<text x="1380.000" y="540.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 行李台 400×600 高450</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="-687.3259" y="393.4850" width="1073.5975" height="659.6704" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="411.1570" y="206.8446" width="547.6861" height="846.3108" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="29.1661" y="1078.0408" width="942.1196" height="194.9356" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="983.7284" y="1078.0408" width="1245.7215" height="735.9856" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="983.7284" y="198.5494" width="674.1869" height="867.0487" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="992.0236" y="-84.1072" width="1258.1642" height="257.7712" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="950.5479" y="144.6311" width="41.4757" height="41.4757" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="398.7143" y="165.3689" width="134.7959" height="41.4757" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="533.5102" y="165.3689" width="279.9607" height="41.4757" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="813.4709" y="165.3689" width="157.8149" height="41.4757" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="377.9764" y="186.1067" width="41.4757" height="186.6405" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="-708.0637" y="352.0094" width="1106.7780" height="41.4757" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="349.5656" y="1053.1554" width="49.1487" height="24.8854" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="386.2716" y="372.7472" width="24.8854" height="705.2936" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="398.7143" y="1053.1554" width="37.3281" height="24.8854" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="622.6828" y="1053.1554" width="348.6029" height="24.8854" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="958.8430" y="186.1067" width="24.8854" height="879.4914" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="971.2857" y="173.6640" width="145.1648" height="24.8854" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="533.5102" y="165.3689" width="279.9607" height="41.4757" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<polygon points="446.411,1065.598 446.411,891.400 438.116,891.400 438.116,1065.598" fill="#be9364" stroke="#456653"/>
+<polyline points="616.461,1069.746 616.160,1054.548 614.535,1039.434 611.599,1024.519 607.375,1009.916 601.893,995.738 595.197,982.091 587.337,969.080 578.373,956.803 568.373,945.354 557.413,934.821 545.577,925.283 532.954,916.812 519.642,909.474 505.740,903.324 491.356,898.409 476.597,894.767 461.578,892.425 446.411,891.400" fill="none" stroke="#b87943" stroke-width="1"/>
+<rect x="4.9029" y="399.9138" width="373.2809" height="124.4270" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardA" data-mm="4150,7040,1800,600" data-transform="359.3123772102161,155.0,0.20737830168085572,5859,8821"/>
+<polyline points="129.330,524.341 129.330,399.914" fill="none" stroke="#94774e" stroke-width="1"/>
+<polyline points="253.757,524.341 253.757,399.914" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="11.124" y="478.127" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">儿童衣柜</text>
+<rect x="517.1273" y="327.3314" width="335.9528" height="439.6420" fill="#cfdbcb" stroke="#576858" stroke-width="1" data-object="bedC" data-mm="6620,5870,1620,2120" data-transform="359.3123772102161,155.0,0.20737830168085572,5859,8821"/>
+<rect x="529.5700" y="339.7741" width="311.0675" height="414.7566" fill="#edf0e4" stroke="#7b8d7b" stroke-width="1" />
+<rect x="548.2340" y="358.4381" width="124.4270" height="62.2135" fill="#fcfbf6" stroke="#7b8d7b" stroke-width="1" />
+<text x="523.349" y="563.152" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">客床架1500床垫</text>
+<rect x="678.8823" y="912.1382" width="269.5918" height="124.4270" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardC" data-mm="7400,4570,1300,600" data-transform="359.3123772102161,155.0,0.20737830168085572,5859,8821"/>
+<polyline points="813.678,1036.565 813.678,912.138" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="685.104" y="990.352" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">客房衣柜</text>
+<rect x="419.6595" y="366.7332" width="82.9513" height="124.4270" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="luggage" data-mm="6150,7200,400,600" data-transform="359.3123772102161,155.0,0.20737830168085572,5859,8821"/>
+<text x="425.881" y="444.947" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">行李台</text>
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 287.378,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+</svg>

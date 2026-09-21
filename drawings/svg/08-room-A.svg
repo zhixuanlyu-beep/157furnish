@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 儿童房A</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 1200床</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 独立书桌</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 衣柜</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 书玩低柜</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 活动与成长替换</text>
+<text x="1380.000" y="437.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 儿童床架1200床垫 1300×2</text>
+<text x="1380.000" y="466.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">120 高900</text>
+<text x="1380.000" y="511.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 儿童衣柜 1800×600 高23</text>
+<text x="1380.000" y="540.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">00</text>
+<text x="1380.000" y="585.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8. 儿童升降书桌 1200×600 高</text>
+<text x="1380.000" y="614.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">700</text>
+<text x="1380.000" y="659.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">9. 儿童学习椅 420×450 高78</text>
+<text x="1380.000" y="688.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">0</text>
+<text x="1380.000" y="733.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">10. 书玩低柜 1500×300 高7</text>
+<text x="1380.000" y="762.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">50</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="110.4871" y="276.9914" width="1149.0259" height="706.0173" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="110.4871" y="1009.6424" width="753.5142" height="787.6942" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="1286.1467" y="77.2380" width="586.1652" height="905.7707" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="877.3181" y="1009.6424" width="1008.3107" height="208.6313" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="1250.6350" y="55.0432" width="44.3896" height="199.7534" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="88.2922" y="232.6017" width="1184.5376" height="44.3896" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="66.0974" y="980.7891" width="44.3896" height="688.0395" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="66.0974" y="647.8668" width="44.3896" height="332.9223" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="66.0974" y="254.7965" width="44.3896" height="393.0703" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="88.2922" y="983.0086" width="932.1825" height="26.6338" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1220.2281" y="983.0086" width="52.6017" height="26.6338" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="864.0012" y="996.3255" width="26.6338" height="15.3144" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1259.5129" y="254.7965" width="26.6338" height="754.8459" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1272.8298" y="983.0086" width="39.9507" height="26.6338" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="66.0974" y="647.8668" width="44.3896" height="332.9223" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<polygon points="1218.009,996.326 1218.009,809.889 1209.131,809.889 1209.131,996.326" fill="#be9364" stroke="#456653"/>
+<polyline points="1027.133,991.887 1028.229,975.654 1030.736,959.580 1034.635,943.784 1039.895,928.389 1046.477,913.511 1054.330,899.263 1063.396,885.754 1073.604,873.086 1084.878,861.356 1097.131,850.654 1110.270,841.060 1124.196,832.647 1138.801,825.481 1153.976,819.614 1169.604,815.093 1185.567,811.951 1201.743,810.212 1218.009,809.889" fill="none" stroke="#b87943" stroke-width="1"/>
+<polygon points="877.318,1013.859 701.979,1013.859 701.979,1022.737 877.318,1022.737" fill="#be9364" stroke="#456653"/>
+<polyline points="872.879,1193.637 857.614,1192.583 842.499,1190.203 827.649,1186.514 813.177,1181.545 799.194,1175.334 785.804,1167.927 773.112,1159.382 761.212,1149.763 750.196,1139.143 740.147,1127.604 731.143,1115.233 723.251,1102.124 716.531,1088.377 711.035,1074.097 706.805,1059.392 703.872,1044.374 702.259,1029.158 701.979,1013.859" fill="none" stroke="#b87943" stroke-width="1"/>
+<polygon points="1323.878,996.326 1323.878,809.889 1315.000,809.889 1315.000,996.326" fill="#be9364" stroke="#456653"/>
+<polyline points="1505.875,1000.764 1505.553,984.499 1503.814,968.323 1500.672,952.360 1496.150,936.732 1490.284,921.557 1483.117,906.952 1474.705,893.026 1465.111,879.887 1454.408,867.634 1442.678,856.360 1430.011,846.152 1416.501,837.086 1402.254,829.233 1387.375,822.651 1371.980,817.391 1356.185,813.492 1340.110,810.985 1323.878,809.889" fill="none" stroke="#b87943" stroke-width="1"/>
+<rect x="174.4081" y="301.6276" width="288.5327" height="470.5302" fill="#cfdbcb" stroke="#576858" stroke-width="1" data-object="bedA" data-mm="1100,5440,1300,2120" data-transform="55.0,221.50431565967943,0.2219482120838471,562,7921"/>
+<rect x="185.5055" y="314.9445" width="266.3379" height="443.8964" fill="#edf0e4" stroke="#7b8d7b" stroke-width="1" />
+<rect x="207.7004" y="334.9199" width="133.1689" height="66.5845" fill="#fcfbf6" stroke="#7b8d7b" stroke-width="1" />
+<text x="181.067" y="552.893" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">儿童床架1200床垫</text>
+<rect x="851.3502" y="283.8718" width="399.5068" height="133.1689" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardA" data-mm="4150,7040,1800,600" data-transform="55.0,221.50431565967943,0.2219482120838471,562,7921"/>
+<polyline points="984.519,417.041 984.519,283.872" fill="none" stroke="#94774e" stroke-width="1"/>
+<polyline points="1117.688,417.041 1117.688,283.872" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="858.009" y="366.456" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">儿童衣柜</text>
+<rect x="547.2811" y="290.5302" width="266.3379" height="133.1689" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="deskA" data-mm="2780,7010,1200,600" data-transform="55.0,221.50431565967943,0.2219482120838471,562,7921"/>
+<text x="553.940" y="373.115" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">儿童升降书桌</text>
+<rect x="636.0604" y="452.5524" width="93.2182" height="99.8767" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="chairA" data-mm="3180,6430,420,450" data-transform="55.0,221.50431565967943,0.2219482120838471,562,7921"/>
+<text x="642.719" y="518.491" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">儿童学习椅</text>
+<rect x="141.1159" y="898.6683" width="332.9223" height="66.5845" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="toys" data-mm="950,4570,1500,300" data-transform="55.0,221.50431565967943,0.2219482120838471,562,7921"/>
+<polyline points="252.090,965.253 252.090,898.668" fill="none" stroke="#94774e" stroke-width="1"/>
+<polyline points="363.064,965.253 363.064,898.668" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="147.774" y="947.961" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">书玩低柜</text>
+<rect x="1295.2466" y="248.3600" width="88.7793" height="133.1689" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="luggage" data-mm="6150,7200,400,600" data-transform="55.0,221.50431565967943,0.2219482120838471,562,7921"/>
+<text x="1301.905" y="330.945" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">行李台</text>
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 301.948,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+</svg>

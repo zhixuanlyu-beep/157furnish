@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 厨房</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 燃气排烟留原区</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 主水槽</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 洗碗机</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 蒸烤微波</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 净水</text>
+<text x="1380.000" y="437.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 主水槽柜 650×900 高850</text>
+<text x="1380.000" y="482.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 洗碗机 650×600 高820</text>
+<text x="1380.000" y="527.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8. 备餐柜 650×650 高850</text>
+<text x="1380.000" y="572.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">9. 燃气灶柜 650×850 高850</text>
+<text x="1380.000" y="617.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">10. 蒸烤微波高柜 650×750 高</text>
+<text x="1380.000" y="646.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2300</text>
+<text x="1380.000" y="691.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">11. 冰箱预留 750×900 高20</text>
+<text x="1380.000" y="720.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">00</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="-278.9797" y="1078.2742" width="1234.9383" height="729.6148" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="-278.9797" y="206.3958" width="668.3510" height="859.5434" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="414.0413" y="206.3958" width="541.9173" height="847.2084" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="-270.7563" y="-73.8141" width="1247.2733" height="255.5399" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="955.9587" y="122.1067" width="41.1166" height="997.0786" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="389.3713" y="194.0608" width="24.6700" height="871.8784" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="401.7063" y="1053.6042" width="154.1874" height="24.6700" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="761.4770" y="1053.6042" width="215.0400" height="24.6700" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="325.4350" y="181.7258" width="370.0498" height="24.6700" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="880.5096" y="181.7258" width="96.0074" height="24.6700" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="761.4770" y="1042.2971" width="205.5832" height="7.1954" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<polygon points="878.454,194.061 878.454,21.371 870.230,21.371 870.230,194.061" fill="#be9364" stroke="#456653"/>
+<polyline points="701.652,189.949 702.668,174.914 704.990,160.024 708.601,145.394 713.473,131.134 719.570,117.352 726.844,104.155 735.241,91.642 744.697,79.908 755.139,69.043 766.489,59.130 778.659,50.243 791.558,42.451 805.087,35.813 819.142,30.379 833.618,26.191 848.404,23.280 863.387,21.670 878.454,21.371" fill="none" stroke="#b87943" stroke-width="1"/>
+<rect x="370.6633" y="332.0071" width="12.3350" height="472.8414" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="screen" data-mm="12030,5700,60,2300" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<text x="376.831" y="584.428" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">投影幕布</text>
+<rect x="138.3543" y="218.9364" width="226.1415" height="92.5124" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="coffee" data-mm="10900,8100,1100,450" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<polyline points="251.425,311.449 251.425,218.936" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="144.522" y="281.193" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">咖啡电器柜</text>
+<rect x="816.7788" y="848.0210" width="133.6291" height="185.0249" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="sink" data-mm="14200,4590,650,900" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<text x="822.946" y="956.533" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">主水槽柜</text>
+<rect x="816.7788" y="724.6711" width="133.6291" height="123.3499" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="dishwasher" data-mm="14200,5490,650,600" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<text x="822.946" y="802.346" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">洗碗机</text>
+<rect x="816.7788" y="591.0420" width="133.6291" height="133.6291" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="prep" data-mm="14200,6090,650,650" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<text x="822.946" y="673.857" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">备餐柜</text>
+<rect x="816.7788" y="416.2963" width="133.6291" height="174.7457" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="hob" data-mm="14200,6740,650,850" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<text x="822.946" y="519.669" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">燃气灶柜</text>
+<rect x="430.2824" y="220.9922" width="133.6291" height="154.1874" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="tower" data-mm="12320,7790,650,750" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<text x="436.450" y="314.086" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">蒸烤微波高柜</text>
+<rect x="430.2824" y="434.7987" width="154.1874" height="185.0249" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="fridge" data-mm="12320,6600,750,900" data-transform="362.6455312702878,155.0,0.20558320709803074,11991,8861"/>
+<text x="436.450" y="543.311" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">冰箱预留</text>
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 285.583,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+</svg>

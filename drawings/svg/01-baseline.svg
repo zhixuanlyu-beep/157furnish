@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">01 原始尺寸基线 / 尺寸链与假设分离</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 图中标注面积仅抄录，不校准几何，更</text>
+<text x="1380.000" y="241.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">不能从项目名157推算面积。</text>
+<text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 原图用于房间拓扑及尺寸链；洞口、墙</text>
+<text x="1380.000" y="315.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">厚和家具定位不按像素换算。</text>
+<text x="1380.000" y="360.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 西南凹凸角高度1400和宽1800</text>
+<text x="1380.000" y="389.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">为概念假设；外包链保持。</text>
+<text x="1380.000" y="434.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 门框净宽按名义洞宽减60；卫生间B</text>
+<text x="1380.000" y="463.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">及储物间推拉门挂轨/可封闭性现场确认。</text>
+<text x="1380.000" y="508.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 原阳台经客厅开口按推拉门研究；原结</text>
+<text x="1380.000" y="537.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">构与门槛高度待核。</text>
+<text x="1380.000" y="582.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 黑墙为概念重建；原照片作为独立原始</text>
+<text x="1380.000" y="611.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">凭证。</text>
+<text x="1380.000" y="656.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 总宽15077，总深10074。</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="140.7769" y="418.3038" width="418.1423" height="256.9269" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="140.7769" y="684.9231" width="274.2115" height="286.6500" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="83.2692" y="971.5731" width="137.3077" height="58.2346" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="568.6115" y="345.6115" width="213.3115" height="329.6192" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="419.8346" y="684.9231" width="366.9346" height="75.9231" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="424.6808" y="770.5385" width="134.2385" height="201.0346" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="568.6115" y="770.5385" width="162.0231" height="201.0346" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="740.3269" y="770.5385" width="41.5962" height="201.0346" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="791.6154" y="684.9231" width="485.1808" height="286.6500" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="791.6154" y="342.3808" width="262.5808" height="337.6962" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="1063.8885" y="342.3808" width="212.9077" height="332.8500" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="794.8462" y="232.2923" width="490.0269" height="100.3962" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="83.2692" y="1021.7308" width="16.1538" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="99.4231" y="1021.7308" width="96.9231" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="196.3462" y="1021.7308" width="24.2308" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="212.5000" y="979.6500" width="16.1538" height="50.1577" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="220.5769" y="971.5731" width="961.1538" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1258.4615" y="971.5731" width="26.4115" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1276.7962" y="753.4962" width="16.1538" height="226.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1276.7962" y="700.9962" width="16.1538" height="52.5000" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1276.7962" y="309.2654" width="16.1538" height="391.7308" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1276.7962" y="252.7269" width="16.1538" height="56.5385" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1276.7962" y="232.2923" width="16.1538" height="20.4346" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="786.7692" y="224.2154" width="16.1538" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="802.9231" y="224.2154" width="468.4615" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1271.3846" y="224.2154" width="13.4885" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="778.6923" y="321.3808" width="16.1538" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="778.6923" y="248.6885" width="16.1538" height="72.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="778.6923" y="232.2923" width="16.1538" height="16.3962" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="563.7654" y="329.4577" width="52.5000" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="616.2654" y="329.4577" width="109.0385" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="725.3038" y="329.4577" width="61.4654" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="555.6885" y="337.5346" width="16.1538" height="72.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="132.7000" y="402.1500" width="431.0654" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="124.6231" y="674.4231" width="16.1538" height="250.3846" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="124.6231" y="553.2692" width="16.1538" height="121.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="124.6231" y="410.2269" width="16.1538" height="143.0423" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="83.2692" y="916.7308" width="8.0769" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="91.3462" y="916.7308" width="28.2692" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="119.6154" y="916.7308" width="13.0846" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="75.1923" y="1013.6538" width="16.1538" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="75.1923" y="940.9615" width="16.1538" height="72.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="75.1923" y="924.8077" width="16.1538" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="132.7000" y="675.2308" width="339.2308" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="544.6231" y="675.2308" width="19.1423" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="414.9885" y="858.4962" width="9.6923" height="121.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="414.9885" y="754.3038" width="9.6923" height="35.5385" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="414.9885" y="680.0769" width="9.6923" height="5.5731" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="558.9192" y="756.0000" width="9.6923" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="558.9192" y="410.2269" width="9.6923" height="274.6962" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="563.7654" y="675.2308" width="14.5385" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="650.9962" y="675.2308" width="135.7731" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="781.9231" y="337.5346" width="9.6923" height="342.5423" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="419.8346" y="760.8462" width="165.5769" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="654.0654" y="760.8462" width="132.7038" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="558.9192" y="765.6923" width="9.6923" height="213.9577" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="730.6346" y="765.6923" width="9.6923" height="213.9577" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="781.9231" y="834.2654" width="9.6923" height="145.3846" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="781.9231" y="765.6923" width="9.6923" height="12.0346" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1054.1962" y="337.5346" width="9.6923" height="342.5423" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1059.0423" y="675.2308" width="60.5769" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1200.3885" y="675.2308" width="84.4846" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="786.7692" y="332.6885" width="56.5385" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1029.0769" y="332.6885" width="145.3846" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1247.1538" y="332.6885" width="37.7192" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="99.4231" y="1021.7308" width="96.9231" height="16.1538" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<polygon points="1256.038,978.035 1184.154,978.035 1184.154,981.265 1256.038,981.265" fill="#be9364" stroke="#456653"/>
+<rect x="1276.7962" y="700.9962" width="16.1538" height="52.5000" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="1276.7962" y="252.7269" width="16.1538" height="56.5385" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="802.9231" y="224.2154" width="468.4615" height="16.1538" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="778.6923" y="248.6885" width="16.1538" height="72.6923" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="616.2654" y="329.4577" width="109.0385" height="16.1538" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="124.6231" y="553.2692" width="16.1538" height="121.1538" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="91.3462" y="916.7308" width="28.2692" height="16.1538" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="75.1923" y="940.9615" width="16.1538" height="72.6923" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<polygon points="542.200,678.462 474.354,678.462 474.354,681.692 542.200,681.692" fill="#be9364" stroke="#456653"/>
+<rect x="426.2962" y="789.8423" width="2.8269" height="68.6538" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<polygon points="418.219,688.073 418.219,751.881 421.450,751.881 421.450,688.073" fill="#be9364" stroke="#456653"/>
+<polygon points="580.727,681.692 648.573,681.692 648.573,678.462 580.727,678.462" fill="#be9364" stroke="#456653"/>
+<rect x="585.4115" y="756.4038" width="68.6538" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="793.2308" y="777.7269" width="2.8269" height="56.5385" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="1119.6192" y="670.7885" width="80.7692" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="843.3077" y="328.2462" width="185.7692" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<polygon points="1244.731,335.919 1176.885,335.919 1176.885,339.150 1244.731,339.150" fill="#be9364" stroke="#456653"/>
+<text x="280.158" y="567.767" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">儿童房A</text>
+<text x="232.181" y="849.248" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">主卧B</text>
+<text x="639.715" y="531.421" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">客房C</text>
+<text x="542.146" y="743.885" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">过道</text>
+<text x="469.427" y="892.056" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">卫生间B</text>
+<text x="622.619" y="892.056" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">卫生间A</text>
+<text x="754.192" y="892.056" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">储物间</text>
+<text x="953.342" y="849.248" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">客餐厅</text>
+<text x="1134.858" y="529.806" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">厨房</text>
+<text x="958.188" y="303.490" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北阳台</text>
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 160.769,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+<polyline points="75.192,201.923 132.700,201.923" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="88.946" y="193.923" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">712</text>
+<polyline points="132.700,201.923 563.765,201.923" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="333.233" y="193.923" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5337</text>
+<polyline points="563.765,201.923 786.769,201.923" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="660.267" y="193.923" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2761</text>
+<polyline points="786.769,201.923 1059.042,201.923" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="907.906" y="193.923" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3371</text>
+<polyline points="1059.042,201.923 1292.950,201.923" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="1160.996" y="193.923" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2896</text>
+<polyline points="60.654,1037.885 60.654,979.650" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="20.654" y="1022.767" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">721</text>
+<polyline points="60.654,979.650 60.654,680.077" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="20.654" y="843.863" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3709</text>
+<polyline points="60.654,680.077 60.654,410.227" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="20.654" y="559.152" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3341</text>
+<polyline points="60.654,410.227 60.654,337.535" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="20.654" y="387.881" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">900</text>
+<polyline points="60.654,337.535 60.654,224.215" fill="none" stroke="#526159" stroke-width="1"/>
+<text x="20.654" y="294.875" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1403</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">13 卧室日照点射线 / 主卧B</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 继承北京40°N/116.5°E，</text>
+<text x="1380.000" y="241.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">图示北。</text>
+<text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 四季赤纬近似，整点枕点射线。</text>
+<text x="1380.000" y="331.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 外遮挡、玻璃透过及窗帘未知。</text>
+<text x="1380.000" y="376.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 仅作遮光窗帘与床头方向讨论，不作日</text>
+<text x="1380.000" y="405.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">照合规。</text>
+<text x="1380.000" y="450.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 春分：穿窗时点 </text>
+<text x="1380.000" y="495.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 夏至：穿窗时点 </text>
+<text x="1380.000" y="540.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 秋分：穿窗时点 </text>
+<text x="1380.000" y="585.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8. 冬至：穿窗时点 14</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="296.3220" y="-532.1415" width="1185.3820" height="728.3562" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="296.3220" y="223.6913" width="777.3560" height="812.6175" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="133.2948" y="1036.3087" width="389.2504" height="165.0880" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="1087.4162" y="223.6913" width="1040.2145" height="215.2326" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="1101.1545" y="466.4003" width="380.5495" height="569.9084" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="499.6481" y="1059.2058" width="45.7942" height="142.1909" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="522.5452" y="1036.3087" width="2724.7530" height="45.7942" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="250.5278" y="193.9250" width="45.7942" height="709.8096" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="250.5278" y="-149.5312" width="45.7942" height="343.4563" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="156.1919" y="880.8376" width="80.1398" height="45.7942" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="236.3316" y="880.8376" width="37.0933" height="45.7942" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="273.4249" y="196.2148" width="961.6775" height="27.4765" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1073.6780" y="715.7496" width="27.4765" height="343.4563" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1073.6780" y="420.3772" width="27.4765" height="100.7472" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1073.6780" y="209.9530" width="27.4765" height="15.7990" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1087.4162" y="438.9238" width="469.3902" height="27.4765" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="250.5278" y="-149.5312" width="45.7942" height="343.4563" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="156.1919" y="880.8376" width="80.1398" height="45.7942" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="1105.7339" y="521.1244" width="8.0140" height="194.6252" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<polygon points="1082.837,232.621 1082.837,413.508 1091.996,413.508 1091.996,232.621" fill="#be9364" stroke="#456653"/>
+<rect x="465.3025" y="264.9060" width="435.0446" height="485.4182" fill="#cfdbcb" stroke="#576858" stroke-width="1" data-object="bedB" data-mm="1550,2070,1900,2120" data-transform="227.6307543986503,155.0,0.2289708363461075,512,4670"/>
+<rect x="476.7510" y="278.6443" width="412.1475" height="457.9417" fill="#edf0e4" stroke="#7b8d7b" stroke-width="1" />
+<rect x="499.6481" y="299.2516" width="137.3825" height="68.6913" fill="#fcfbf6" stroke="#7b8d7b" stroke-width="1" />
+<text x="472.172" y="523.615" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">主卧床架1800床垫</text>
+<rect x="522.5452" y="892.2861" width="503.7358" height="137.3825" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardB" data-mm="1800,850,2200,600" data-transform="227.6307543986503,155.0,0.2289708363461075,512,4670"/>
+<polyline points="705.722,1029.669 705.722,892.286" fill="none" stroke="#94774e" stroke-width="1"/>
+<polyline points="866.001,1029.669 866.001,892.286" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="529.414" y="976.977" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">主卧衣柜</text>
+<rect x="339.3685" y="285.5134" width="91.5883" height="91.5883" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="bedsideB" data-mm="1000,3700,400,400" data-transform="227.6307543986503,155.0,0.2289708363461075,512,4670"/>
+<text x="346.238" y="347.308" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">床头三抽柜</text>
+<rect x="327.9200" y="109.2058" width="343.4563" height="68.6913" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="toys" data-mm="950,4570,1500,300" data-transform="227.6307543986503,155.0,0.2289708363461075,512,4670"/>
+<polyline points="442.405,177.897 442.405,109.206" fill="none" stroke="#94774e" stroke-width="1"/>
+<polyline points="556.891,177.897 556.891,109.206" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="334.789" y="159.551" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">书玩低柜</text>
+<rect x="1119.4722" y="812.1463" width="343.9142" height="206.0738" fill="#d9e8e8" stroke="#576858" stroke-width="1" data-object="showerB" data-mm="4407,900,1502,900" data-transform="227.6307543986503,155.0,0.2289708363461075,512,4670"/>
+<text x="1126.341" y="931.183" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">淋浴B</text>
+<rect x="1119.4722" y="475.5592" width="148.8310" height="103.0369" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="basinB" data-mm="4407,2820,650,450" data-transform="227.6307543986503,155.0,0.2289708363461075,512,4670"/>
+<text x="1126.341" y="543.078" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">台盆B</text>
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 308.971,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+</svg>

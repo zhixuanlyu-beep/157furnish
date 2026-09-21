@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">柜体内视立面与深度剖面 / 书玩低柜</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 模块1：书，净宽464，净深262</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 模块2：玩具，净宽464，净深26</text>
+<text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2</text>
+<text x="1380.000" y="331.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 模块3：玩具，净宽464，净深26</text>
+<text x="1380.000" y="360.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2</text>
+<text x="1380.000" y="405.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 板厚18，背板18、门18、台面1</text>
+<text x="1380.000" y="434.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8均概念。</text>
+<text x="1380.000" y="479.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 柜门90度概念铰链；移门分轨示意。</text>
+<text x="1380.000" y="524.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 挂杆、层板与抽屉需依据衣物及厂家五</text>
+<text x="1380.000" y="553.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">金深化。</text>
+<rect x="100.0000" y="625.0000" width="850.0000" height="425.0000" fill="#f0e2ca" stroke="#526159" stroke-width="2" />
+<polyline points="100.000,1050.000 100.000,625.000" fill="none" stroke="#8c795b" stroke-width="2"/>
+<text x="111.333" y="676.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">书</text>
+<polyline points="110.200,993.333 373.133,993.333" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="110.200,893.222 373.133,893.222" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="110.200,793.111 373.133,793.111" fill="none" stroke="#967245" stroke-width="2"/>
+<text x="111.333" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">500</text>
+<polyline points="383.333,1050.000 383.333,625.000" fill="none" stroke="#8c795b" stroke-width="2"/>
+<text x="394.667" y="676.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">玩具</text>
+<polyline points="393.533,993.333 656.467,993.333" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="393.533,893.222 656.467,893.222" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="393.533,793.111 656.467,793.111" fill="none" stroke="#967245" stroke-width="2"/>
+<text x="394.667" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">500</text>
+<polyline points="666.667,1050.000 666.667,625.000" fill="none" stroke="#8c795b" stroke-width="2"/>
+<text x="678.000" y="676.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">玩具</text>
+<polyline points="676.867,993.333 939.800,993.333" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="676.867,893.222 939.800,893.222" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="676.867,793.111 939.800,793.111" fill="none" stroke="#967245" stroke-width="2"/>
+<text x="678.000" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">500</text>
+<rect x="1020.0000" y="625.0000" width="170.0000" height="425.0000" fill="#edddc3" stroke="#526159" stroke-width="2" />
+<polyline points="1037.000,993.333 1179.800,993.333" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="1037.000,893.222 1179.800,893.222" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="1037.000,793.111 1179.800,793.111" fill="none" stroke="#967245" stroke-width="2"/>
+<text x="1020.000" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深300</text>
+<text x="100.000" y="223.000" font-size="23" fill="#263c34" font-family="Microsoft YaHei, sans-serif">正立面：宽1500 × 高750</text>
+<text x="1020.000" y="256.000" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深度剖面</text>
+</svg>

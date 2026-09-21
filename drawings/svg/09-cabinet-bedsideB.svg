@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">柜体内视立面与深度剖面 / 床头三抽柜</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 模块1：三抽，净宽364，净深36</text>
+<text x="1380.000" y="241.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2</text>
+<text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 板厚18，背板18、门18、台面1</text>
+<text x="1380.000" y="315.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8均概念。</text>
+<text x="1380.000" y="360.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 柜门90度概念铰链；移门分轨示意。</text>
+<text x="1380.000" y="405.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 挂杆、层板与抽屉需依据衣物及厂家五</text>
+<text x="1380.000" y="434.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">金深化。</text>
+<rect x="100.0000" y="542.5000" width="290.0000" height="507.5000" fill="#f0e2ca" stroke="#526159" stroke-width="2" />
+<polyline points="100.000,1050.000 100.000,542.500" fill="none" stroke="#8c795b" stroke-width="2"/>
+<text x="114.500" y="593.500" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">三抽</text>
+<rect x="114.5000" y="854.2500" width="261.0000" height="108.7500" fill="none" stroke="#967245" stroke-width="2" />
+<rect x="114.5000" y="723.7500" width="261.0000" height="108.7500" fill="none" stroke="#967245" stroke-width="2" />
+<rect x="114.5000" y="593.2500" width="261.0000" height="108.7500" fill="none" stroke="#967245" stroke-width="2" />
+<text x="114.500" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">400</text>
+<rect x="1020.0000" y="542.5000" width="290.0000" height="507.5000" fill="#edddc3" stroke="#526159" stroke-width="2" />
+<rect x="1045.3750" y="854.2500" width="242.8750" height="108.7500" fill="none" stroke="#967245" stroke-width="2" />
+<rect x="1045.3750" y="723.7500" width="242.8750" height="108.7500" fill="none" stroke="#967245" stroke-width="2" />
+<rect x="1045.3750" y="593.2500" width="242.8750" height="108.7500" fill="none" stroke="#967245" stroke-width="2" />
+<text x="1020.000" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深400</text>
+<text x="100.000" y="223.000" font-size="23" fill="#263c34" font-family="Microsoft YaHei, sans-serif">正立面：宽400 × 高700</text>
+<text x="1020.000" y="256.000" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深度剖面</text>
+</svg>

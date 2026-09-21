@@ -1,0 +1,16 @@
+{
+  "revision": "R1",
+  "layout_sha256": "cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6",
+  "passed": true,
+  "subprocess_exit": 0,
+  "compared_files": 111,
+  "differences": [],
+  "inputs": [
+    "scripts/",
+    "data/",
+    "requirements.txt",
+    "IMG20260921-135355869.jpg"
+  ],
+  "external_project_files_used": false,
+  "environment_dependencies": "Python+Pillow+NumPy+Blender+system Chinese font"
+}

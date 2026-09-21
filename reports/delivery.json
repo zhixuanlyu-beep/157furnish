@@ -1,0 +1,144 @@
+{
+  "revision": "R1",
+  "layout_sha256": "cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6",
+  "data_consistency_passed": true,
+  "usage_all_states_passed": false,
+  "routine_baseline_passed": true,
+  "site_conditions_passed": false,
+  "errors": [],
+  "evidence": {
+    "boundary_closed": true,
+    "openings_nominal_and_frame_deducted_mm": [
+      [
+        "B_south_window",
+        1200,
+        1140
+      ],
+      [
+        "entry",
+        950,
+        890
+      ],
+      [
+        "living_window",
+        650,
+        590
+      ],
+      [
+        "balcony_e_window",
+        700,
+        640
+      ],
+      [
+        "balcony_glass",
+        5800,
+        5740
+      ],
+      [
+        "balcony_w_window",
+        900,
+        840
+      ],
+      [
+        "C_window",
+        1350,
+        1290
+      ],
+      [
+        "A_window",
+        1500,
+        1440
+      ],
+      [
+        "B_niche_window",
+        350,
+        290
+      ],
+      [
+        "B_w_window",
+        900,
+        840
+      ],
+      [
+        "A_entry",
+        900,
+        840
+      ],
+      [
+        "bathB_entry",
+        850,
+        790
+      ],
+      [
+        "B_entry",
+        850,
+        790
+      ],
+      [
+        "hall_west",
+        880,
+        820
+      ],
+      [
+        "C_entry",
+        900,
+        840
+      ],
+      [
+        "bathA_entry",
+        850,
+        790
+      ],
+      [
+        "store_entry",
+        700,
+        640
+      ],
+      [
+        "kitchen_entry",
+        1000,
+        940
+      ],
+      [
+        "living_balcony",
+        2300,
+        2240
+      ],
+      [
+        "kitchen_balcony",
+        900,
+        840
+      ]
+    ],
+    "service_offsets_mm": {
+      "主槽给排水": 0.0,
+      "燃气排烟": 0.0,
+      "洗碗机电源": 10.0,
+      "净水电源": 0.0,
+      "高柜电源": 0.0,
+      "咖啡插座": 30.0,
+      "岛台地插候选": 0.0,
+      "洗烘给排水": 0.0,
+      "洗烘电源": 0.0,
+      "床头B": 210.0,
+      "床头A": 50.0,
+      "书桌A": 0.0,
+      "床头C": 110.0,
+      "共享桌": 50.0,
+      "投影电源": 0.0,
+      "主卫给排水": 0.0,
+      "公卫给排水": 0.0,
+      "床头B左": 160.0,
+      "冰箱电源": 20.0
+    },
+    "original_photo_sha256": "43c38e81694929f798d9dec6b4afa3bab09e7a078de0a577d3e4ff7f97bb5153",
+    "drawings": 44,
+    "tables": 14,
+    "svg_footprints": 550,
+    "local_links": 166,
+    "model_reopened": true,
+    "rendered_3d": false,
+    "repeatability_passed": true,
+    "clean_rebuild_passed": true
+  }
+}

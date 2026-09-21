@@ -1,0 +1,178 @@
+[
+  [
+    "01-baseline.svg",
+    "01 原始尺寸基线 / 尺寸链与假设分离"
+  ],
+  [
+    "02-plan.svg",
+    "02 推荐家具总图 / 三房两卫"
+  ],
+  [
+    "03-normal4.svg",
+    "使用情景 / 四人正常就座"
+  ],
+  [
+    "03-normal6.svg",
+    "使用情景 / 六人增加端椅"
+  ],
+  [
+    "03-chairs_pulled.svg",
+    "使用情景 / 餐椅拉出450状态"
+  ],
+  [
+    "03-laundry_open.svg",
+    "使用情景 / 洗烘开启/装卸状态"
+  ],
+  [
+    "04-operations.svg",
+    "04 门柜开启与使用包络"
+  ],
+  [
+    "05-routes.svg",
+    "05 500 / 600 / 620 / 900 路线研究"
+  ],
+  [
+    "06-candidate-recommended.svg",
+    "候选 / 推荐：三房两淋浴+可关闭厨房+无水岛台"
+  ],
+  [
+    "06-candidate-open_kitchen.svg",
+    "候选 / 条件：厨房西墙局部开放"
+  ],
+  [
+    "06-candidate-wet_island.svg",
+    "候选 / 条件：岛台辅助槽"
+  ],
+  [
+    "06-candidate-B_rotated.svg",
+    "候选 / 主卧床转向比较"
+  ],
+  [
+    "06-candidate-A_growth.svg",
+    "候选 / 儿童成长1500床"
+  ],
+  [
+    "06-candidate-C_rotated.svg",
+    "候选 / 客房横床失败候选"
+  ],
+  [
+    "07-alterations.svg",
+    "07 局部拆改条件 / 厨房西侧界面"
+  ],
+  [
+    "08-room-A.svg",
+    "逐室 / 儿童房A"
+  ],
+  [
+    "08-room-B.svg",
+    "逐室 / 主卧B"
+  ],
+  [
+    "08-room-C.svg",
+    "逐室 / 客房C"
+  ],
+  [
+    "08-room-hall.svg",
+    "逐室 / 过道"
+  ],
+  [
+    "08-room-bathB.svg",
+    "逐室 / 卫生间B"
+  ],
+  [
+    "08-room-bathA.svg",
+    "逐室 / 卫生间A"
+  ],
+  [
+    "08-room-store.svg",
+    "逐室 / 储物间"
+  ],
+  [
+    "08-room-living.svg",
+    "逐室 / 客餐厅"
+  ],
+  [
+    "08-room-kitchen.svg",
+    "逐室 / 厨房"
+  ],
+  [
+    "08-room-balcony.svg",
+    "逐室 / 北阳台"
+  ],
+  [
+    "09-cabinet-wardB.svg",
+    "柜体内视立面与深度剖面 / 主卧衣柜"
+  ],
+  [
+    "09-cabinet-bedsideB.svg",
+    "柜体内视立面与深度剖面 / 床头三抽柜"
+  ],
+  [
+    "09-cabinet-wardA.svg",
+    "柜体内视立面与深度剖面 / 儿童衣柜"
+  ],
+  [
+    "09-cabinet-toys.svg",
+    "柜体内视立面与深度剖面 / 书玩低柜"
+  ],
+  [
+    "09-cabinet-wardC.svg",
+    "柜体内视立面与深度剖面 / 客房衣柜"
+  ],
+  [
+    "09-cabinet-island.svg",
+    "柜体内视立面与深度剖面 / 无水岛台"
+  ],
+  [
+    "09-cabinet-coffee.svg",
+    "柜体内视立面与深度剖面 / 咖啡电器柜"
+  ],
+  [
+    "09-cabinet-shoe.svg",
+    "柜体内视立面与深度剖面 / 玄关鞋衣柜"
+  ],
+  [
+    "09-cabinet-storage.svg",
+    "柜体内视立面与深度剖面 / 储物层架"
+  ],
+  [
+    "09-cabinet-sink.svg",
+    "柜体内视立面与深度剖面 / 主水槽柜"
+  ],
+  [
+    "09-cabinet-prep.svg",
+    "柜体内视立面与深度剖面 / 备餐柜"
+  ],
+  [
+    "09-cabinet-hob.svg",
+    "柜体内视立面与深度剖面 / 燃气灶柜"
+  ],
+  [
+    "09-cabinet-tower.svg",
+    "柜体内视立面与深度剖面 / 蒸烤微波高柜"
+  ],
+  [
+    "10-equipment.svg",
+    "10 设备安装、取物及检修包络"
+  ],
+  [
+    "11-services.svg",
+    "11 水电概念点位"
+  ],
+  [
+    "12-hvac.svg",
+    "12 空调新风预留研究"
+  ],
+  [
+    "13-solar-A.svg",
+    "13 卧室日照点射线 / 儿童房A"
+  ],
+  [
+    "13-solar-B.svg",
+    "13 卧室日照点射线 / 主卧B"
+  ],
+  [
+    "13-solar-C.svg",
+    "13 卧室日照点射线 / 客房C"
+  ]
+]

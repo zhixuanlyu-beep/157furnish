@@ -1,0 +1,162 @@
+{
+  "revision": "R1",
+  "layout_sha256": "cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6",
+  "priority": [
+    "固定实体",
+    "必要路线",
+    "操作",
+    "容量",
+    "拆改代价"
+  ],
+  "candidates": [
+    {
+      "id": "recommended",
+      "label": "推荐：三房两淋浴+可关闭厨房+无水岛台",
+      "changes": {},
+      "conditions": [
+        "保留厨房墙体及开口",
+        "不迁燃气及主槽区域",
+        "全部净距以概念墙复算"
+      ],
+      "cost_rank": 0,
+      "fixed_hits": [],
+      "single_routes_passed": 14,
+      "route_count": 14,
+      "storage_rail_mm": 5162,
+      "operation_hits": {},
+      "note": "推荐基线"
+    },
+    {
+      "id": "open_kitchen",
+      "label": "条件：厨房西墙局部开放",
+      "changes": {
+        "remove_edge": "kitchen_w"
+      },
+      "conditions": [
+        "须查结构及烟道",
+        "燃气公司与物业书面认可",
+        "备可关闭玻璃隔断"
+      ],
+      "cost_rank": 3,
+      "fixed_hits": [],
+      "single_routes_passed": 14,
+      "route_count": 14,
+      "storage_rail_mm": 5162,
+      "operation_hits": {},
+      "note": "候选操作区仍取基线；床候选只核实体/通路，安装及舒适性见方案说明"
+    },
+    {
+      "id": "wet_island",
+      "label": "条件：岛台辅助槽",
+      "changes": {
+        "sink_island": true
+      },
+      "conditions": [
+        "岛槽至可接污水立管路径未知",
+        "不得接雨水",
+        "无坡度/检修条件则采用推荐干岛"
+      ],
+      "cost_rank": 2,
+      "sink_box": [
+        12700,
+        2925,
+        450,
+        500
+      ],
+      "fixed_hits": [],
+      "single_routes_passed": 14,
+      "route_count": 14,
+      "storage_rail_mm": 5162,
+      "operation_hits": {},
+      "note": "候选操作区仍取基线；床候选只核实体/通路，安装及舒适性见方案说明"
+    },
+    {
+      "id": "B_rotated",
+      "label": "主卧床转向比较",
+      "changes": {
+        "bedB": [
+          1350,
+          2040,
+          2120,
+          1900
+        ]
+      },
+      "conditions": [
+        "床头改西",
+        "与原方向同尺度比较床柜操作"
+      ],
+      "cost_rank": 1,
+      "fixed_hits": [
+        [
+          "bedB",
+          "bedsideB"
+        ]
+      ],
+      "single_routes_passed": 14,
+      "route_count": 14,
+      "storage_rail_mm": 5162,
+      "operation_hits": {
+        "wardB_use": [
+          "bedB"
+        ],
+        "bedsideB_use": [
+          "bedB"
+        ]
+      },
+      "note": "候选操作区仍取基线；床候选只核实体/通路，安装及舒适性见方案说明"
+    },
+    {
+      "id": "A_growth",
+      "label": "儿童成长1500床",
+      "changes": {
+        "bedA": [
+          1100,
+          5440,
+          1600,
+          2120
+        ]
+      },
+      "conditions": [
+        "书桌与低柜保持，活动区缩小"
+      ],
+      "cost_rank": 1,
+      "fixed_hits": [],
+      "single_routes_passed": 13,
+      "route_count": 14,
+      "storage_rail_mm": 5162,
+      "operation_hits": {
+        "child_play": [
+          "bedA"
+        ]
+      },
+      "note": "候选操作区仍取基线；床候选只核实体/通路，安装及舒适性见方案说明"
+    },
+    {
+      "id": "C_rotated",
+      "label": "客房横床失败候选",
+      "changes": {
+        "bedC": [
+          6300,
+          6080,
+          2120,
+          1620
+        ]
+      },
+      "conditions": [
+        "与东衣柜冲突时不采用"
+      ],
+      "cost_rank": 1,
+      "fixed_hits": [
+        [
+          "bedC",
+          "luggage"
+        ]
+      ],
+      "single_routes_passed": 13,
+      "route_count": 14,
+      "storage_rail_mm": 5162,
+      "operation_hits": {},
+      "note": "候选操作区仍取基线；床候选只核实体/通路，安装及舒适性见方案说明"
+    }
+  ]
+}
