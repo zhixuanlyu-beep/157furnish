@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
 <text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">13 卧室日照点射线 / 客房C</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
 <text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 继承北京40°N/116.5°E，</text>
 <text x="1380.000" y="241.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">图示北。</text>
@@ -22,7 +22,7 @@
 <rect x="43.1767" y="1068.4693" width="921.9932" height="190.7712" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="977.3467" y="1068.4693" width="1219.1092" height="720.2628" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="977.3467" y="207.7665" width="659.7842" height="848.5260" fill="#f5ead9" stroke="none" stroke-width="1" />
-<rect x="985.4646" y="-68.8517" width="1231.2860" height="252.2645" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="985.4646" y="-48.5569" width="1210.9912" height="231.9697" fill="#edf0e7" stroke="none" stroke-width="1" />
 <rect x="944.8750" y="155.0000" width="40.5896" height="40.5896" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="404.8302" y="175.2948" width="131.9163" height="40.5896" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="536.7464" y="175.2948" width="273.9799" height="40.5896" fill="#33463e" stroke="none" stroke-width="1" />
@@ -49,8 +49,6 @@
 <rect x="679.0130" y="906.1109" width="263.8325" height="121.7689" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardC" data-mm="7400,4570,1300,600" data-transform="356.12262337107455,155.0,0.20294808801538133,5809,8871"/>
 <polyline points="810.929,1027.880 810.929,906.111" fill="none" stroke="#94774e" stroke-width="1"/>
 <text x="685.101" y="982.995" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">客房衣柜</text>
-<rect x="425.3279" y="372.3574" width="81.1792" height="121.7689" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="luggage" data-mm="6150,7200,400,600" data-transform="356.12262337107455,155.0,0.20294808801538133,5809,8871"/>
-<text x="431.416" y="449.242" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">行李台</text>
 <rect x="1009.8184" y="337.8562" width="172.5059" height="487.0754" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="sofa" data-mm="9030,5570,850,2400" data-transform="356.12262337107455,155.0,0.20294808801538133,5809,8871"/>
 <text x="1015.907" y="597.394" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">三人沙发</text>
 </g>

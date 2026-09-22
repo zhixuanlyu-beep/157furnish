@@ -1,6 +1,6 @@
 {
-  "revision": "R1",
-  "layout_sha256": "cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6",
+  "revision": "R2",
+  "layout_sha256": "d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96",
   "data_consistency_passed": true,
   "usage_all_states_passed": false,
   "routine_baseline_passed": true,
@@ -95,11 +95,6 @@
         640
       ],
       [
-        "kitchen_entry",
-        1000,
-        940
-      ],
-      [
         "living_balcony",
         2300,
         2240
@@ -108,15 +103,20 @@
         "kitchen_balcony",
         900,
         840
+      ],
+      [
+        "balcony_partition_door",
+        820,
+        760
       ]
     ],
     "service_offsets_mm": {
       "主槽给排水": 0.0,
-      "燃气排烟": 0.0,
-      "洗碗机电源": 10.0,
+      "阳台排烟／燃料接口条件": 0.0,
+      "洗碗机电源": 0.0,
       "净水电源": 0.0,
       "高柜电源": 0.0,
-      "咖啡插座": 30.0,
+      "咖啡插座": 0.0,
       "岛台地插候选": 0.0,
       "洗烘给排水": 0.0,
       "洗烘电源": 0.0,
@@ -124,18 +124,18 @@
       "床头A": 50.0,
       "书桌A": 0.0,
       "床头C": 110.0,
-      "共享桌": 50.0,
+      "餐桌学习电源": 0.0,
       "投影电源": 0.0,
       "主卫给排水": 0.0,
       "公卫给排水": 0.0,
-      "床头B左": 160.0,
-      "冰箱电源": 20.0
+      "床头B左": 0.0,
+      "冰箱电源": 0.0
     },
     "original_photo_sha256": "43c38e81694929f798d9dec6b4afa3bab09e7a078de0a577d3e4ff7f97bb5153",
-    "drawings": 44,
-    "tables": 14,
-    "svg_footprints": 550,
-    "local_links": 166,
+    "drawings": 52,
+    "tables": 21,
+    "svg_footprints": 694,
+    "local_links": 203,
     "model_reopened": true,
     "rendered_3d": false,
     "repeatability_passed": true,

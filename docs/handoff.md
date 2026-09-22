@@ -1,31 +1,17 @@
-# 接手与重建
+# 接手与独立重建
 
-数据唯一入口 `data/layout.json`：毫米，X东Y北Z上。`dimensions`记录尺寸链及假设；`footprint_boxes`定义地面分区和路线外边界，房间盒仅作功能底图，并非产权/套内面积。墙/洞口由edges重建，实体由furniture，操作由operations，路线端点由routes，六人加椅由states，水电/空调/候选均在同文件。模型统一除1000换算米。
-
-## 环境与命令
-
-Python 3.13（本机），依赖见requirements.txt：Pillow、NumPy。Blender 5.2.1 LTS（本机已验证）。Windows中文字体默认msyh.ttc；其他系统需安装兼容字体并修改build_drawings.py字体入口。首次可 `python -m pip install -r requirements.txt`。重建不需要网络或176furnish目录。
+唯一坐标源data/layout.json，毫米、X东Y北Z上，模型除1000转米。original保留R1原始概念边界，edges/furniture为R2，fuel_variants并列燃料；candidates补丁同时变更家具、操作和目标区域，states为使用状态。候选不能覆盖推荐。
 
 ```powershell
 python scripts/rebuild.py --blender D:/Users/11171344/blender/blender.exe --repeat
+python scripts/verify_clean_rebuild.py --blender D:/Users/11171344/blender/blender.exe
+python scripts/validate_delivery.py
 ```
 
-其他机器传自己的Blender路径。顺序：使用核验→建模→重新打开blend/GLB→二维图表→文档→交付核验。默认绝不渲染。`--repeat`重复整个生成过程，比较SVG/PNG/CSV/文档/布局及模型几何快照的校验值；Blender/GLB二进制不承诺逐字节一致，改用重新打开的实际网格核验。
+依赖Python、requirements.txt内Pillow/NumPy、Blender及中文msyh.ttc。无网络与兄弟参考项目依赖。顺序：回归、使用检查、两燃料模型及独立重开Blender/GLB、二维图表、文档、交付核验。clean_rebuild仅复制scripts、data、requirements及原照片至本项目reports隔离目录，检查绝对路径后清理。
 
-另外可执行 `python scripts/verify_clean_rebuild.py --blender <Blender路径>`：只复制scripts、data、requirements及原始照片到新的临时目录，从空输出目录重建，逐项比较图表/文档/几何快照；临时目录经绝对路径检查后清理。证明生成不依赖已有模型或参考项目。结果保存在reports/clean_rebuild.json。
+重复构建比较SVG/PNG/CSV/文档及实际模型投影快照，不承诺二进制逐字节相同。投影校验包含build_model.py及common.py依赖，过期拒绝。所有修改后须全量rebuild；不手改生成产物。保留使用失败与现场条件，不能用一致性通过覆盖使用失败。
 
-只改文字/二维排版可用 `python scripts/build_drawings.py` 和 `python scripts/publish_docs.py`，前提是布局和模型脚本校验值没有变化；过期模型快照会被拒绝。修改布局、模型代码后必须全量重建。生成产物中的手工修改会被覆盖，应回写源数据/脚本。
+FURNISH_FUEL选择燃料，正常重建自动生成两套。Blender保留材质、灯光、7相机、动画及隐藏Inspection_Envelopes/Ceilings/Dining_6_extra。帧1关闭、90开启，柜门转动、推拉分轨、抽屉450、设备面板600为概念服务空间，非厂家轨迹。GLB四人静态实体不含六人加椅、检查层和顶棚。模型验证临时启用隐藏层，不另存；读取实际网格世界包围盒，不复制JSON冒充验证。
 
-## 模型
-
-帧1关闭、帧90开启。普通柜门90度概念铰链、主/客衣柜分轨移门、抽屉450mm平移；设备面板平移600展示服务空间，不等同厂家开门轨迹。检查只排除与其他实体冲突，柜内真实滑轨/铰链与板件干涉仍需厂家深化。所有门同时播放仅作运动演示。
-
-`Inspection_Envelopes`、`Ceilings`、`Dining_6_extra`默认隐藏。六人组只是加两端椅，启用时保留四人基础组。GLB导出静态帧1的推荐四人实体，不带检查包络/顶棚/六人加椅；Blender保留编辑层、动画、材质、灯光和7相机。当前构件为概念尺寸建模，不是品牌产品或五金加工模型。
-
-模型验证临时启用隐藏层读取世界坐标，但不另存；避免隐藏层未求值造成假尺寸异常。`projection_snapshot.json`由真实家具网格的世界包围盒生成，不把源JSON简单复制冒充模型核验。
-
-## 继承与独立性
-
-参考项目仅用于学习统一坐标、状态分图、门扇采样、50mm网格路线、模型重开和离线交付机制；其脚本高度绑定旧房，未复制旧坐标/房号。所有本项目生成器在scripts内自包含。明确继承的生活参数是165cm主厨、暖白木色少量绿色和北京气候假设；未找到的家庭成员身高没有补造。
-
-核验摘要三分：数据交付可通过；使用可部分通过；现场条件保持待核。不要用交付通过覆盖路线失败，也不要用本项目名称推算面积。
+禁止三维渲染。门窗五金、柜内板件、支承节点需厂家深化。原图只用于尺寸链与拓扑，照片不加工，不以像素冒充实测。北京40N/116.5E、图示北仅研究假设；165cm主厨为继承参数。没有其他可靠身高、预算或产品型号。模型与操作演示均不供施工或下单。

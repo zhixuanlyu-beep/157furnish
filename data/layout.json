@@ -1,5 +1,5 @@
 {
-  "revision": "R1",
+  "revision": "R2",
   "units": "mm",
   "axes": "X东 Y北 Z上；原点为西南外包角",
   "source_image": "IMG20260921-135355869.jpg",
@@ -104,6 +104,25 @@
       "value": 900,
       "status": "概念假设",
       "note": "阳台玻璃100；窗高1500/2400"
+    },
+    {
+      "id": "balcony_net",
+      "value": [
+        5967,
+        1143
+      ],
+      "status": "概念墙内侧推导",
+      "note": "南分界墙中心8671+60；北外墙中心9974-100；东西墙内侧8910/14877"
+    },
+    {
+      "id": "installation_allowances",
+      "value": {
+        "skirting": 20,
+        "door_frame_each": 30,
+        "handle": 50
+      },
+      "status": "概念假设",
+      "note": "家具定位已留外墙20或以上；未实测"
     }
   ],
   "rooms": {
@@ -230,9 +249,9 @@
         ]
       ],
       "functions": [
-        "窄深储物",
-        "行李吸尘器",
-        "清洁工具"
+        "保留墙体",
+        "入口300深浅储物",
+        "不可达深处不计容量"
       ],
       "source_area_m2": null
     },
@@ -253,11 +272,10 @@
         ]
       ],
       "functions": [
-        "北段会客投影",
-        "岛台餐桌",
-        "咖啡柜",
-        "共享学习",
-        "东南玄关"
+        "西北会客投影",
+        "无水备餐岛",
+        "独立常规高度餐桌兼学习",
+        "玄关鞋衣／换鞋"
       ],
       "source_area_m2": 40.5
     },
@@ -272,11 +290,11 @@
         ]
       ],
       "functions": [
-        "燃气排烟留原区",
-        "主水槽",
+        "原厨房并入公共区",
+        "主槽洗切",
         "洗碗机",
-        "蒸烤微波",
-        "净水"
+        "冰箱／蒸烤微波",
+        "灶移北阳台／条件待核"
       ],
       "source_area_m2": 12.3
     },
@@ -286,14 +304,16 @@
         [
           8910,
           8731,
-          6067,
-          1243
+          5967,
+          1143
         ]
       ],
       "functions": [
-        "洗烘叠放",
-        "晾晒",
-        "基站候选"
+        "墙内净深1143（未实测）",
+        "东端做饭朝西",
+        "西端洗烘朝东",
+        "两个独立室内入口",
+        "可关闭玻璃分隔"
       ],
       "source_area_m2": 8.8
     }
@@ -321,7 +341,7 @@
           "sign": 1,
           "sill": 900,
           "height": 1500,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -363,7 +383,7 @@
           "sign": -1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -390,7 +410,7 @@
           "sign": 1,
           "sill": 900,
           "height": 1500,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         },
         {
           "id": "balcony_e_window",
@@ -401,7 +421,7 @@
           "sign": 1,
           "sill": 100,
           "height": 2400,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -428,7 +448,7 @@
           "sign": 1,
           "sill": 100,
           "height": 2400,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -455,7 +475,7 @@
           "sign": 1,
           "sill": 100,
           "height": 2400,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -482,7 +502,7 @@
           "sign": 1,
           "sill": 900,
           "height": 1500,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -539,7 +559,7 @@
           "sign": 1,
           "sill": 900,
           "height": 1500,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -566,7 +586,7 @@
           "sign": 1,
           "sill": 900,
           "height": 1500,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -593,7 +613,7 @@
           "sign": 1,
           "sill": 900,
           "height": 1500,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -620,7 +640,7 @@
           "sign": -1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -647,8 +667,9 @@
           "sign": 1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单",
-          "slide_dir": -1
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测",
+          "slide_dir": -1,
+          "slide_offset": -115
         },
         {
           "id": "B_entry",
@@ -659,7 +680,7 @@
           "sign": -1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -686,7 +707,7 @@
           "sign": 1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -713,7 +734,7 @@
           "sign": 1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -755,7 +776,7 @@
           "sign": 1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测"
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -812,50 +833,9 @@
           "sign": 1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单",
-          "slide_dir": -1
-        }
-      ],
-      "status": "尺寸链参考线+概念墙厚/洞口"
-    },
-    {
-      "id": "kitchen_w",
-      "a": [
-        12181,
-        4430
-      ],
-      "b": [
-        12181,
-        8671
-      ],
-      "thickness": 120,
-      "external": false,
-      "openings": [],
-      "status": "尺寸链参考线+概念墙厚/洞口"
-    },
-    {
-      "id": "kitchen_s",
-      "a": [
-        12181,
-        4430
-      ],
-      "b": [
-        14977,
-        4430
-      ],
-      "thickness": 120,
-      "external": false,
-      "openings": [
-        {
-          "id": "kitchen_entry",
-          "start": 750,
-          "width": 1000,
-          "kind": "sliding",
-          "hinge": 0,
-          "sign": 1,
-          "sill": 0,
-          "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测",
+          "slide_dir": -1,
+          "slide_offset": 80
         }
       ],
       "status": "尺寸链参考线+概念墙厚/洞口"
@@ -882,21 +862,55 @@
           "sign": 1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测",
+          "slide_panel_width": 1120,
+          "slide_shift": 1150,
+          "slide_offset": -115,
+          "fixed_panel": true
         },
         {
           "id": "kitchen_balcony",
           "start": 4800,
           "width": 900,
+          "kind": "sliding",
+          "hinge": 1,
+          "sign": -1,
+          "sill": 0,
+          "height": 2100,
+          "status": "原图拓扑／洞口宽高与轨道均概念待实测",
+          "slide_shift": -900,
+          "slide_offset": -115
+        }
+      ],
+      "status": "尺寸链参考线+概念墙厚/洞口"
+    },
+    {
+      "id": "balcony_divider",
+      "a": [
+        12700,
+        8731
+      ],
+      "b": [
+        12700,
+        9874
+      ],
+      "thickness": 60,
+      "external": false,
+      "status": "新增可关闭玻璃隔断；锚固待核",
+      "material": "glass",
+      "openings": [
+        {
+          "id": "balcony_partition_door",
+          "start": 160,
+          "width": 820,
           "kind": "door",
           "hinge": 1,
           "sign": -1,
           "sill": 0,
           "height": 2100,
-          "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          "status": "概念玻璃门；轨迹已核，密封五金待核"
         }
-      ],
-      "status": "尺寸链参考线+概念墙厚/洞口"
+      ]
     }
   ],
   "furniture": {
@@ -905,7 +919,7 @@
       "room": "B",
       "box": [
         1550,
-        2070,
+        2170,
         1900,
         2120
       ],
@@ -913,12 +927,13 @@
       "z": 0,
       "kind": "bed",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "mattress": [
         1800,
         2000
       ],
-      "head": "north"
+      "head": "north",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "wardB": {
       "label": "主卧衣柜",
@@ -933,7 +948,7 @@
       "z": 0,
       "kind": "cabinet",
       "front": "north",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         800,
         700,
@@ -944,7 +959,8 @@
         "长挂",
         "床品四层"
       ],
-      "door_type": "sliding"
+      "door_type": "sliding",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "bedsideB": {
       "label": "床头三抽柜",
@@ -959,13 +975,14 @@
       "z": 0,
       "kind": "cabinet",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         400
       ],
       "contents": [
         "三抽"
-      ]
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "bedA": {
       "label": "儿童床架1200床垫",
@@ -980,12 +997,13 @@
       "z": 0,
       "kind": "bed",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "mattress": [
         1200,
         2000
       ],
-      "head": "north"
+      "head": "north",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "wardA": {
       "label": "儿童衣柜",
@@ -1000,7 +1018,7 @@
       "z": 0,
       "kind": "cabinet",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         600,
         600,
@@ -1010,7 +1028,8 @@
         "成长长挂",
         "双层短挂",
         "三抽+叠衣"
-      ]
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "deskA": {
       "label": "儿童升降书桌",
@@ -1025,7 +1044,8 @@
       "z": 0,
       "kind": "table",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "chairA": {
       "label": "儿童学习椅",
@@ -1039,8 +1059,9 @@
       "height": 780,
       "z": 0,
       "kind": "chair",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "north",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "toys": {
       "label": "书玩低柜",
@@ -1055,7 +1076,7 @@
       "z": 0,
       "kind": "cabinet",
       "front": "north",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         500,
         500,
@@ -1065,7 +1086,8 @@
         "书",
         "玩具",
         "玩具"
-      ]
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "bedC": {
       "label": "客床架1500床垫",
@@ -1080,12 +1102,13 @@
       "z": 0,
       "kind": "bed",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "mattress": [
         1500,
         2000
       ],
-      "head": "north"
+      "head": "north",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "wardC": {
       "label": "客房衣柜",
@@ -1100,7 +1123,7 @@
       "z": 0,
       "kind": "cabinet",
       "front": "north",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         650,
         650
@@ -1109,22 +1132,8 @@
         "短挂",
         "层板"
       ],
-      "door_type": "sliding"
-    },
-    "luggage": {
-      "label": "行李台",
-      "room": "C",
-      "box": [
-        6150,
-        7200,
-        400,
-        600
-      ],
-      "height": 450,
-      "z": 0,
-      "kind": "table",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "door_type": "sliding",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "sofa": {
       "label": "三人沙发",
@@ -1139,7 +1148,8 @@
       "z": 0,
       "kind": "sofa",
       "front": "east",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "coffee_table": {
       "label": "轻巧茶几",
@@ -1154,10 +1164,11 @@
       "z": 0,
       "kind": "table",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "screen": {
-      "label": "投影幕布",
+      "label": "电动卷幕／收起通行",
       "room": "living",
       "box": [
         12030,
@@ -1165,26 +1176,27 @@
         60,
         2300
       ],
-      "height": 1300,
-      "z": 800,
+      "height": 100,
+      "z": 2400,
       "kind": "screen",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "west",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "island": {
       "label": "无水岛台",
       "room": "living",
       "box": [
-        11800,
-        2800,
-        1500,
-        750
+        12300,
+        4900,
+        750,
+        1500
       ],
       "height": 850,
       "z": 0,
       "kind": "cabinet",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "front": "west",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         750,
         750
@@ -1192,10 +1204,11 @@
       "contents": [
         "备餐抽屉",
         "餐具抽屉"
-      ]
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "table": {
-      "label": "四人餐桌/六人加端椅",
+      "label": "餐桌兼共享学习／四至六人",
       "room": "living",
       "box": [
         10100,
@@ -1207,7 +1220,8 @@
       "z": 0,
       "kind": "table",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "dining1": {
       "label": "餐椅1",
@@ -1221,8 +1235,9 @@
       "height": 800,
       "z": 0,
       "kind": "chair",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "north",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "dining2": {
       "label": "餐椅2",
@@ -1236,8 +1251,9 @@
       "height": 800,
       "z": 0,
       "kind": "chair",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "north",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "dining3": {
       "label": "餐椅3",
@@ -1252,7 +1268,8 @@
       "z": 0,
       "kind": "chair",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "dining4": {
       "label": "餐椅4",
@@ -1267,63 +1284,35 @@
       "z": 0,
       "kind": "chair",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "coffee": {
       "label": "咖啡电器柜",
       "room": "living",
       "box": [
-        10900,
-        8100,
+        11900,
+        900,
         1100,
         450
       ],
       "height": 900,
       "z": 0,
       "kind": "cabinet",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "front": "north",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         550,
         550
       ],
       "contents": [
-        "咖啡茶水",
-        "杯具"
-      ]
-    },
-    "shared_desk": {
-      "label": "共享学习桌",
-      "room": "living",
-      "box": [
-        11900,
-        900,
-        1500,
-        550
+        "咖啡器具",
+        "学习用品"
       ],
-      "height": 740,
-      "z": 0,
-      "kind": "table",
-      "front": "north",
-      "status": "概念选型包络；尺寸及定位为设计假设"
-    },
-    "shared_chair": {
-      "label": "共享学习椅",
-      "room": "living",
-      "box": [
-        12400,
-        1500,
-        450,
-        380
-      ],
-      "height": 800,
-      "z": 0,
-      "kind": "chair",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "shoe": {
-      "label": "玄关鞋衣柜",
+      "label": "浅鞋柜／正面挂钩",
       "room": "living",
       "box": [
         14440,
@@ -1335,15 +1324,17 @@
       "z": 0,
       "kind": "cabinet",
       "front": "west",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         700,
         700
       ],
       "contents": [
         "鞋层板",
-        "挂衣+置物"
-      ]
+        "正面挂钩／随手物"
+      ],
+      "storage_note": "400深不计普通横向挂杆；1800以上季节性用品",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "bench": {
       "label": "换鞋凳",
@@ -1358,28 +1349,30 @@
       "z": 0,
       "kind": "table",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "storage": {
-      "label": "储物层架",
+      "label": "朝入口浅储物",
       "room": "store",
       "box": [
-        8250,
-        950,
-        400,
-        1350
+        8260,
+        2550,
+        300,
+        650
       ],
-      "height": 2400,
+      "height": 1800,
       "z": 0,
       "kind": "cabinet",
-      "front": "north",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "front": "east",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
-        400
+        650
       ],
       "contents": [
-        "可抽出深柜/清洁工具"
-      ]
+        "入口浅层用品"
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "sink": {
       "label": "主水槽柜",
@@ -1394,13 +1387,14 @@
       "z": 0,
       "kind": "cabinet",
       "front": "west",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         900
       ],
       "contents": [
         "水槽+净水"
-      ]
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "dishwasher": {
       "label": "洗碗机",
@@ -1415,7 +1409,8 @@
       "z": 0,
       "kind": "appliance",
       "front": "west",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "prep": {
       "label": "备餐柜",
@@ -1430,76 +1425,80 @@
       "z": 0,
       "kind": "cabinet",
       "front": "west",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         650
       ],
       "contents": [
         "备餐抽屉"
-      ]
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "hob": {
-      "label": "燃气灶柜",
-      "room": "kitchen",
+      "label": "阳台灶台／燃料未选",
+      "room": "balcony",
       "box": [
-        14200,
-        6740,
+        14227,
+        8870,
         650,
-        850
+        900
       ],
       "height": 850,
       "z": 0,
       "kind": "cabinet",
       "front": "west",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
-        850
+        900
       ],
       "contents": [
-        "燃气+灶具"
-      ]
+        "灶下通风／不可计常规收纳"
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "tower": {
       "label": "蒸烤微波高柜",
       "room": "kitchen",
       "box": [
-        12320,
-        7790,
+        14200,
+        7640,
         650,
         750
       ],
       "height": 2300,
       "z": 0,
       "kind": "cabinet",
-      "front": "east",
-      "status": "概念选型包络；尺寸及定位为设计假设",
+      "front": "west",
+      "status": "概念待实测／产品安装资料待核",
       "modules": [
         750
       ],
       "contents": [
         "蒸烤/微波"
-      ]
+      ],
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "fridge": {
       "label": "冰箱预留",
       "room": "kitchen",
       "box": [
-        12320,
-        6600,
+        14100,
+        6740,
         750,
         900
       ],
       "height": 2000,
       "z": 0,
       "kind": "appliance",
-      "front": "east",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "west",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "laundry": {
       "label": "洗烘叠放预留",
       "room": "balcony",
       "box": [
-        12250,
+        8930,
         8970,
         720,
         800
@@ -1507,23 +1506,25 @@
       "height": 1950,
       "z": 0,
       "kind": "appliance",
-      "front": "west",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "east",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "robot": {
       "label": "基站候选",
-      "room": "balcony",
+      "room": "living",
       "box": [
-        13200,
-        9300,
+        13150,
+        900,
         550,
         550
       ],
       "height": 600,
       "z": 0,
       "kind": "appliance",
-      "front": "east",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "north",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "showerB": {
       "label": "淋浴B",
@@ -1538,22 +1539,24 @@
       "z": 0,
       "kind": "shower",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "wcB": {
       "label": "坐便B",
       "room": "bathB",
       "box": [
-        5229,
-        2180,
-        650,
-        720
+        5230,
+        2140,
+        720,
+        650
       ],
       "height": 780,
       "z": 0,
       "kind": "wc",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "west",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "basinB": {
       "label": "台盆B",
@@ -1568,7 +1571,8 @@
       "z": 0,
       "kind": "basin",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "glassB": {
       "label": "淋浴固定玻璃B",
@@ -1583,7 +1587,8 @@
       "z": 0,
       "kind": "glass",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "showerA": {
       "label": "淋浴A",
@@ -1598,22 +1603,24 @@
       "z": 0,
       "kind": "shower",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "wcA": {
       "label": "坐便A",
       "room": "bathA",
       "box": [
-        7500,
-        1990,
-        600,
-        720
+        7350,
+        2000,
+        720,
+        650
       ],
       "height": 780,
       "z": 0,
       "kind": "wc",
-      "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "front": "west",
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "basinA": {
       "label": "台盆A",
@@ -1628,7 +1635,8 @@
       "z": 0,
       "kind": "basin",
       "front": "west",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     },
     "glassA": {
       "label": "淋浴固定玻璃A",
@@ -1643,7 +1651,8 @@
       "z": 0,
       "kind": "glass",
       "front": "south",
-      "status": "概念选型包络；尺寸及定位为设计假设"
+      "status": "概念待实测／产品安装资料待核",
+      "source": "R2设计概念／非实测，床垫为用户尺寸意图"
     }
   },
   "operations": {
@@ -1656,7 +1665,10 @@
         600
       ],
       "kind": "移门取衣站人600",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "wardA_use": {
       "owner": "wardA",
@@ -1667,7 +1679,10 @@
         900
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "toys_use": {
       "owner": "toys",
@@ -1678,7 +1693,10 @@
         500
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "wardC_use": {
       "owner": "wardC",
@@ -1689,29 +1707,38 @@
         600
       ],
       "kind": "移门取衣站人600",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "island_use": {
       "owner": "island",
       "box": [
-        11800,
-        1900,
-        1500,
-        900
+        11400,
+        4900,
+        900,
+        1500
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "coffee_use": {
       "owner": "coffee",
       "box": [
-        10900,
-        7200,
+        11900,
+        1350,
         1100,
-        900
+        600
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "shoe_use": {
       "owner": "shoe",
@@ -1722,18 +1749,24 @@
         1400
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "storage_use": {
       "owner": "storage",
       "box": [
-        8250,
-        2300,
-        400,
-        900
+        8910,
+        2550,
+        600,
+        650
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "sink_use": {
       "owner": "sink",
@@ -1744,7 +1777,10 @@
         900
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "dishwasher_use": {
       "owner": "dishwasher",
@@ -1754,8 +1790,26 @@
         1050,
         600
       ],
-      "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "kind": "开启部件600＋操作者450；非厂家轨迹",
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "combined",
+      "parts": {
+        "moving": [
+          13600,
+          5490,
+          600,
+          600
+        ],
+        "operator": [
+          13150,
+          5490,
+          450,
+          600
+        ]
+      },
+      "second_person_width_mm": 620
     },
     "prep_use": {
       "owner": "prep",
@@ -1766,62 +1820,134 @@
         650
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "hob_use": {
       "owner": "hob",
       "box": [
-        13300,
-        6740,
-        900,
-        850
+        13627,
+        8870,
+        600,
+        900
       ],
-      "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "kind": "灶前600操作；第二人另查",
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator",
+      "parts": {
+        "operator": [
+          13627,
+          8870,
+          600,
+          900
+        ]
+      },
+      "second_person_width_mm": 620
     },
     "tower_use": {
       "owner": "tower",
       "box": [
-        12970,
-        7790,
-        900,
+        13150,
+        7640,
+        1050,
         750
       ],
-      "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "kind": "开启部件600＋操作者450；非厂家轨迹",
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "combined",
+      "parts": {
+        "moving": [
+          13600,
+          7640,
+          600,
+          750
+        ],
+        "operator": [
+          13150,
+          7640,
+          450,
+          750
+        ]
+      },
+      "second_person_width_mm": 620
     },
     "fridge_use": {
       "owner": "fridge",
       "box": [
-        13070,
-        6600,
+        13050,
+        6740,
         1050,
         900
       ],
-      "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "kind": "开启部件600＋操作者450；非厂家轨迹",
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "combined",
+      "parts": {
+        "moving": [
+          13500,
+          6740,
+          600,
+          900
+        ],
+        "operator": [
+          13050,
+          6740,
+          450,
+          900
+        ]
+      },
+      "second_person_width_mm": 620
     },
     "laundry_use": {
       "owner": "laundry",
       "box": [
-        11200,
+        9650,
         8970,
         1050,
         800
       ],
-      "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "kind": "开启部件600＋操作者450；非厂家轨迹",
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "combined",
+      "parts": {
+        "moving": [
+          9650,
+          8970,
+          600,
+          800
+        ],
+        "operator": [
+          10250,
+          8970,
+          450,
+          800
+        ]
+      },
+      "second_person_width_mm": 620
     },
     "robot_use": {
       "owner": "robot",
       "box": [
-        13750,
-        9300,
+        13150,
+        1450,
         550,
-        550
+        600
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "basinB_use": {
       "owner": "basinB",
@@ -1832,7 +1958,10 @@
         900
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "basinA_use": {
       "owner": "basinA",
@@ -1843,7 +1972,10 @@
         450
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "child_play": {
       "owner": "toys",
@@ -1854,29 +1986,24 @@
         1300
       ],
       "kind": "儿童活动",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "child_pull": {
       "owner": "chairA",
       "box": [
         3000,
-        6030,
+        5930,
         750,
-        800
+        950
       ],
       "kind": "拉椅",
-      "travel_mm": 0
-    },
-    "shared_pull": {
-      "owner": "shared_chair",
-      "box": [
-        12100,
-        1450,
-        900,
-        1000
-      ],
-      "kind": "拉椅",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "dining_pull1": {
       "owner": "dining1",
@@ -1887,7 +2014,10 @@
         450
       ],
       "kind": "餐椅拉出450",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "dining_pull2": {
       "owner": "dining2",
@@ -1898,7 +2028,10 @@
         450
       ],
       "kind": "餐椅拉出450",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "dining_pull3": {
       "owner": "dining3",
@@ -1909,7 +2042,10 @@
         450
       ],
       "kind": "餐椅拉出450",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "dining_pull4": {
       "owner": "dining4",
@@ -1920,7 +2056,10 @@
         450
       ],
       "kind": "餐椅拉出450",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "dryA": {
       "owner": "showerA",
@@ -1931,7 +2070,10 @@
         900
       ],
       "kind": "淋浴更衣",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "dryB": {
       "owner": "showerB",
@@ -1942,29 +2084,38 @@
         900
       ],
       "kind": "淋浴更衣",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "drying": {
       "owner": "laundry",
       "box": [
-        9600,
-        9000,
-        1600,
+        11000,
+        9010,
+        1500,
         750
       ],
       "kind": "临时落地晾晒；遮通路需收起",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "robot_service": {
       "owner": "robot",
       "box": [
-        13750,
-        9300,
+        13150,
+        1450,
         550,
-        550
+        600
       ],
       "kind": "基站前方操作",
-      "travel_mm": 0
+      "travel_mm": 0,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
     },
     "bedsideB_use": {
       "owner": "bedsideB",
@@ -1975,7 +2126,171 @@
         900
       ],
       "kind": "操作及人员概念包络",
-      "travel_mm": 450
+      "travel_mm": 450,
+      "source": "R2概念操作参数／厂家未核",
+      "status": "待实测试用",
+      "component": "operator"
+    },
+    "wcA_use": {
+      "owner": "wcA",
+      "box": [
+        6600,
+        2000,
+        750,
+        650
+      ],
+      "kind": "坐便前750目标／底线600",
+      "component": "operator",
+      "source": "概念使用目标",
+      "status": "排污迁移与实测待核",
+      "travel_mm": 0
+    },
+    "wcB_use": {
+      "owner": "wcB",
+      "box": [
+        4480,
+        2140,
+        750,
+        650
+      ],
+      "kind": "坐便前750目标／底线600",
+      "component": "operator",
+      "source": "概念使用目标",
+      "status": "排污迁移与实测待核",
+      "travel_mm": 0
+    },
+    "bedA_west": {
+      "owner": "bedA",
+      "box": [
+        600,
+        5890,
+        500,
+        900
+      ],
+      "kind": "儿童床西侧不足500；靠东照护，西侧非必要",
+      "component": "operator",
+      "source": "R2概念目标",
+      "status": "待试用",
+      "travel_mm": 0,
+      "required": false
+    },
+    "bedA_east": {
+      "owner": "bedA",
+      "box": [
+        2400,
+        5890,
+        500,
+        900
+      ],
+      "kind": "床侧500概念照护／下床",
+      "component": "operator",
+      "source": "R2概念目标",
+      "status": "待试用",
+      "travel_mm": 0
+    },
+    "bedB_west": {
+      "owner": "bedB",
+      "box": [
+        1050,
+        2620,
+        500,
+        900
+      ],
+      "kind": "床侧500概念照护／下床",
+      "component": "operator",
+      "source": "R2概念目标",
+      "status": "待试用",
+      "travel_mm": 0
+    },
+    "bedB_east": {
+      "owner": "bedB",
+      "box": [
+        3450,
+        2620,
+        500,
+        900
+      ],
+      "kind": "床侧500概念照护／下床",
+      "component": "operator",
+      "source": "R2概念目标",
+      "status": "待试用",
+      "travel_mm": 0
+    },
+    "bedC_west": {
+      "owner": "bedC",
+      "box": [
+        6120,
+        6320,
+        500,
+        900
+      ],
+      "kind": "床侧500概念照护／下床",
+      "component": "operator",
+      "source": "R2概念目标",
+      "status": "待试用",
+      "travel_mm": 0
+    },
+    "bedC_east": {
+      "owner": "bedC",
+      "box": [
+        8240,
+        6320,
+        500,
+        900
+      ],
+      "kind": "床侧500概念照护／下床",
+      "component": "operator",
+      "source": "R2概念目标",
+      "status": "待试用",
+      "travel_mm": 0
+    },
+    "dining1_seat": {
+      "owner": "dining1",
+      "box": [
+        10180,
+        1630,
+        450,
+        450
+      ],
+      "kind": "独立餐位实体／试坐待核",
+      "component": "seated",
+      "travel_mm": 0
+    },
+    "dining2_seat": {
+      "owner": "dining2",
+      "box": [
+        11120,
+        1630,
+        450,
+        450
+      ],
+      "kind": "独立餐位实体／试坐待核",
+      "component": "seated",
+      "travel_mm": 0
+    },
+    "dining3_seat": {
+      "owner": "dining3",
+      "box": [
+        10180,
+        3230,
+        450,
+        450
+      ],
+      "kind": "独立餐位实体／试坐待核",
+      "component": "seated",
+      "travel_mm": 0
+    },
+    "dining4_seat": {
+      "owner": "dining4",
+      "box": [
+        11120,
+        3230,
+        450,
+        450
+      ],
+      "kind": "独立餐位实体／试坐待核",
+      "component": "seated",
+      "travel_mm": 0
     }
   },
   "routes": {
@@ -1985,9 +2300,17 @@
         1850
       ],
       "end": [
-        11250,
-        7350
-      ]
+        11350.0,
+        7500.0
+      ],
+      "target_box": [
+        11000,
+        7100,
+        700,
+        800
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "儿童睡眠": {
       "start": [
@@ -1995,9 +2318,17 @@
         1850
       ],
       "end": [
-        2900,
-        5800
-      ]
+        2725.0,
+        5950.0
+      ],
+      "target_box": [
+        2400,
+        5500,
+        650,
+        900
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "主卧睡眠": {
       "start": [
@@ -2005,9 +2336,17 @@
         1850
       ],
       "end": [
-        3800,
-        3100
-      ]
+        3825.0,
+        3100.0
+      ],
+      "target_box": [
+        3450,
+        2650,
+        750,
+        900
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "客房睡眠": {
       "start": [
@@ -2015,9 +2354,17 @@
         1850
       ],
       "end": [
-        6800,
-        5500
-      ]
+        8500,
+        6850
+      ],
+      "target_box": [
+        8240,
+        6200,
+        510,
+        1300
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "主卫": {
       "start": [
@@ -2025,9 +2372,17 @@
         1850
       ],
       "end": [
-        4850,
-        2350
-      ]
+        4855.0,
+        2465.0
+      ],
+      "target_box": [
+        4480,
+        2140,
+        750,
+        650
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "公卫": {
       "start": [
@@ -2035,9 +2390,17 @@
         1850
       ],
       "end": [
-        6900,
-        2370
-      ]
+        6975.0,
+        2405.0
+      ],
+      "target_box": [
+        6600,
+        2000,
+        750,
+        650
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "备餐": {
       "start": [
@@ -2045,9 +2408,17 @@
         1850
       ],
       "end": [
-        13500,
-        5950
-      ]
+        13700.0,
+        6250.0
+      ],
+      "target_box": [
+        13200,
+        5800,
+        1000,
+        900
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "就餐": {
       "start": [
@@ -2055,9 +2426,17 @@
         1850
       ],
       "end": [
-        9700,
-        3200
-      ]
+        9550.0,
+        2775.0
+      ],
+      "target_box": [
+        9100,
+        2350,
+        900,
+        850
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "洗烘": {
       "start": [
@@ -2065,9 +2444,17 @@
         1850
       ],
       "end": [
-        11500,
-        9400
-      ]
+        10575.0,
+        9370.0
+      ],
+      "target_box": [
+        10250,
+        8970,
+        650,
+        800
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "儿童到窗": {
       "start": [
@@ -2075,9 +2462,17 @@
         1850
       ],
       "end": [
-        1400,
-        5150
-      ]
+        1650.0,
+        5165.0
+      ],
+      "target_box": [
+        1000,
+        4890,
+        1300,
+        550
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "客房到窗": {
       "start": [
@@ -2085,9 +2480,17 @@
         1850
       ],
       "end": [
-        8500,
-        8250
-      ]
+        8475.0,
+        8285.0
+      ],
+      "target_box": [
+        8200,
+        8000,
+        550,
+        570
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "主卧到窗": {
       "start": [
@@ -2095,36 +2498,94 @@
         1850
       ],
       "end": [
-        1100,
-        500
-      ]
+        1100.0,
+        500.0
+      ],
+      "target_box": [
+        650,
+        200,
+        900,
+        600
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "备餐至岛台": {
       "start": [
-        13500,
-        5950
+        13600,
+        6000
       ],
       "end": [
-        13900,
-        3600
-      ]
+        11825.0,
+        5500.0
+      ],
+      "target_box": [
+        11350,
+        4900,
+        950,
+        1200
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
     },
     "岛台至餐桌": {
       "start": [
-        13900,
-        3600
+        11800,
+        5400
       ],
       "end": [
-        9700,
-        3200
-      ]
+        9550.0,
+        2775.0
+      ],
+      "target_box": [
+        9100,
+        2350,
+        900,
+        850
+      ],
+      "target_kind": "可站立包络必须全部落入目标区域",
+      "status": "概念目标区域／50mm网格"
+    },
+    "阳台烹饪": {
+      "start": [
+        13900,
+        1850
+      ],
+      "end": [
+        13800,
+        9350
+      ],
+      "target_box": [
+        13300,
+        8870,
+        927,
+        900
+      ],
+      "target_kind": "可站立目标区域"
+    },
+    "储物取物": {
+      "start": [
+        13900,
+        1850
+      ],
+      "end": [
+        9200,
+        2875
+      ],
+      "target_box": [
+        8910,
+        2521,
+        850,
+        700
+      ],
+      "target_kind": "入口外取物；650宽模块须核伸手距离"
     }
   },
   "services": [
     {
       "id": "主槽给排水",
-      "x": 14500,
-      "y": 4800,
+      "x": 14525.0,
+      "y": 5040.0,
       "z": 500,
       "kind": "water",
       "note": "保留原东墙湿区；标高管径待核",
@@ -2132,19 +2593,19 @@
       "attached_to": "sink"
     },
     {
-      "id": "燃气排烟",
-      "x": 14600,
-      "y": 7100,
+      "id": "阳台排烟／燃料接口条件",
+      "x": 14552.0,
+      "y": 9320.0,
       "z": 2100,
-      "kind": "gas",
-      "note": "原东墙区域；烟道及燃气接口实测",
+      "kind": "conditional",
+      "note": "两燃料均须确认烟道接入；燃气迁移许可／电灶专线分案；禁止默认直排外立面",
       "status": "概念点位",
       "attached_to": "hob"
     },
     {
       "id": "洗碗机电源",
-      "x": 14500,
-      "y": 6100,
+      "x": 14525.0,
+      "y": 5790.0,
       "z": 500,
       "kind": "electric",
       "note": "邻柜可检修，独立回路按厂家",
@@ -2153,8 +2614,8 @@
     },
     {
       "id": "净水电源",
-      "x": 14400,
-      "y": 4800,
+      "x": 14525.0,
+      "y": 5040.0,
       "z": 500,
       "kind": "electric",
       "note": "槽柜内隔水",
@@ -2163,8 +2624,8 @@
     },
     {
       "id": "高柜电源",
-      "x": 12400,
-      "y": 8150,
+      "x": 14525.0,
+      "y": 8015.0,
       "z": 1600,
       "kind": "electric",
       "note": "蒸烤微波分回路，散热待厂家",
@@ -2173,8 +2634,8 @@
     },
     {
       "id": "咖啡插座",
-      "x": 11500,
-      "y": 8580,
+      "x": 12450.0,
+      "y": 1125.0,
       "z": 1100,
       "kind": "electric",
       "note": "带接地避开水",
@@ -2183,8 +2644,8 @@
     },
     {
       "id": "岛台地插候选",
-      "x": 12500,
-      "y": 3150,
+      "x": 12675.0,
+      "y": 5650.0,
       "z": 150,
       "kind": "electric",
       "note": "避通行，楼板开槽未核",
@@ -2193,8 +2654,8 @@
     },
     {
       "id": "洗烘给排水",
-      "x": 12600,
-      "y": 9700,
+      "x": 9290.0,
+      "y": 9370.0,
       "z": 500,
       "kind": "water",
       "note": "阳台防冻、防水、污水立管待核",
@@ -2203,8 +2664,8 @@
     },
     {
       "id": "洗烘电源",
-      "x": 12600,
-      "y": 9600,
+      "x": 9290.0,
+      "y": 9370.0,
       "z": 1300,
       "kind": "electric",
       "note": "洗烘独立回路按负荷",
@@ -2214,7 +2675,7 @@
     {
       "id": "床头B",
       "x": 3660,
-      "y": 3900,
+      "y": 4000,
       "z": 650,
       "kind": "electric",
       "note": "双控+USB，另一侧无线开关",
@@ -2233,8 +2694,8 @@
     },
     {
       "id": "书桌A",
-      "x": 3300,
-      "y": 7420,
+      "x": 3380.0,
+      "y": 7310.0,
       "z": 1100,
       "kind": "electric",
       "note": "独立任务照明",
@@ -2252,19 +2713,19 @@
       "attached_to": "bedC"
     },
     {
-      "id": "共享桌",
-      "x": 13000,
-      "y": 850,
+      "id": "餐桌学习电源",
+      "x": 10900.0,
+      "y": 2625.0,
       "z": 1050,
       "kind": "electric",
-      "note": "网口+任务照明",
+      "note": "邻近咖啡柜供电，线缆不得跨主要通路",
       "status": "概念点位",
-      "attached_to": "shared_desk"
+      "attached_to": "table"
     },
     {
       "id": "投影电源",
-      "x": 9400,
-      "y": 6800,
+      "x": 9455.0,
+      "y": 6770.0,
       "z": 2500,
       "kind": "electric",
       "note": "吊装投射距离按机型",
@@ -2273,8 +2734,8 @@
     },
     {
       "id": "主卫给排水",
-      "x": 5600,
-      "y": 1400,
+      "x": 5158.0,
+      "y": 1350.0,
       "z": 300,
       "kind": "water",
       "note": "保留湿区，地漏/坑距不可视作已知",
@@ -2283,8 +2744,8 @@
     },
     {
       "id": "公卫给排水",
-      "x": 7400,
-      "y": 1400,
+      "x": 7112.0,
+      "y": 1350.0,
       "z": 300,
       "kind": "water",
       "note": "两淋浴坡度防水待核",
@@ -2293,8 +2754,8 @@
     },
     {
       "id": "床头B左",
-      "x": 1300,
-      "y": 4260,
+      "x": 1200.0,
+      "y": 3900.0,
       "z": 850,
       "kind": "electric",
       "note": "左侧床头灯与充电，点位结合护墙板深化",
@@ -2303,8 +2764,8 @@
     },
     {
       "id": "冰箱电源",
-      "x": 12300,
-      "y": 7500,
+      "x": 14475.0,
+      "y": 7190.0,
       "z": 300,
       "kind": "electric",
       "note": "邻侧可检修插座，散热及电线长度按厂家",
@@ -2315,93 +2776,245 @@
   "candidates": [
     {
       "id": "recommended",
-      "label": "推荐：三房两淋浴+可关闭厨房+无水岛台",
+      "label": "R2推荐研究：干岛＋餐桌／阳台迁灶附条件",
       "changes": {},
       "conditions": [
-        "保留厨房墙体及开口",
-        "不迁燃气及主槽区域",
-        "全部净距以概念墙复算"
+        "拆厨房西隔墙及南入口墙须结构确认",
+        "阳台端部窗区与排烟条件未核",
+        "燃料不锁定"
       ],
-      "cost_rank": 0
+      "cost_rank": 3
     },
     {
-      "id": "open_kitchen",
-      "label": "条件：厨房西墙局部开放",
+      "id": "wall_prep",
+      "label": "完整比较：靠墙备餐＋餐桌",
       "changes": {
-        "remove_edge": "kitchen_w"
+        "remove_furniture": [
+          "island"
+        ],
+        "furniture": {
+          "wallprep": {
+            "label": "靠南墙备餐柜",
+            "room": "living",
+            "box": [
+              9500,
+              850,
+              2000,
+              450
+            ],
+            "height": 850,
+            "z": 0,
+            "kind": "cabinet",
+            "front": "north",
+            "status": "概念候选",
+            "modules": [
+              1000,
+              1000
+            ],
+            "contents": [
+              "备餐用品",
+              "餐具"
+            ]
+          }
+        },
+        "operations": {
+          "wallprep_use": {
+            "owner": "wallprep",
+            "box": [
+              9500,
+              1300,
+              2000,
+              900
+            ],
+            "kind": "墙边备餐操作／与南餐椅错时",
+            "travel_mm": 450
+          }
+        }
       },
       "conditions": [
-        "须查结构及烟道",
-        "燃气公司与物业书面认可",
-        "备可关闭玻璃隔断"
+        "同一拆改及燃料条件",
+        "台面0.90㎡；岛台1.125㎡",
+        "备餐与南餐位冲突，不能同时使用"
       ],
       "cost_rank": 3
     },
     {
       "id": "wet_island",
-      "label": "条件：岛台辅助槽",
-      "changes": {
-        "sink_island": true
-      },
-      "conditions": [
-        "岛槽至可接污水立管路径未知",
-        "不得接雨水",
-        "无坡度/检修条件则采用推荐干岛"
-      ],
-      "cost_rank": 2,
+      "label": "辅助岛槽／仅排水落实后",
+      "changes": {},
       "sink_box": [
-        12700,
-        2925,
-        450,
-        500
-      ]
-    },
-    {
-      "id": "B_rotated",
-      "label": "主卧床转向比较",
-      "changes": {
-        "bedB": [
-          1350,
-          2040,
-          2120,
-          1900
-        ]
-      },
-      "conditions": [
-        "床头改西",
-        "与原方向同尺度比较床柜操作"
+        12400,
+        5800,
+        500,
+        450
       ],
-      "cost_rank": 1
+      "conditions": [
+        "污水坡度、接管及检修待核",
+        "不得接雨水或默认穿梁"
+      ],
+      "cost_rank": 4
     },
     {
       "id": "A_growth",
-      "label": "儿童成长1500床",
+      "label": "儿童成长床与床边联动",
       "changes": {
-        "bedA": [
-          1100,
-          5440,
-          1600,
-          2120
-        ]
+        "furniture": {
+          "bedA": {
+            "box": [
+              1100,
+              5440,
+              1600,
+              2120
+            ],
+            "mattress": [
+              1500,
+              2000
+            ]
+          },
+          "deskA": {
+            "box": [
+              3030,
+              7010,
+              1000,
+              600
+            ]
+          },
+          "chairA": {
+            "box": [
+              3320,
+              6430,
+              420,
+              450
+            ]
+          }
+        },
+        "operations": {
+          "bedA_east": {
+            "box": [
+              2700,
+              5890,
+              500,
+              900
+            ]
+          },
+          "child_pull": {
+            "box": [
+              3230,
+              5930,
+              750,
+              950
+            ]
+          },
+          "child_play": {
+            "box": [
+              2800,
+              4900,
+              2100,
+              1100
+            ]
+          }
+        },
+        "routes": {
+          "儿童睡眠": {
+            "target_box": [
+              2700,
+              5500,
+              550,
+              900
+            ]
+          }
+        }
       },
       "conditions": [
-        "书桌与低柜保持，活动区缩小"
+        "桌缩至1000宽；独立学习保留",
+        "照护与活动、拉椅需错时；西床侧不作为照护通路"
       ],
       "cost_rank": 1
     },
     {
-      "id": "C_rotated",
-      "label": "客房横床失败候选",
+      "id": "fallback",
+      "label": "受阻回退：灶留原厨房附近",
       "changes": {
-        "bedC": [
-          6300,
-          6080,
-          2120,
-          1620
-        ]
+        "restore_original_edges": [
+          "kitchen_w",
+          "kitchen_s"
+        ],
+        "remove_furniture": [
+          "island"
+        ],
+        "furniture": {
+          "hob": {
+            "box": [
+              14200,
+              6740,
+              650,
+              850
+            ],
+            "room": "kitchen",
+            "modules": [
+              850
+            ]
+          },
+          "fridge": {
+            "box": [
+              12320,
+              6600,
+              750,
+              900
+            ],
+            "front": "east"
+          },
+          "tower": {
+            "box": [
+              12320,
+              7790,
+              650,
+              750
+            ],
+            "front": "east"
+          }
+        },
+        "operations": {
+          "hob_use": {
+            "box": [
+              13600,
+              6740,
+              600,
+              850
+            ]
+          },
+          "fridge_use": {
+            "box": [
+              13070,
+              6600,
+              1050,
+              900
+            ]
+          },
+          "tower_use": {
+            "box": [
+              12970,
+              7790,
+              1050,
+              750
+            ]
+          }
+        },
+        "routes": {
+          "阳台烹饪": {
+            "target_box": [
+              13300,
+              6740,
+              900,
+              850
+            ]
+          }
+        }
       },
       "conditions": [
-        "与东衣柜冲突时不采用"
+        "阳台条件不成立则受阻，回退单列不覆盖主研究",
+        "保留可关闭原厨房；冰箱与灶前错时",
+        "燃气与排烟仍须现场确认"
       ],
       "cost_rank": 1
     }
@@ -2416,8 +3029,10 @@
     "latitude_deg": 40,
     "longitude_deg": 116.5,
     "wall_status": "全部概念墙，结构与洞口现场复核",
-    "island": "推荐无水岛台；辅助槽列条件候选",
-    "kitchen": "推荐保留可关闭厨房；局部开放须结构/燃气/物业批准"
+    "island": "同条件优先干岛；墙边备餐完整候选，辅助槽待排水",
+    "kitchen": "R2原厨房拟并入公共区；阳台迁灶为主研究，两燃料并列，结构窗区及排烟条件未核",
+    "daily_rail_height_mm": 1700,
+    "daily_rail_status": "concept parameter, trial reach required"
   },
   "hvac": [
     {
@@ -2466,7 +3081,8 @@
     "原图用于房间拓扑及尺寸链；洞口、墙厚和家具定位不按像素换算。",
     "西南凹凸角高度1400和宽1800为概念假设；外包链保持。",
     "门框净宽按名义洞宽减60；卫生间B及储物间推拉门挂轨/可封闭性现场确认。",
-    "原阳台经客厅开口按推拉门研究；原结构与门槛高度待核。"
+    "原阳台经客厅开口按推拉门研究；原结构与门槛高度待核。",
+    "R2新坐标、操作及候选均为设计概念参数；原始边界保存在original，未按照片像素测量。"
   ],
   "states": {
     "six_extra": {
@@ -2481,6 +3097,42 @@
         2250,
         450,
         450
+      ]
+    },
+    "luggage_folded": {
+      "status": "床下收起，无地面固定架",
+      "owner": "bedC"
+    },
+    "luggage_open": {
+      "luggage": [
+        6650,
+        5220,
+        600,
+        400
+      ]
+    },
+    "temporary_drying": {
+      "drying": [
+        11000,
+        9010,
+        1500,
+        750
+      ]
+    },
+    "cooking": {
+      "cook": [
+        13627,
+        8870,
+        600,
+        900
+      ]
+    },
+    "screen_lowered": {
+      "screen": [
+        12030,
+        5700,
+        60,
+        2300
       ]
     }
   },
@@ -2516,5 +3168,2220 @@
       679
     ]
   ],
-  "footprint_status": "尺寸链参考面分区；西南凹凸角为显式概念假设，墙厚另由edges处理"
+  "footprint_status": "尺寸链参考面分区；西南凹凸角为显式概念假设，墙厚另由edges处理",
+  "original": {
+    "edges": [
+      {
+        "id": "south_B",
+        "a": [
+          100,
+          100
+        ],
+        "b": [
+          1800,
+          100
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "B_south_window",
+            "start": 200,
+            "width": 1200,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 900,
+            "height": 1500,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "B_step_e",
+        "a": [
+          1800,
+          100
+        ],
+        "b": [
+          1800,
+          721
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "south_main",
+        "a": [
+          1800,
+          721
+        ],
+        "b": [
+          14977,
+          721
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "entry",
+            "start": 11900,
+            "width": 950,
+            "kind": "door",
+            "hinge": 1,
+            "sign": -1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "east",
+        "a": [
+          14977,
+          721
+        ],
+        "b": [
+          14977,
+          9974
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "living_window",
+            "start": 2800,
+            "width": 650,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 900,
+            "height": 1500,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          },
+          {
+            "id": "balcony_e_window",
+            "start": 8300,
+            "width": 700,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 100,
+            "height": 2400,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "north_balcony",
+        "a": [
+          8810,
+          9974
+        ],
+        "b": [
+          14977,
+          9974
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "balcony_glass",
+            "start": 200,
+            "width": 5800,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 100,
+            "height": 2400,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "balcony_w",
+        "a": [
+          8810,
+          8671
+        ],
+        "b": [
+          8810,
+          9974
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "balcony_w_window",
+            "start": 200,
+            "width": 900,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 100,
+            "height": 2400,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "north_C",
+        "a": [
+          6049,
+          8671
+        ],
+        "b": [
+          8810,
+          8671
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "C_window",
+            "start": 650,
+            "width": 1350,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 900,
+            "height": 1500,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "step_C",
+        "a": [
+          6049,
+          7771
+        ],
+        "b": [
+          6049,
+          8671
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "north_A",
+        "a": [
+          712,
+          7771
+        ],
+        "b": [
+          6049,
+          7771
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "west_AB",
+        "a": [
+          712,
+          1400
+        ],
+        "b": [
+          712,
+          7771
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "A_window",
+            "start": 3100,
+            "width": 1500,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 900,
+            "height": 1500,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "B_step_n",
+        "a": [
+          100,
+          1400
+        ],
+        "b": [
+          712,
+          1400
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "B_niche_window",
+            "start": 100,
+            "width": 350,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 900,
+            "height": 1500,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "B_step_w",
+        "a": [
+          100,
+          100
+        ],
+        "b": [
+          100,
+          1400
+        ],
+        "thickness": 200,
+        "external": true,
+        "openings": [
+          {
+            "id": "B_w_window",
+            "start": 200,
+            "width": 900,
+            "kind": "window",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 900,
+            "height": 1500,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "A_south",
+        "a": [
+          712,
+          4430
+        ],
+        "b": [
+          6049,
+          4430
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "A_entry",
+            "start": 4200,
+            "width": 900,
+            "kind": "door",
+            "hinge": 1,
+            "sign": -1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "AB_east",
+        "a": [
+          4267,
+          721
+        ],
+        "b": [
+          4267,
+          4430
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "bathB_entry",
+            "start": 1500,
+            "width": 850,
+            "kind": "sliding",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单",
+            "slide_dir": -1
+          },
+          {
+            "id": "B_entry",
+            "start": 2790,
+            "width": 850,
+            "kind": "door",
+            "hinge": 1,
+            "sign": -1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "A_C",
+        "a": [
+          6049,
+          3370
+        ],
+        "b": [
+          6049,
+          7771
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "hall_west",
+            "start": 120,
+            "width": 880,
+            "kind": "passage",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "C_south",
+        "a": [
+          6049,
+          4430
+        ],
+        "b": [
+          8810,
+          4430
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "C_entry",
+            "start": 180,
+            "width": 900,
+            "kind": "door",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "C_east",
+        "a": [
+          8810,
+          4430
+        ],
+        "b": [
+          8810,
+          8671
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "bath_north",
+        "a": [
+          4267,
+          3370
+        ],
+        "b": [
+          8810,
+          3370
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "bathA_entry",
+            "start": 2050,
+            "width": 850,
+            "kind": "sliding",
+            "hinge": 1,
+            "sign": 1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "bath_AB",
+        "a": [
+          6049,
+          721
+        ],
+        "b": [
+          6049,
+          3370
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "store_w",
+        "a": [
+          8175,
+          721
+        ],
+        "b": [
+          8175,
+          3370
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "store_e",
+        "a": [
+          8810,
+          721
+        ],
+        "b": [
+          8810,
+          3370
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "store_entry",
+            "start": 1800,
+            "width": 700,
+            "kind": "sliding",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单",
+            "slide_dir": -1
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "kitchen_w",
+        "a": [
+          12181,
+          4430
+        ],
+        "b": [
+          12181,
+          8671
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "kitchen_s",
+        "a": [
+          12181,
+          4430
+        ],
+        "b": [
+          14977,
+          4430
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "kitchen_entry",
+            "start": 750,
+            "width": 1000,
+            "kind": "sliding",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      },
+      {
+        "id": "balcony_s",
+        "a": [
+          8810,
+          8671
+        ],
+        "b": [
+          14977,
+          8671
+        ],
+        "thickness": 120,
+        "external": false,
+        "openings": [
+          {
+            "id": "living_balcony",
+            "start": 700,
+            "width": 2300,
+            "kind": "sliding",
+            "hinge": 0,
+            "sign": 1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          },
+          {
+            "id": "kitchen_balcony",
+            "start": 4800,
+            "width": 900,
+            "kind": "door",
+            "hinge": 1,
+            "sign": -1,
+            "sill": 0,
+            "height": 2100,
+            "status": "概念洞口，含门框预扣每侧30mm；不得用于下单"
+          }
+        ],
+        "status": "尺寸链参考线+概念墙厚/洞口"
+      }
+    ],
+    "rooms": {
+      "A": {
+        "label": "儿童房A",
+        "boxes": [
+          [
+            812,
+            4490,
+            5177,
+            3181
+          ]
+        ],
+        "functions": [
+          "1200床",
+          "独立书桌",
+          "衣柜",
+          "书玩低柜",
+          "活动与成长替换"
+        ],
+        "source_area_m2": 17.8
+      },
+      "B": {
+        "label": "主卧B",
+        "boxes": [
+          [
+            812,
+            821,
+            3395,
+            3549
+          ],
+          [
+            100,
+            100,
+            1700,
+            721
+          ]
+        ],
+        "functions": [
+          "1800双人床",
+          "长短挂衣与床品",
+          "床头灯及充电",
+          "独立进入卫生间B"
+        ],
+        "source_area_m2": 15.1
+      },
+      "C": {
+        "label": "客房C",
+        "boxes": [
+          [
+            6109,
+            4490,
+            2641,
+            4081
+          ]
+        ],
+        "functions": [
+          "1500双人床",
+          "衣柜",
+          "行李",
+          "到窗清洁"
+        ],
+        "source_area_m2": 11.7
+      },
+      "hall": {
+        "label": "过道",
+        "boxes": [
+          [
+            4267,
+            3430,
+            4543,
+            940
+          ]
+        ],
+        "functions": [
+          "连接三卧两卫",
+          "不加柜压缩动线"
+        ],
+        "source_area_m2": 1.9
+      },
+      "bathB": {
+        "label": "卫生间B",
+        "boxes": [
+          [
+            4327,
+            821,
+            1662,
+            2489
+          ]
+        ],
+        "functions": [
+          "坐便",
+          "洗面",
+          "独立淋浴"
+        ],
+        "source_area_m2": 4.7
+      },
+      "bathA": {
+        "label": "卫生间A",
+        "boxes": [
+          [
+            6109,
+            821,
+            2006,
+            2489
+          ]
+        ],
+        "functions": [
+          "公卫",
+          "坐便",
+          "洗面",
+          "独立淋浴"
+        ],
+        "source_area_m2": 5.6
+      },
+      "store": {
+        "label": "储物间",
+        "boxes": [
+          [
+            8235,
+            821,
+            515,
+            2489
+          ]
+        ],
+        "functions": [
+          "窄深储物",
+          "行李吸尘器",
+          "清洁工具"
+        ],
+        "source_area_m2": null
+      },
+      "living": {
+        "label": "客餐厅",
+        "boxes": [
+          [
+            8870,
+            821,
+            6007,
+            3549
+          ],
+          [
+            8870,
+            4430,
+            3251,
+            4181
+          ]
+        ],
+        "functions": [
+          "北段会客投影",
+          "岛台餐桌",
+          "咖啡柜",
+          "共享学习",
+          "东南玄关"
+        ],
+        "source_area_m2": 40.5
+      },
+      "kitchen": {
+        "label": "厨房",
+        "boxes": [
+          [
+            12241,
+            4490,
+            2636,
+            4121
+          ]
+        ],
+        "functions": [
+          "燃气排烟留原区",
+          "主水槽",
+          "洗碗机",
+          "蒸烤微波",
+          "净水"
+        ],
+        "source_area_m2": 12.3
+      },
+      "balcony": {
+        "label": "北阳台",
+        "boxes": [
+          [
+            8910,
+            8731,
+            6067,
+            1243
+          ]
+        ],
+        "functions": [
+          "洗烘叠放",
+          "晾晒",
+          "基站候选"
+        ],
+        "source_area_m2": 8.8
+      }
+    },
+    "furniture": {
+      "bedB": {
+        "label": "主卧床架1800床垫",
+        "room": "B",
+        "box": [
+          1550,
+          2070,
+          1900,
+          2120
+        ],
+        "height": 1000,
+        "z": 0,
+        "kind": "bed",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "mattress": [
+          1800,
+          2000
+        ],
+        "head": "north"
+      },
+      "wardB": {
+        "label": "主卧衣柜",
+        "room": "B",
+        "box": [
+          1800,
+          850,
+          2200,
+          600
+        ],
+        "height": 2400,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "north",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          800,
+          700,
+          700
+        ],
+        "contents": [
+          "双层短挂",
+          "长挂",
+          "床品四层"
+        ],
+        "door_type": "sliding"
+      },
+      "bedsideB": {
+        "label": "床头三抽柜",
+        "room": "B",
+        "box": [
+          1000,
+          3700,
+          400,
+          400
+        ],
+        "height": 700,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          400
+        ],
+        "contents": [
+          "三抽"
+        ]
+      },
+      "bedA": {
+        "label": "儿童床架1200床垫",
+        "room": "A",
+        "box": [
+          1100,
+          5440,
+          1300,
+          2120
+        ],
+        "height": 900,
+        "z": 0,
+        "kind": "bed",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "mattress": [
+          1200,
+          2000
+        ],
+        "head": "north"
+      },
+      "wardA": {
+        "label": "儿童衣柜",
+        "room": "A",
+        "box": [
+          4150,
+          7040,
+          1800,
+          600
+        ],
+        "height": 2300,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          600,
+          600,
+          600
+        ],
+        "contents": [
+          "成长长挂",
+          "双层短挂",
+          "三抽+叠衣"
+        ]
+      },
+      "deskA": {
+        "label": "儿童升降书桌",
+        "room": "A",
+        "box": [
+          2780,
+          7010,
+          1200,
+          600
+        ],
+        "height": 700,
+        "z": 0,
+        "kind": "table",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "chairA": {
+        "label": "儿童学习椅",
+        "room": "A",
+        "box": [
+          3180,
+          6430,
+          420,
+          450
+        ],
+        "height": 780,
+        "z": 0,
+        "kind": "chair",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "toys": {
+        "label": "书玩低柜",
+        "room": "A",
+        "box": [
+          950,
+          4570,
+          1500,
+          300
+        ],
+        "height": 750,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "north",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          500,
+          500,
+          500
+        ],
+        "contents": [
+          "书",
+          "玩具",
+          "玩具"
+        ]
+      },
+      "bedC": {
+        "label": "客床架1500床垫",
+        "room": "C",
+        "box": [
+          6620,
+          5870,
+          1620,
+          2120
+        ],
+        "height": 950,
+        "z": 0,
+        "kind": "bed",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "mattress": [
+          1500,
+          2000
+        ],
+        "head": "north"
+      },
+      "wardC": {
+        "label": "客房衣柜",
+        "room": "C",
+        "box": [
+          7400,
+          4570,
+          1300,
+          600
+        ],
+        "height": 2300,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "north",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          650,
+          650
+        ],
+        "contents": [
+          "短挂",
+          "层板"
+        ],
+        "door_type": "sliding"
+      },
+      "luggage": {
+        "label": "行李台",
+        "room": "C",
+        "box": [
+          6150,
+          7200,
+          400,
+          600
+        ],
+        "height": 450,
+        "z": 0,
+        "kind": "table",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "sofa": {
+        "label": "三人沙发",
+        "room": "living",
+        "box": [
+          9030,
+          5570,
+          850,
+          2400
+        ],
+        "height": 850,
+        "z": 0,
+        "kind": "sofa",
+        "front": "east",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "coffee_table": {
+        "label": "轻巧茶几",
+        "room": "living",
+        "box": [
+          10250,
+          6300,
+          650,
+          900
+        ],
+        "height": 420,
+        "z": 0,
+        "kind": "table",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "screen": {
+        "label": "投影幕布",
+        "room": "living",
+        "box": [
+          12030,
+          5700,
+          60,
+          2300
+        ],
+        "height": 1300,
+        "z": 800,
+        "kind": "screen",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "island": {
+        "label": "无水岛台",
+        "room": "living",
+        "box": [
+          11800,
+          2800,
+          1500,
+          750
+        ],
+        "height": 850,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          750,
+          750
+        ],
+        "contents": [
+          "备餐抽屉",
+          "餐具抽屉"
+        ]
+      },
+      "table": {
+        "label": "四人餐桌/六人加端椅",
+        "room": "living",
+        "box": [
+          10100,
+          2200,
+          1600,
+          850
+        ],
+        "height": 750,
+        "z": 0,
+        "kind": "table",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "dining1": {
+        "label": "餐椅1",
+        "room": "living",
+        "box": [
+          10180,
+          1630,
+          450,
+          450
+        ],
+        "height": 800,
+        "z": 0,
+        "kind": "chair",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "dining2": {
+        "label": "餐椅2",
+        "room": "living",
+        "box": [
+          11120,
+          1630,
+          450,
+          450
+        ],
+        "height": 800,
+        "z": 0,
+        "kind": "chair",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "dining3": {
+        "label": "餐椅3",
+        "room": "living",
+        "box": [
+          10180,
+          3230,
+          450,
+          450
+        ],
+        "height": 800,
+        "z": 0,
+        "kind": "chair",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "dining4": {
+        "label": "餐椅4",
+        "room": "living",
+        "box": [
+          11120,
+          3230,
+          450,
+          450
+        ],
+        "height": 800,
+        "z": 0,
+        "kind": "chair",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "coffee": {
+        "label": "咖啡电器柜",
+        "room": "living",
+        "box": [
+          10900,
+          8100,
+          1100,
+          450
+        ],
+        "height": 900,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          550,
+          550
+        ],
+        "contents": [
+          "咖啡茶水",
+          "杯具"
+        ]
+      },
+      "shared_desk": {
+        "label": "共享学习桌",
+        "room": "living",
+        "box": [
+          11900,
+          900,
+          1500,
+          550
+        ],
+        "height": 740,
+        "z": 0,
+        "kind": "table",
+        "front": "north",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "shared_chair": {
+        "label": "共享学习椅",
+        "room": "living",
+        "box": [
+          12400,
+          1500,
+          450,
+          380
+        ],
+        "height": 800,
+        "z": 0,
+        "kind": "chair",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "shoe": {
+        "label": "玄关鞋衣柜",
+        "room": "living",
+        "box": [
+          14440,
+          1910,
+          400,
+          1400
+        ],
+        "height": 2400,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "west",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          700,
+          700
+        ],
+        "contents": [
+          "鞋层板",
+          "挂衣+置物"
+        ]
+      },
+      "bench": {
+        "label": "换鞋凳",
+        "room": "living",
+        "box": [
+          14440,
+          3500,
+          400,
+          650
+        ],
+        "height": 450,
+        "z": 0,
+        "kind": "table",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "storage": {
+        "label": "储物层架",
+        "room": "store",
+        "box": [
+          8250,
+          950,
+          400,
+          1350
+        ],
+        "height": 2400,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "north",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          400
+        ],
+        "contents": [
+          "可抽出深柜/清洁工具"
+        ]
+      },
+      "sink": {
+        "label": "主水槽柜",
+        "room": "kitchen",
+        "box": [
+          14200,
+          4590,
+          650,
+          900
+        ],
+        "height": 850,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "west",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          900
+        ],
+        "contents": [
+          "水槽+净水"
+        ]
+      },
+      "dishwasher": {
+        "label": "洗碗机",
+        "room": "kitchen",
+        "box": [
+          14200,
+          5490,
+          650,
+          600
+        ],
+        "height": 820,
+        "z": 0,
+        "kind": "appliance",
+        "front": "west",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "prep": {
+        "label": "备餐柜",
+        "room": "kitchen",
+        "box": [
+          14200,
+          6090,
+          650,
+          650
+        ],
+        "height": 850,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "west",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          650
+        ],
+        "contents": [
+          "备餐抽屉"
+        ]
+      },
+      "hob": {
+        "label": "燃气灶柜",
+        "room": "kitchen",
+        "box": [
+          14200,
+          6740,
+          650,
+          850
+        ],
+        "height": 850,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "west",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          850
+        ],
+        "contents": [
+          "燃气+灶具"
+        ]
+      },
+      "tower": {
+        "label": "蒸烤微波高柜",
+        "room": "kitchen",
+        "box": [
+          12320,
+          7790,
+          650,
+          750
+        ],
+        "height": 2300,
+        "z": 0,
+        "kind": "cabinet",
+        "front": "east",
+        "status": "概念选型包络；尺寸及定位为设计假设",
+        "modules": [
+          750
+        ],
+        "contents": [
+          "蒸烤/微波"
+        ]
+      },
+      "fridge": {
+        "label": "冰箱预留",
+        "room": "kitchen",
+        "box": [
+          12320,
+          6600,
+          750,
+          900
+        ],
+        "height": 2000,
+        "z": 0,
+        "kind": "appliance",
+        "front": "east",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "laundry": {
+        "label": "洗烘叠放预留",
+        "room": "balcony",
+        "box": [
+          12250,
+          8970,
+          720,
+          800
+        ],
+        "height": 1950,
+        "z": 0,
+        "kind": "appliance",
+        "front": "west",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "robot": {
+        "label": "基站候选",
+        "room": "balcony",
+        "box": [
+          13200,
+          9300,
+          550,
+          550
+        ],
+        "height": 600,
+        "z": 0,
+        "kind": "appliance",
+        "front": "east",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "showerB": {
+        "label": "淋浴B",
+        "room": "bathB",
+        "box": [
+          4407,
+          900,
+          1502,
+          900
+        ],
+        "height": 50,
+        "z": 0,
+        "kind": "shower",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "wcB": {
+        "label": "坐便B",
+        "room": "bathB",
+        "box": [
+          5229,
+          2180,
+          650,
+          720
+        ],
+        "height": 780,
+        "z": 0,
+        "kind": "wc",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "basinB": {
+        "label": "台盆B",
+        "room": "bathB",
+        "box": [
+          4407,
+          2820,
+          650,
+          450
+        ],
+        "height": 850,
+        "z": 0,
+        "kind": "basin",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "glassB": {
+        "label": "淋浴固定玻璃B",
+        "room": "bathB",
+        "box": [
+          5207,
+          1800,
+          702,
+          10
+        ],
+        "height": 2000,
+        "z": 0,
+        "kind": "glass",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "showerA": {
+        "label": "淋浴A",
+        "room": "bathA",
+        "box": [
+          6189,
+          900,
+          1846,
+          900
+        ],
+        "height": 50,
+        "z": 0,
+        "kind": "shower",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "wcA": {
+        "label": "坐便A",
+        "room": "bathA",
+        "box": [
+          7500,
+          1990,
+          600,
+          720
+        ],
+        "height": 780,
+        "z": 0,
+        "kind": "wc",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "basinA": {
+        "label": "台盆A",
+        "room": "bathA",
+        "box": [
+          7350,
+          2820,
+          650,
+          450
+        ],
+        "height": 850,
+        "z": 0,
+        "kind": "basin",
+        "front": "west",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      },
+      "glassA": {
+        "label": "淋浴固定玻璃A",
+        "room": "bathA",
+        "box": [
+          6989,
+          1800,
+          1046,
+          10
+        ],
+        "height": 2000,
+        "z": 0,
+        "kind": "glass",
+        "front": "south",
+        "status": "概念选型包络；尺寸及定位为设计假设"
+      }
+    },
+    "operations": {
+      "wardB_use": {
+        "owner": "wardB",
+        "box": [
+          1800,
+          1450,
+          2200,
+          600
+        ],
+        "kind": "移门取衣站人600",
+        "travel_mm": 450
+      },
+      "wardA_use": {
+        "owner": "wardA",
+        "box": [
+          4150,
+          6140,
+          1800,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "toys_use": {
+        "owner": "toys",
+        "box": [
+          950,
+          4870,
+          1500,
+          500
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "wardC_use": {
+        "owner": "wardC",
+        "box": [
+          7400,
+          5170,
+          1300,
+          600
+        ],
+        "kind": "移门取衣站人600",
+        "travel_mm": 450
+      },
+      "island_use": {
+        "owner": "island",
+        "box": [
+          11800,
+          1900,
+          1500,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "coffee_use": {
+        "owner": "coffee",
+        "box": [
+          10900,
+          7200,
+          1100,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "shoe_use": {
+        "owner": "shoe",
+        "box": [
+          13540,
+          1910,
+          900,
+          1400
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "storage_use": {
+        "owner": "storage",
+        "box": [
+          8250,
+          2300,
+          400,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "sink_use": {
+        "owner": "sink",
+        "box": [
+          13300,
+          4590,
+          900,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "dishwasher_use": {
+        "owner": "dishwasher",
+        "box": [
+          13150,
+          5490,
+          1050,
+          600
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "prep_use": {
+        "owner": "prep",
+        "box": [
+          13300,
+          6090,
+          900,
+          650
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "hob_use": {
+        "owner": "hob",
+        "box": [
+          13300,
+          6740,
+          900,
+          850
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "tower_use": {
+        "owner": "tower",
+        "box": [
+          12970,
+          7790,
+          900,
+          750
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "fridge_use": {
+        "owner": "fridge",
+        "box": [
+          13070,
+          6600,
+          1050,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "laundry_use": {
+        "owner": "laundry",
+        "box": [
+          11200,
+          8970,
+          1050,
+          800
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "robot_use": {
+        "owner": "robot",
+        "box": [
+          13750,
+          9300,
+          550,
+          550
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "basinB_use": {
+        "owner": "basinB",
+        "box": [
+          4407,
+          1920,
+          650,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "basinA_use": {
+        "owner": "basinA",
+        "box": [
+          6450,
+          2820,
+          900,
+          450
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      },
+      "child_play": {
+        "owner": "toys",
+        "box": [
+          2600,
+          4900,
+          2200,
+          1300
+        ],
+        "kind": "儿童活动",
+        "travel_mm": 0
+      },
+      "child_pull": {
+        "owner": "chairA",
+        "box": [
+          3000,
+          6030,
+          750,
+          800
+        ],
+        "kind": "拉椅",
+        "travel_mm": 0
+      },
+      "shared_pull": {
+        "owner": "shared_chair",
+        "box": [
+          12100,
+          1450,
+          900,
+          1000
+        ],
+        "kind": "拉椅",
+        "travel_mm": 0
+      },
+      "dining_pull1": {
+        "owner": "dining1",
+        "box": [
+          10180,
+          1180,
+          450,
+          450
+        ],
+        "kind": "餐椅拉出450",
+        "travel_mm": 0
+      },
+      "dining_pull2": {
+        "owner": "dining2",
+        "box": [
+          11120,
+          1180,
+          450,
+          450
+        ],
+        "kind": "餐椅拉出450",
+        "travel_mm": 0
+      },
+      "dining_pull3": {
+        "owner": "dining3",
+        "box": [
+          10180,
+          3680,
+          450,
+          450
+        ],
+        "kind": "餐椅拉出450",
+        "travel_mm": 0
+      },
+      "dining_pull4": {
+        "owner": "dining4",
+        "box": [
+          11120,
+          3680,
+          450,
+          450
+        ],
+        "kind": "餐椅拉出450",
+        "travel_mm": 0
+      },
+      "dryA": {
+        "owner": "showerA",
+        "box": [
+          6230,
+          1830,
+          950,
+          900
+        ],
+        "kind": "淋浴更衣",
+        "travel_mm": 0
+      },
+      "dryB": {
+        "owner": "showerB",
+        "box": [
+          4400,
+          1830,
+          820,
+          900
+        ],
+        "kind": "淋浴更衣",
+        "travel_mm": 0
+      },
+      "drying": {
+        "owner": "laundry",
+        "box": [
+          9600,
+          9000,
+          1600,
+          750
+        ],
+        "kind": "临时落地晾晒；遮通路需收起",
+        "travel_mm": 0
+      },
+      "robot_service": {
+        "owner": "robot",
+        "box": [
+          13750,
+          9300,
+          550,
+          550
+        ],
+        "kind": "基站前方操作",
+        "travel_mm": 0
+      },
+      "bedsideB_use": {
+        "owner": "bedsideB",
+        "box": [
+          1000,
+          2800,
+          400,
+          900
+        ],
+        "kind": "操作及人员概念包络",
+        "travel_mm": 450
+      }
+    },
+    "routes": {
+      "会客": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          11250,
+          7350
+        ]
+      },
+      "儿童睡眠": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          2900,
+          5800
+        ]
+      },
+      "主卧睡眠": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          3800,
+          3100
+        ]
+      },
+      "客房睡眠": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          6800,
+          5500
+        ]
+      },
+      "主卫": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          4850,
+          2350
+        ]
+      },
+      "公卫": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          6900,
+          2370
+        ]
+      },
+      "备餐": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          13500,
+          5950
+        ]
+      },
+      "就餐": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          9700,
+          3200
+        ]
+      },
+      "洗烘": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          11500,
+          9400
+        ]
+      },
+      "儿童到窗": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          1400,
+          5150
+        ]
+      },
+      "客房到窗": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          8500,
+          8250
+        ]
+      },
+      "主卧到窗": {
+        "start": [
+          13900,
+          1850
+        ],
+        "end": [
+          1100,
+          500
+        ]
+      },
+      "备餐至岛台": {
+        "start": [
+          13500,
+          5950
+        ],
+        "end": [
+          13900,
+          3600
+        ]
+      },
+      "岛台至餐桌": {
+        "start": [
+          13900,
+          3600
+        ],
+        "end": [
+          9700,
+          3200
+        ]
+      }
+    },
+    "status": "R1存档；墙体同为概念重建，非实测原状"
+  },
+  "demolition": [
+    {
+      "edge": "kitchen_w",
+      "status": "拟拆／结构未核",
+      "scope": "整段概念隔墙及旧门；梁柱外墙烟道不在拆除授权范围"
+    },
+    {
+      "edge": "kitchen_s",
+      "status": "拟拆／结构未核",
+      "scope": "整段概念隔墙及旧门；梁柱外墙烟道不在拆除授权范围"
+    }
+  ],
+  "balcony": {
+    "net_box": [
+      8910,
+      8731,
+      5967,
+      1143
+    ],
+    "source": "南分界墙中心8671+60；北外墙中心9974-100；东西墙内侧8910/14877",
+    "status": "尺寸链与概念墙厚推导，未实测",
+    "rejected_long_counter_clear_mm": 543,
+    "window_adjustments": [
+      "东西端设备背后固定不燃内衬及可维护窗区，须物业/结构/窗厂家确认",
+      "北侧保留开启扇；不得封死唯一通风；灶高850与窗台100不相容需专项节点",
+      "不默认向外立面排油烟，两个燃料案都接经确认的排烟系统"
+    ]
+  },
+  "fuel_variants": {
+    "gas": {
+      "label": "阳台燃气",
+      "status": "条件未决／不锁定燃料",
+      "requirements": [
+        "燃气迁移许可",
+        "管阀路径",
+        "可关闭空间与通风",
+        "不燃灶后衬板",
+        "经核实烟道接入"
+      ],
+      "appliance": {
+        "box": [
+          14227,
+          8870,
+          650,
+          900
+        ],
+        "height": 850,
+        "front": "west"
+      }
+    },
+    "electric": {
+      "label": "阳台电灶",
+      "status": "条件未决／不锁定燃料",
+      "requirements": [
+        "配电容量",
+        "专用回路",
+        "设备散热",
+        "不燃灶后衬板",
+        "经核实烟道接入"
+      ],
+      "appliance": {
+        "box": [
+          14227,
+          8870,
+          650,
+          900
+        ],
+        "height": 850,
+        "front": "west"
+      }
+    }
+  },
+  "model_setup": {
+    "cameras": [
+      [
+        "Whole",
+        [
+          20000,
+          -16000,
+          19000
+        ],
+        [
+          7500.0,
+          5000,
+          0
+        ]
+      ],
+      [
+        "Living",
+        [
+          14000,
+          3000,
+          2200.0
+        ],
+        [
+          10500.0,
+          7000,
+          1000
+        ]
+      ],
+      [
+        "Kitchen",
+        [
+          13000,
+          4700.0,
+          2200.0
+        ],
+        [
+          14000,
+          7000,
+          1000
+        ]
+      ],
+      [
+        "Master",
+        [
+          4000,
+          1700.0,
+          2200.0
+        ],
+        [
+          2000,
+          3200.0,
+          800.0
+        ]
+      ],
+      [
+        "Child",
+        [
+          5600.0,
+          5000,
+          2200.0
+        ],
+        [
+          2700.0,
+          6800.0,
+          800.0
+        ]
+      ],
+      [
+        "Guest",
+        [
+          8500.0,
+          5000,
+          2200.0
+        ],
+        [
+          7400.0,
+          7000,
+          800.0
+        ]
+      ],
+      [
+        "Top",
+        [
+          7500.0,
+          5000,
+          22000
+        ],
+        [
+          7500.0,
+          5000,
+          0
+        ]
+      ]
+    ],
+    "lights": [
+      [
+        "Ceiling",
+        [
+          8000,
+          5000,
+          2600.0
+        ]
+      ],
+      [
+        "Window",
+        [
+          12000,
+          9000,
+          3000
+        ]
+      ]
+    ],
+    "units": "mm",
+    "status": "conceptual observation only"
+  },
+  "screen_lowered_geometry": {
+    "box": [
+      12030,
+      5700,
+      60,
+      2300
+    ],
+    "z": 950,
+    "height": 1300,
+    "source": "concept motorized screen, installation not verified"
+  }
 }

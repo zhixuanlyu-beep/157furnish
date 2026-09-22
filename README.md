@@ -1,11 +1,11 @@
-# 157furnish · R1
+# 157furnish · R2
 
-本户型独立的三房两卫方案。先打开 [离线方案册](docs/方案册.html)，查看 [设计取舍](docs/design.md)、[核验摘要](docs/verification.md)及[现场条件](docs/constraints.md)。
+三房两卫、客餐厨一体化及阳台迁灶条件研究。先打开[离线方案册](docs/方案册.html)、[设计取舍](docs/design.md)、[核验摘要](docs/verification.md)及[现场条件](docs/constraints.md)。
 
-- 44张可编辑SVG及对应PNG，见 [图纸](drawings/svg)。
-- [Blender](model/157furnish_R1.blend)与[GLB](model/157furnish_R1.glb)，包含概念家具、柜体、门窗；未生成三维效果图。
-- [表格](tables)、[唯一布局源](data/layout.json)、[独立重建说明](docs/handoff.md)。
+- 52张可编辑SVG及同源PNG：[图纸](drawings/svg)，按实际内容编索引。
+- [阳台燃气 Blender](model/157furnish_R2_gas.blend) / [GLB](model/157furnish_R2_gas.glb) · [阳台电灶 Blender](model/157furnish_R2_electric.blend) / [GLB](model/157furnish_R2_electric.glb)。
+- [表格](tables)、[唯一布局源](data/layout.json)、[接手重建](docs/handoff.md)。R1保留于Git历史，原始概念边界存layout.original。
 
-固定与单人基线检查不代表全部使用通过；携篮、900目标、设备开启及多人操作的限制公开保留。尺寸来自原图标注、推导及显式概念参数，不能用于施工或柜体下单。
+数据一致性、使用检查与现场条件分别判断。500单人、600/620携篮和900目标逐项披露失败；两个燃料均附条件，未锁定。未实测参数明确来源及状态，不供施工或下单。未执行三维渲染，原照片和参考项目保持原样。
 
-布局校验值：`cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6`。参考项目保持原样，重建不读取参考项目。
+布局 SHA256：`d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96`。

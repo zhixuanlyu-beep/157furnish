@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
 <text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 主卧B</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
 <text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 1800双人床</text>
 <text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 长短挂衣与床品</text>
@@ -44,13 +44,13 @@
 <rect x="377.9927" y="-119.8428" width="39.8323" height="298.7421" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
 <rect x="295.9382" y="776.3836" width="69.7065" height="39.8323" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
 <rect x="256.1059" y="836.1321" width="39.8323" height="179.2453" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
-<rect x="1121.8606" y="632.7883" width="6.9706" height="169.2872" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="1083.0241" y="638.7631" width="6.9706" height="157.3375" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
 <polygon points="1105.928,208.574 948.590,208.574 948.590,216.541 1105.928,216.541" fill="#be9364" stroke="#456653"/>
 <polyline points="1101.944,369.895 1088.247,368.949 1074.684,366.813 1061.358,363.503 1048.372,359.044 1035.824,353.470 1023.809,346.824 1012.420,339.156 1001.742,330.525 991.857,320.996 982.840,310.641 974.760,299.540 967.678,287.777 961.648,275.441 956.716,262.627 952.920,249.432 950.289,235.956 948.842,222.302 948.590,208.574" fill="none" stroke="#b87943" stroke-width="1"/>
-<rect x="564.8061" y="240.6394" width="378.4067" height="422.2222" fill="#cfdbcb" stroke="#576858" stroke-width="1" data-object="bedB" data-mm="1550,2070,1900,2120" data-transform="226.23165618448638,155.0,0.19916142557651992,-150,4620"/>
-<rect x="574.7642" y="252.5891" width="358.4906" height="398.3229" fill="#edf0e4" stroke="#7b8d7b" stroke-width="1" />
-<rect x="594.6803" y="270.5136" width="119.4969" height="59.7484" fill="#fcfbf6" stroke="#7b8d7b" stroke-width="1" />
-<text x="570.781" y="467.751" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">主卧床架1800床垫</text>
+<rect x="564.8061" y="220.7233" width="378.4067" height="422.2222" fill="#cfdbcb" stroke="#576858" stroke-width="1" data-object="bedB" data-mm="1550,2170,1900,2120" data-transform="226.23165618448638,155.0,0.19916142557651992,-150,4620"/>
+<rect x="574.7642" y="232.6730" width="358.4906" height="398.3229" fill="#edf0e4" stroke="#7b8d7b" stroke-width="1" />
+<rect x="594.6803" y="250.5975" width="119.4969" height="59.7484" fill="#fcfbf6" stroke="#7b8d7b" stroke-width="1" />
+<text x="570.781" y="447.834" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">主卧床架1800床垫</text>
 <rect x="614.5964" y="786.3417" width="438.1551" height="119.4969" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardB" data-mm="1800,850,2200,600" data-transform="226.23165618448638,155.0,0.19916142557651992,-150,4620"/>
 <polyline points="773.926,905.839 773.926,786.342" fill="none" stroke="#94774e" stroke-width="1"/>
 <polyline points="913.339,905.839 913.339,786.342" fill="none" stroke="#94774e" stroke-width="1"/>

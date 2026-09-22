@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
 <text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 储物间</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
-<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 窄深储物</text>
-<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 行李吸尘器</text>
-<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 清洁工具</text>
-<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 储物层架 400×1350 高24</text>
-<text x="1380.000" y="376.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">00</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 保留墙体</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 入口300深浅储物</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 不可达深处不计容量</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 朝入口浅储物 300×650 高1</text>
+<text x="1380.000" y="376.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">800</text>
 <defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
 <rect x="-657.9993" y="-102.4440" width="1443.9110" height="298.7621" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="-72.5527" y="234.4580" width="637.5711" height="791.0840" fill="#edf0e7" stroke="none" stroke-width="1" />
@@ -21,13 +21,15 @@
 <rect x="565.0184" y="215.3881" width="38.1398" height="841.9371" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="766.8418" y="485.2275" width="38.1398" height="572.0977" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="766.8418" y="215.3881" width="38.1398" height="47.3570" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="811.3382" y="485.2275" width="11.1241" height="222.4824" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<rect x="607.9257" y="555.4684" width="127.1328" height="429.0733" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="storage" data-mm="8250,950,400,1350" data-transform="523.7002341920374,154.99999999999994,0.31783205085312816,7985,3560"/>
-<text x="617.461" y="786.005" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">储物层架</text>
+<rect x="811.3382" y="494.7625" width="11.1241" height="203.4125" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="611.1040" y="269.4195" width="95.3496" height="206.5908" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="storage" data-mm="8260,2550,300,650" data-transform="523.7002341920374,154.99999999999994,0.31783205085312816,7985,3560"/>
+<text x="620.639" y="388.715" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">朝入口浅储物</text>
 <rect x="-47.1261" y="714.3844" width="586.7180" height="286.0488" fill="#d9e8e8" stroke="#576858" stroke-width="1" data-object="showerA" data-mm="6189,900,1846,900" data-transform="523.7002341920374,154.99999999999994,0.31783205085312816,7985,3560"/>
 <text x="-37.591" y="873.409" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">淋浴A</text>
-<rect x="369.5517" y="425.1572" width="190.6992" height="228.8391" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcA" data-mm="7500,1990,600,720" data-transform="523.7002341920374,154.99999999999994,0.31783205085312816,7985,3560"/>
-<text x="379.087" y="555.577" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">坐便A</text>
+<rect x="321.8769" y="444.2272" width="228.8391" height="206.5908" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcA" data-mm="7350,2000,720,650" data-transform="523.7002341920374,154.99999999999994,0.31783205085312816,7985,3560"/>
+<polyline points="436.296,547.523 374.319,547.523" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="394.978,560.236 374.319,547.523 394.978,534.809" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="331.412" y="563.523" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">坐便A</text>
 <rect x="321.8769" y="247.1713" width="206.5908" height="143.0244" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="basinA" data-mm="7350,2820,650,450" data-transform="523.7002341920374,154.99999999999994,0.31783205085312816,7985,3560"/>
 <text x="331.412" y="334.684" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">台盆A</text>
 <rect x="207.1395" y="711.2061" width="332.4523" height="3.1783" fill="#c3e0e5" stroke="#576858" stroke-width="1" data-object="glassA" data-mm="6989,1800,1046,10" data-transform="523.7002341920374,154.99999999999994,0.31783205085312816,7985,3560"/>

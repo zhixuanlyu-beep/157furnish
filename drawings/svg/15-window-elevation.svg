@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">端部窗区条件 / 高度关系示意</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 蓝框为原概念低窗区。</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 棕框为设备外包络，不是封窗范围。</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 不燃背衬与设备固定须专业节点。</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 不得把设备支承在未核窗框上。</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 北侧可开启扇、通风及检修另核。</text>
+<rect x="150.0000" y="355.0000" width="420.0000" height="648.0000" fill="#e0ecee" stroke="#466b74" stroke-width="2" />
+<rect x="210.0000" y="503.5000" width="240.0000" height="526.5000" fill="#dfc39f" stroke="#576858" stroke-width="2" />
+<text x="150.000" y="240.000" font-size="20" fill="#263c34" font-family="Microsoft YaHei, sans-serif">洗烘叠放预留</text>
+<text x="150.000" y="283.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">设备高1950／原窗台100</text>
+<text x="150.000" y="1066.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">高度示意；窗宽／节点待实测</text>
+<rect x="750.0000" y="355.0000" width="420.0000" height="648.0000" fill="#e0ecee" stroke="#466b74" stroke-width="2" />
+<rect x="810.0000" y="800.5000" width="240.0000" height="229.5000" fill="#dfc39f" stroke="#576858" stroke-width="2" />
+<text x="750.000" y="240.000" font-size="20" fill="#263c34" font-family="Microsoft YaHei, sans-serif">阳台灶台／燃料未选</text>
+<text x="750.000" y="283.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">设备高850／原窗台100</text>
+<text x="750.000" y="1066.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">高度示意；窗宽／节点待实测</text>
+</svg>

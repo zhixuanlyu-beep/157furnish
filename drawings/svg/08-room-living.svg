@@ -1,27 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
 <text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 客餐厅</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
-<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 北段会客投影</text>
-<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 岛台餐桌</text>
-<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 咖啡柜</text>
-<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 共享学习</text>
-<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 东南玄关</text>
-<text x="1380.000" y="437.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 三人沙发 850×2400 高85</text>
-<text x="1380.000" y="466.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">0</text>
-<text x="1380.000" y="511.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 轻巧茶几 650×900 高420</text>
-<text x="1380.000" y="556.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8. 投影幕布 60×2300 高130</text>
-<text x="1380.000" y="585.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">0</text>
-<text x="1380.000" y="630.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">9. 无水岛台 1500×750 高85</text>
-<text x="1380.000" y="659.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">0</text>
-<text x="1380.000" y="704.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">10. 四人餐桌/六人加端椅 1600×</text>
-<text x="1380.000" y="733.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">850 高750</text>
-<text x="1380.000" y="778.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">11. 餐椅1 450×450 高800</text>
-<text x="1380.000" y="823.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">12. 餐椅2 450×450 高800</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 西北会客投影</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 无水备餐岛</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 独立常规高度餐桌兼学习</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 玄关鞋衣／换鞋</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 三人沙发 850×2400 高85</text>
+<text x="1380.000" y="421.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">0</text>
+<text x="1380.000" y="466.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 轻巧茶几 650×900 高420</text>
+<text x="1380.000" y="511.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 电动卷幕／收起通行 60×2300</text>
+<text x="1380.000" y="540.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif"> 高100</text>
+<text x="1380.000" y="585.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8. 无水岛台 750×1500 高85</text>
+<text x="1380.000" y="614.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">0</text>
+<text x="1380.000" y="659.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">9. 餐桌兼共享学习／四至六人 1600</text>
+<text x="1380.000" y="688.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">×850 高750</text>
+<text x="1380.000" y="733.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">10. 餐椅1 450×450 高800</text>
+<text x="1380.000" y="778.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">11. 餐椅2 450×450 高800</text>
+<text x="1380.000" y="823.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">12. 餐椅3 450×450 高800</text>
 <defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
 <rect x="24.4119" y="188.2328" width="302.6478" height="467.6659" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="-186.6737" y="669.6502" width="520.6092" height="107.7201" fill="#f5ead9" stroke="none" stroke-width="1" />
@@ -29,7 +29,7 @@
 <rect x="340.8112" y="669.6502" width="688.3776" height="406.7008" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="340.8112" y="183.6490" width="372.5513" height="479.1255" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="727.1140" y="183.6490" width="302.0748" height="472.2497" fill="#edf0e7" stroke="none" stroke-width="1" />
-<rect x="345.3951" y="27.4548" width="695.2533" height="142.4427" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="345.3951" y="38.9144" width="683.7937" height="130.9831" fill="#edf0e7" stroke="none" stroke-width="1" />
 <rect x="-469.3818" y="1076.3510" width="1363.6912" height="22.9192" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="1003.1755" y="1076.3510" width="37.4729" height="22.9192" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="1029.1888" y="766.9421" width="22.9192" height="320.8685" fill="#33463e" stroke="none" stroke-width="1" />
@@ -42,20 +42,17 @@
 <rect x="145.6544" y="777.3703" width="188.2811" height="13.7515" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="327.0597" y="881.5380" width="13.7515" height="206.2726" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="327.0597" y="784.2461" width="13.7515" height="17.0748" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="713.3625" y="176.7732" width="13.7515" height="486.0012" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="720.2382" y="655.8987" width="85.9469" height="13.7515" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="920.7811" y="655.8987" width="119.8673" height="13.7515" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="333.9355" y="169.8975" width="80.2171" height="13.7515" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="677.7232" y="169.8975" width="206.2726" height="13.7515" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="987.1321" y="169.8975" width="53.5163" height="13.7515" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="776.2756" y="151.5621" width="6.8758" height="18.3353" fill="#33463e" stroke="none" stroke-width="1" />
 <polygon points="1002.030,1087.811 1002.030,985.820 997.446,985.820 997.446,1087.811" fill="#be9364" stroke="#456653"/>
 <polyline points="897.747,1085.519 898.335,1076.638 899.695,1067.843 901.816,1059.200 904.682,1050.774 908.272,1042.630 912.557,1034.831 917.507,1027.434 923.082,1020.497 929.240,1014.072 935.935,1008.208 943.116,1002.950 950.727,998.338 958.712,994.407 967.009,991.187 975.554,988.702 984.284,986.972 993.132,986.009 1002.030,985.820" fill="none" stroke="#b87943" stroke-width="1"/>
 <rect x="1029.1888" y="692.4548" width="22.9192" height="74.4873" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
-<rect x="343.1031" y="881.5380" width="4.0109" height="80.2171" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<rect x="920.7811" y="649.5959" width="114.5959" height="4.0109" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<rect x="545.9379" y="163.5947" width="263.5706" height="4.0109" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<polygon points="985.986,176.773 985.986,80.513 981.402,80.513 981.402,176.773" fill="#be9364" stroke="#456653"/>
-<polyline points="887.434,174.481 888.000,166.100 889.294,157.801 891.307,149.645 894.023,141.696 897.421,134.015 901.476,126.658 906.157,119.683 911.428,113.142 917.248,107.086 923.575,101.560 930.359,96.607 937.549,92.263 945.090,88.563 952.925,85.534 960.994,83.199 969.236,81.577 977.588,80.679 985.986,80.513" fill="none" stroke="#b87943" stroke-width="1"/>
+<rect x="343.1031" y="884.9759" width="4.0109" height="73.3414" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="549.3758" y="185.9409" width="128.3474" height="4.0109" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="549.3758" y="181.3571" width="128.3474" height="4.0109" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="784.2973" y="185.9409" width="96.2606" height="4.0109" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
 <rect x="172.3552" y="577.9735" width="148.9747" height="68.7575" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardC" data-mm="7400,4570,1300,600" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
 <polyline points="246.843,646.731 246.843,577.973" fill="none" stroke="#94774e" stroke-width="1"/>
 <text x="175.793" y="625.352" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">客房衣柜</text>
@@ -64,46 +61,54 @@
 <rect x="498.9536" y="345.3438" width="74.4873" height="103.1363" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="coffee_table" data-mm="10250,6300,650,900" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
 <text x="502.391" y="409.912" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">轻巧茶几</text>
 <rect x="702.9343" y="253.6671" width="6.8758" height="263.5706" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="screen" data-mm="12030,5700,60,2300" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="706.372" y="398.452" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">投影幕布</text>
-<rect x="676.5772" y="763.6188" width="171.8938" height="85.9469" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="island" data-mm="11800,2800,1500,750" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<polyline points="762.524,849.566 762.524,763.619" fill="none" stroke="#94774e" stroke-width="1"/>
-<text x="680.015" y="819.592" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">无水岛台</text>
+<text x="706.372" y="398.452" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">电动卷幕／收起通行</text>
+<rect x="733.8752" y="437.0205" width="85.9469" height="171.8938" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="island" data-mm="12300,4900,750,1500" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="733.875,522.967 819.822,522.967" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="737.313" y="535.967" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">无水岛台</text>
 <rect x="481.7642" y="820.9168" width="183.3534" height="97.4065" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="table" data-mm="10100,2200,1600,850" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="485.202" y="882.620" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">四人餐桌/六人加端椅</text>
+<text x="485.202" y="882.620" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">餐桌兼共享学习／四至六人</text>
 <rect x="490.9318" y="932.0748" width="51.5682" height="51.5682" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining1" data-mm="10180,1630,450,450" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="516.716,957.859 516.716,942.388" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="512.132,949.837 516.716,942.388 521.300,949.837" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="494.370" y="970.859" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">餐椅1</text>
 <rect x="598.6520" y="932.0748" width="51.5682" height="51.5682" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining2" data-mm="11120,1630,450,450" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="624.436,957.859 624.436,942.388" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="619.852,949.837 624.436,942.388 629.020,949.837" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="602.090" y="970.859" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">餐椅2</text>
 <rect x="490.9318" y="748.7214" width="51.5682" height="51.5682" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining3" data-mm="10180,3230,450,450" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="516.716,774.505 516.716,789.976" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="521.300,782.527 516.716,789.976 512.132,782.527" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="494.370" y="787.505" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">餐椅3</text>
 <rect x="598.6520" y="748.7214" width="51.5682" height="51.5682" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining4" data-mm="11120,3230,450,450" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="624.436,774.505 624.436,789.976" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="629.020,782.527 624.436,789.976 619.852,782.527" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="602.090" y="787.505" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">餐椅4</text>
-<rect x="573.4409" y="190.6393" width="126.0555" height="51.5682" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="coffee" data-mm="10900,8100,1100,450" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<polyline points="636.469,242.207 636.469,190.639" fill="none" stroke="#94774e" stroke-width="1"/>
-<text x="576.879" y="229.423" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">咖啡电器柜</text>
-<rect x="688.0368" y="1004.2702" width="171.8938" height="63.0277" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="shared_desk" data-mm="11900,900,1500,550" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="691.475" y="1048.784" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">共享学习桌</text>
-<rect x="745.3347" y="954.9940" width="51.5682" height="43.5464" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="shared_chair" data-mm="12400,1500,450,380" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="748.773" y="989.767" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">共享学习椅</text>
+<rect x="688.0368" y="1015.7298" width="126.0555" height="51.5682" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="coffee" data-mm="11900,900,1100,450" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="751.065,1067.298 751.065,1015.730" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="691.475" y="1054.514" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">咖啡电器柜</text>
 <rect x="979.1104" y="791.1218" width="45.8384" height="160.4343" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="shoe" data-mm="14440,1910,400,1400" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
 <polyline points="979.110,871.339 1024.949,871.339" fill="none" stroke="#94774e" stroke-width="1"/>
-<text x="982.548" y="884.339" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">玄关鞋衣柜</text>
+<text x="982.548" y="884.339" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">浅鞋柜／正面挂钩</text>
 <rect x="979.1104" y="694.8613" width="45.8384" height="74.4873" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="bench" data-mm="14440,3500,400,650" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
 <text x="982.548" y="745.105" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">换鞋凳</text>
-<rect x="269.7618" y="906.8637" width="45.8384" height="154.7045" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="storage" data-mm="8250,950,400,1350" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="273.200" y="997.216" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">储物层架</text>
 <rect x="951.6074" y="541.3028" width="74.4873" height="103.1363" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="sink" data-mm="14200,4590,650,900" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
 <text x="955.045" y="605.871" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">主水槽柜</text>
 <rect x="951.6074" y="472.5452" width="74.4873" height="68.7575" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="dishwasher" data-mm="14200,5490,650,600" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="988.851,506.924 968.224,506.924" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="975.672,511.508 968.224,506.924 975.672,502.340" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="955.045" y="519.924" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">洗碗机</text>
 <rect x="951.6074" y="398.0579" width="74.4873" height="74.4873" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="prep" data-mm="14200,6090,650,650" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
 <text x="955.045" y="448.302" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">备餐柜</text>
-<rect x="951.6074" y="300.6514" width="74.4873" height="97.4065" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="hob" data-mm="14200,6740,650,850" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="955.045" y="362.355" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">燃气灶柜</text>
-<rect x="736.1671" y="191.7853" width="74.4873" height="85.9469" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="tower" data-mm="12320,7790,650,750" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="739.605" y="247.759" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">蒸烤微波高柜</text>
-<rect x="736.1671" y="310.9650" width="85.9469" height="103.1363" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="fridge" data-mm="12320,6600,750,900" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
-<text x="739.605" y="375.533" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">冰箱预留</text>
+<rect x="951.6074" y="208.9747" width="74.4873" height="85.9469" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="tower" data-mm="14200,7640,650,750" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<text x="955.045" y="264.948" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">蒸烤微波高柜</text>
+<rect x="940.1478" y="294.9216" width="85.9469" height="103.1363" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="fridge" data-mm="14100,6740,750,900" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="983.121,346.490 957.337,346.490" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="964.786,351.074 957.337,346.490 964.786,341.906" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="943.586" y="359.490" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">冰箱预留</text>
+<rect x="831.2817" y="1004.2702" width="63.0277" height="63.0277" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="robot" data-mm="13150,900,550,550" data-transform="312.16224366706876,155.0,0.11459589867310012,8620,8861"/>
+<polyline points="862.796,1035.784 862.796,1016.876" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="858.212,1024.324 862.796,1016.876 867.379,1024.324" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="834.720" y="1048.784" font-size="13" fill="#263c34" font-family="Microsoft YaHei, sans-serif">基站候选</text>
 </g>
 <polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
 <text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>

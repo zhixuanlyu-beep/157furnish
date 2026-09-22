@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
-<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">02 推荐家具总图 / 三房两卫</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">02 R2推荐研究 / 三房两卫与客餐厨一体</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
 <text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. B主卧、A儿童、C客房。</text>
-<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 推荐厨房可关闭、岛台无水。</text>
-<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 总图用对象编号，逐室图标中文名称及</text>
-<text x="1380.000" y="331.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">尺寸。</text>
-<text x="1380.000" y="376.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 所有门关闭；开启、路线另图。</text>
-<text x="1380.000" y="421.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 两处淋浴保留在原湿区。</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 原厨房拟开放；无水岛＋餐桌。</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 阳台两端烹饪／洗烘分别进出。</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 燃气、电灶均附条件；不锁定燃料。</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 总图编号对应家具表及逐室图。</text>
+<text x="1380.000" y="437.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 所有门关闭；开启与错时另图。</text>
 <defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
 <rect x="140.7769" y="418.3038" width="418.1423" height="256.9269" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="140.7769" y="684.9231" width="274.2115" height="286.6500" fill="#f5ead9" stroke="none" stroke-width="1" />
@@ -24,7 +24,7 @@
 <rect x="791.6154" y="684.9231" width="485.1808" height="286.6500" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="791.6154" y="342.3808" width="262.5808" height="337.6962" fill="#f5ead9" stroke="none" stroke-width="1" />
 <rect x="1063.8885" y="342.3808" width="212.9077" height="332.8500" fill="#edf0e7" stroke="none" stroke-width="1" />
-<rect x="794.8462" y="232.2923" width="490.0269" height="100.3962" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="794.8462" y="240.3692" width="481.9500" height="92.3192" fill="#edf0e7" stroke="none" stroke-width="1" />
 <rect x="83.2692" y="1021.7308" width="16.1538" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="99.4231" y="1021.7308" width="96.9231" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="196.3462" y="1021.7308" width="24.2308" height="16.1538" fill="#33463e" stroke="none" stroke-width="1" />
@@ -72,12 +72,11 @@
 <rect x="730.6346" y="765.6923" width="9.6923" height="213.9577" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="781.9231" y="834.2654" width="9.6923" height="145.3846" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="781.9231" y="765.6923" width="9.6923" height="12.0346" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="1054.1962" y="337.5346" width="9.6923" height="342.5423" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="1059.0423" y="675.2308" width="60.5769" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="1200.3885" y="675.2308" width="84.4846" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="786.7692" y="332.6885" width="56.5385" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="1029.0769" y="332.6885" width="145.3846" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="1247.1538" y="332.6885" width="37.7192" height="9.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1098.5385" y="319.7654" width="4.8462" height="12.9231" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1098.5385" y="240.3692" width="4.8462" height="13.1654" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="99.4231" y="1021.7308" width="96.9231" height="16.1538" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
 <polygon points="1256.038,978.035 1184.154,978.035 1184.154,981.265 1256.038,981.265" fill="#be9364" stroke="#456653"/>
 <rect x="1276.7962" y="700.9962" width="16.1538" height="52.5000" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
@@ -89,18 +88,19 @@
 <rect x="91.3462" y="916.7308" width="28.2692" height="16.1538" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
 <rect x="75.1923" y="940.9615" width="16.1538" height="72.6923" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
 <polygon points="542.200,678.462 474.354,678.462 474.354,681.692 542.200,681.692" fill="#be9364" stroke="#456653"/>
-<rect x="426.2962" y="789.8423" width="2.8269" height="68.6538" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="410.5462" y="792.2654" width="2.8269" height="63.8077" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
 <polygon points="418.219,688.073 418.219,751.881 421.450,751.881 421.450,688.073" fill="#be9364" stroke="#456653"/>
 <polygon points="580.727,681.692 648.573,681.692 648.573,678.462 580.727,678.462" fill="#be9364" stroke="#456653"/>
-<rect x="585.4115" y="756.4038" width="68.6538" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<rect x="793.2308" y="777.7269" width="2.8269" height="56.5385" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<rect x="1119.6192" y="670.7885" width="80.7692" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<rect x="843.3077" y="328.2462" width="185.7692" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<polygon points="1244.731,335.919 1176.885,335.919 1176.885,339.150 1244.731,339.150" fill="#be9364" stroke="#456653"/>
-<rect x="200.3846" y="699.4615" width="153.4615" height="171.2308" fill="#cfdbcb" stroke="#576858" stroke-width="1" data-object="bedB" data-mm="1550,2070,1900,2120" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<rect x="204.4231" y="704.3077" width="145.3846" height="161.5385" fill="#edf0e4" stroke="#7b8d7b" stroke-width="1" />
-<rect x="212.5000" y="711.5769" width="48.4615" height="24.2308" fill="#fcfbf6" stroke="#7b8d7b" stroke-width="1" />
-<text x="202.808" y="796.077" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">bedB</text>
+<rect x="587.8346" y="756.4038" width="63.8077" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="793.2308" y="780.1500" width="2.8269" height="51.6923" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="845.7308" y="343.9962" width="90.4615" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="938.6154" y="340.7654" width="90.4615" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="1176.8846" y="343.9962" width="67.8462" height="2.8269" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<polygon points="1099.346,255.958 1099.346,317.342 1102.577,317.342 1102.577,255.958" fill="#be9364" stroke="#456653"/>
+<rect x="200.3846" y="691.3846" width="153.4615" height="171.2308" fill="#cfdbcb" stroke="#576858" stroke-width="1" data-object="bedB" data-mm="1550,2170,1900,2120" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<rect x="204.4231" y="696.2308" width="145.3846" height="161.5385" fill="#edf0e4" stroke="#7b8d7b" stroke-width="1" />
+<rect x="212.5000" y="703.5000" width="48.4615" height="24.2308" fill="#fcfbf6" stroke="#7b8d7b" stroke-width="1" />
+<text x="202.808" y="788.000" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">bedB</text>
 <rect x="220.5769" y="920.7692" width="177.6923" height="48.4615" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardB" data-mm="1800,850,2200,600" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <polyline points="285.192,969.231 285.192,920.769" fill="none" stroke="#94774e" stroke-width="1"/>
 <polyline points="341.731,969.231 341.731,920.769" fill="none" stroke="#94774e" stroke-width="1"/>
@@ -118,6 +118,8 @@
 <rect x="299.7308" y="423.2308" width="96.9231" height="48.4615" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="deskA" data-mm="2780,7010,1200,600" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="302.154" y="458.462" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">deskA</text>
 <rect x="332.0385" y="482.1923" width="33.9231" height="36.3462" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="chairA" data-mm="3180,6430,420,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="349.000,500.365 349.000,490.188" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="345.769,495.438 349.000,490.188 352.231,495.438" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="334.462" y="511.365" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">chairA</text>
 <rect x="151.9231" y="644.5385" width="121.1538" height="24.2308" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="toys" data-mm="950,4570,1500,300" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <polyline points="192.308,668.769 192.308,644.538" fill="none" stroke="#94774e" stroke-width="1"/>
@@ -130,69 +132,85 @@
 <rect x="672.8846" y="620.3077" width="105.0000" height="48.4615" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardC" data-mm="7400,4570,1300,600" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <polyline points="725.385,668.769 725.385,620.308" fill="none" stroke="#94774e" stroke-width="1"/>
 <text x="675.308" y="655.538" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">wardC</text>
-<rect x="571.9231" y="407.8846" width="32.3077" height="48.4615" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="luggage" data-mm="6150,7200,400,600" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="574.346" y="443.115" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">luggage</text>
 <rect x="804.5385" y="394.1538" width="68.6538" height="193.8462" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="sofa" data-mm="9030,5570,850,2400" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="806.962" y="502.077" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">sofa</text>
 <rect x="903.0769" y="456.3462" width="52.5000" height="72.6923" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="coffee_table" data-mm="10250,6300,650,900" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="905.500" y="503.692" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">coffee_table</text>
 <rect x="1046.8462" y="391.7308" width="4.8462" height="185.7692" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="screen" data-mm="12030,5700,60,2300" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="1049.269" y="495.615" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">screen</text>
-<rect x="1028.2692" y="751.1538" width="121.1538" height="60.5769" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="island" data-mm="11800,2800,1500,750" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<polyline points="1088.846,811.731 1088.846,751.154" fill="none" stroke="#94774e" stroke-width="1"/>
-<text x="1030.692" y="792.442" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">island</text>
+<rect x="1068.6538" y="520.9615" width="60.5769" height="121.1538" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="island" data-mm="12300,4900,750,1500" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="1068.654,581.538 1129.231,581.538" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="1071.077" y="592.538" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">island</text>
 <rect x="890.9615" y="791.5385" width="129.2308" height="68.6538" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="table" data-mm="10100,2200,1600,850" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="893.385" y="836.865" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">table</text>
 <rect x="897.4231" y="869.8846" width="36.3462" height="36.3462" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining1" data-mm="10180,1630,450,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="915.596,888.058 915.596,877.154" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="912.365,882.404 915.596,877.154 918.827,882.404" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="899.846" y="899.058" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">dining1</text>
 <rect x="973.3462" y="869.8846" width="36.3462" height="36.3462" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining2" data-mm="11120,1630,450,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="991.519,888.058 991.519,877.154" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="988.288,882.404 991.519,877.154 994.750,882.404" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="975.769" y="899.058" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">dining2</text>
 <rect x="897.4231" y="740.6538" width="36.3462" height="36.3462" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining3" data-mm="10180,3230,450,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="915.596,758.827 915.596,769.731" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="918.827,764.481 915.596,769.731 912.365,764.481" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="899.846" y="769.827" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">dining3</text>
 <rect x="973.3462" y="740.6538" width="36.3462" height="36.3462" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="dining4" data-mm="11120,3230,450,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="991.519,758.827 991.519,769.731" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="994.750,764.481 991.519,769.731 988.288,764.481" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="975.769" y="769.827" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">dining4</text>
-<rect x="955.5769" y="347.3077" width="88.8462" height="36.3462" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="coffee" data-mm="10900,8100,1100,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<polyline points="1000.000,383.654 1000.000,347.308" fill="none" stroke="#94774e" stroke-width="1"/>
-<text x="958.000" y="376.481" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">coffee</text>
-<rect x="1036.3462" y="920.7692" width="121.1538" height="44.4231" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="shared_desk" data-mm="11900,900,1500,550" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="1038.769" y="953.981" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">shared_desk</text>
-<rect x="1076.7308" y="886.0385" width="36.3462" height="30.6923" fill="#a9bfa8" stroke="#576858" stroke-width="1" data-object="shared_chair" data-mm="12400,1500,450,380" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="1079.154" y="912.385" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">shared_chair</text>
+<rect x="1036.3462" y="928.8462" width="88.8462" height="36.3462" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="coffee" data-mm="11900,900,1100,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="1080.769,965.192 1080.769,928.846" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="1038.769" y="958.019" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">coffee</text>
 <rect x="1241.5000" y="770.5385" width="32.3077" height="113.0769" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="shoe" data-mm="14440,1910,400,1400" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <polyline points="1241.500,827.077 1273.808,827.077" fill="none" stroke="#94774e" stroke-width="1"/>
 <text x="1243.923" y="838.077" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">shoe</text>
 <rect x="1241.5000" y="702.6923" width="32.3077" height="52.5000" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="bench" data-mm="14440,3500,400,650" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="1243.923" y="739.942" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">bench</text>
-<rect x="741.5385" y="852.1154" width="32.3077" height="109.0385" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="storage" data-mm="8250,950,400,1350" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="743.962" y="917.635" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">storage</text>
+<rect x="742.3462" y="779.4231" width="24.2308" height="52.5000" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="storage" data-mm="8260,2550,300,650" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<text x="744.769" y="816.673" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">storage</text>
 <rect x="1222.1154" y="594.4615" width="52.5000" height="72.6923" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="sink" data-mm="14200,4590,650,900" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="1224.538" y="641.808" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">sink</text>
 <rect x="1222.1154" y="546.0000" width="52.5000" height="48.4615" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="dishwasher" data-mm="14200,5490,650,600" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="1248.365,570.231 1233.827,570.231" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="1239.077,573.462 1233.827,570.231 1239.077,567.000" fill="none" stroke="#466b74" stroke-width="2"/>
 <text x="1224.538" y="581.231" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">dishwasher</text>
 <rect x="1222.1154" y="493.5000" width="52.5000" height="52.5000" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="prep" data-mm="14200,6090,650,650" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="1224.538" y="530.750" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">prep</text>
-<rect x="1222.1154" y="424.8462" width="52.5000" height="68.6538" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="hob" data-mm="14200,6740,650,850" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="1224.538" y="470.173" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">hob</text>
-<rect x="1070.2692" y="348.1154" width="52.5000" height="60.5769" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="tower" data-mm="12320,7790,650,750" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="1072.692" y="389.404" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">tower</text>
-<rect x="1070.2692" y="432.1154" width="60.5769" height="72.6923" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="fridge" data-mm="12320,6600,750,900" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="1072.692" y="479.462" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">fridge</text>
-<rect x="1064.6154" y="248.7692" width="58.1538" height="64.6154" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="laundry" data-mm="12250,8970,720,800" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="1067.038" y="292.077" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">laundry</text>
-<rect x="1141.3462" y="242.3077" width="44.4231" height="44.4231" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="robot" data-mm="13200,9300,550,550" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="1143.769" y="275.519" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">robot</text>
+<rect x="1224.2962" y="248.7692" width="52.5000" height="72.6923" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="hob" data-mm="14227,8870,650,900" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="1250.546,285.115 1234.796,285.115" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="1240.046,288.346 1234.796,285.115 1240.046,281.885" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="1226.719" y="296.115" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">hob</text>
+<rect x="1222.1154" y="360.2308" width="52.5000" height="60.5769" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="tower" data-mm="14200,7640,650,750" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<text x="1224.538" y="401.519" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">tower</text>
+<rect x="1214.0385" y="420.8077" width="60.5769" height="72.6923" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="fridge" data-mm="14100,6740,750,900" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="1244.327,457.154 1226.154,457.154" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="1231.404,460.385 1226.154,457.154 1231.404,453.923" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="1216.462" y="468.154" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">fridge</text>
+<rect x="796.4615" y="248.7692" width="58.1538" height="64.6154" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="laundry" data-mm="8930,8970,720,800" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="825.538,281.077 842.985,281.077" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="837.735,277.846 842.985,281.077 837.735,284.308" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="798.885" y="292.077" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">laundry</text>
+<rect x="1137.3077" y="920.7692" width="44.4231" height="44.4231" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="robot" data-mm="13150,900,550,550" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="1159.519,942.981 1159.519,929.654" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="1156.288,934.904 1159.519,929.654 1162.750,934.904" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="1139.731" y="953.981" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">robot</text>
 <rect x="431.1423" y="892.5000" width="121.3154" height="72.6923" fill="#d9e8e8" stroke="#576858" stroke-width="1" data-object="showerB" data-mm="4407,900,1502,900" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="433.565" y="939.846" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">showerB</text>
-<rect x="497.5346" y="803.6538" width="52.5000" height="58.1538" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcB" data-mm="5229,2180,650,720" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="499.958" y="843.731" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">wcB</text>
+<rect x="497.6154" y="812.5385" width="58.1538" height="52.5000" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcB" data-mm="5230,2140,720,650" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="526.692,838.788 510.942,838.788" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="516.192,842.019 510.942,838.788 516.192,835.558" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="500.038" y="849.788" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">wcB</text>
 <rect x="431.1423" y="773.7692" width="52.5000" height="36.3462" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="basinB" data-mm="4407,2820,650,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="433.565" y="802.942" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">basinB</text>
 <rect x="495.7577" y="891.6923" width="56.7000" height="0.8077" fill="#c3e0e5" stroke="#576858" stroke-width="1" data-object="glassB" data-mm="5207,1800,702,10" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="498.181" y="903.096" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">glassB</text>
 <rect x="575.0731" y="892.5000" width="149.1000" height="72.6923" fill="#d9e8e8" stroke="#576858" stroke-width="1" data-object="showerA" data-mm="6189,900,1846,900" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="577.496" y="939.846" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">showerA</text>
-<rect x="680.9615" y="819.0000" width="48.4615" height="58.1538" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcA" data-mm="7500,1990,600,720" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
-<text x="683.385" y="859.077" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">wcA</text>
+<rect x="668.8462" y="823.8462" width="58.1538" height="52.5000" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcA" data-mm="7350,2000,720,650" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
+<polyline points="697.923,850.096 682.173,850.096" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="687.423,853.327 682.173,850.096 687.423,846.865" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="671.269" y="861.096" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">wcA</text>
 <rect x="668.8462" y="773.7692" width="52.5000" height="36.3462" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="basinA" data-mm="7350,2820,650,450" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>
 <text x="671.269" y="802.942" font-size="11" fill="#263c34" font-family="Microsoft YaHei, sans-serif">basinA</text>
 <rect x="639.6885" y="891.6923" width="84.4846" height="0.8077" fill="#c3e0e5" stroke="#576858" stroke-width="1" data-object="glassA" data-mm="6989,1800,1046,10" data-transform="55.0,201.9230769230769,0.08076923076923077,-250,10350"/>

@@ -5,7 +5,7 @@
   ],
   [
     "02-plan.svg",
-    "02 推荐家具总图 / 三房两卫"
+    "02 R2推荐研究 / 三房两卫与客餐厨一体"
   ],
   [
     "03-normal4.svg",
@@ -33,31 +33,63 @@
   ],
   [
     "06-candidate-recommended.svg",
-    "候选 / 推荐：三房两淋浴+可关闭厨房+无水岛台"
+    "候选 / R2推荐研究：干岛＋餐桌／阳台迁灶附条件"
   ],
   [
-    "06-candidate-open_kitchen.svg",
-    "候选 / 条件：厨房西墙局部开放"
+    "06-candidate-wall_prep.svg",
+    "候选 / 完整比较：靠墙备餐＋餐桌"
   ],
   [
     "06-candidate-wet_island.svg",
-    "候选 / 条件：岛台辅助槽"
-  ],
-  [
-    "06-candidate-B_rotated.svg",
-    "候选 / 主卧床转向比较"
+    "候选 / 辅助岛槽／仅排水落实后"
   ],
   [
     "06-candidate-A_growth.svg",
-    "候选 / 儿童成长1500床"
+    "候选 / 儿童成长床与床边联动"
   ],
   [
-    "06-candidate-C_rotated.svg",
-    "候选 / 客房横床失败候选"
+    "06-candidate-fallback.svg",
+    "候选 / 受阻回退：灶留原厨房附近"
   ],
   [
     "07-alterations.svg",
-    "07 局部拆改条件 / 厨房西侧界面"
+    "07 拟拆改 / 厨房西隔墙与南入口墙"
+  ],
+  [
+    "14-balcony-gas.svg",
+    "阳台燃料并列 / 阳台燃气"
+  ],
+  [
+    "14-balcony-electric.svg",
+    "阳台燃料并列 / 阳台电灶"
+  ],
+  [
+    "15-window-conditions.svg",
+    "端部窗区条件 / 平面关系"
+  ],
+  [
+    "15-window-elevation.svg",
+    "端部窗区条件 / 高度关系示意"
+  ],
+  [
+    "16-state-temporary_drying.svg",
+    "分状态 / 临时晾晒"
+  ],
+  [
+    "16-state-cooking.svg",
+    "分状态 / 烹饪操作者"
+  ],
+  [
+    "16-state-luggage_open.svg",
+    "分状态 / 行李架展开"
+  ],
+  [
+    "16-state-screen_lowered.svg",
+    "分状态 / 投影幕布放下"
+  ],
+  [
+    "17-public-flow.svg",
+    "公共区关系 / 取物—洗切—烹饪—上桌"
   ],
   [
     "08-room-A.svg",
@@ -129,11 +161,11 @@
   ],
   [
     "09-cabinet-shoe.svg",
-    "柜体内视立面与深度剖面 / 玄关鞋衣柜"
+    "柜体内视立面与深度剖面 / 浅鞋柜／正面挂钩"
   ],
   [
     "09-cabinet-storage.svg",
-    "柜体内视立面与深度剖面 / 储物层架"
+    "柜体内视立面与深度剖面 / 朝入口浅储物"
   ],
   [
     "09-cabinet-sink.svg",
@@ -145,7 +177,7 @@
   ],
   [
     "09-cabinet-hob.svg",
-    "柜体内视立面与深度剖面 / 燃气灶柜"
+    "柜体内视立面与深度剖面 / 阳台灶台／燃料未选"
   ],
   [
     "09-cabinet-tower.svg",

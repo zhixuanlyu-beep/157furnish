@@ -1,8 +1,8 @@
 {
-  "revision": "R1",
-  "layout_sha256": "cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6",
+  "revision": "R2",
+  "layout_sha256": "d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96",
   "passed": true,
-  "compared_files": 110,
+  "compared_files": 133,
   "differences": [],
   "model_method": "geometry snapshot plus independently reopened blend/GLB; no binary repeatability claim"
 }

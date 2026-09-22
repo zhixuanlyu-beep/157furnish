@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
 <text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 过道</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
 <text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 连接三卧两卫</text>
 <text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 不加柜压缩动线</text>
@@ -38,11 +38,13 @@
 <polyline points="112.466,719.697 95.282,718.510 78.267,715.830 61.550,711.678 45.258,706.084 29.517,699.092 14.444,690.754 0.156,681.134 -13.240,670.306 -25.641,658.351 -36.953,645.361 -47.090,631.435 -55.974,616.678 -63.538,601.203 -69.725,585.127 -74.487,568.574 -77.789,551.668 -79.604,534.539 -79.920,517.317" fill="none" stroke="#b87943" stroke-width="1"/>
 <polygon points="620.164,497.579 620.164,287.704 610.170,287.704 610.170,497.579" fill="#be9364" stroke="#456653"/>
 <polyline points="825.042,502.576 824.679,484.265 822.721,466.056 819.184,448.086 814.094,430.493 807.490,413.411 799.422,396.969 789.952,381.293 779.152,366.502 767.104,352.708 753.900,340.017 739.639,328.525 724.432,318.320 708.392,309.479 691.644,302.070 674.313,296.148 656.532,291.760 638.436,288.938 620.164,287.704" fill="none" stroke="#b87943" stroke-width="1"/>
-<rect x="842.0315" y="733.6883" width="212.3736" height="8.7448" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
-<rect x="1272.5253" y="974.5449" width="8.7448" height="174.8959" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="849.5271" y="733.6883" width="197.3825" height="8.7448" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="1272.5253" y="982.0405" width="8.7448" height="159.9048" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
 <rect x="900.2469" y="312.6889" width="324.8067" height="149.9108" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="wardC" data-mm="7400,4570,1300,600" data-transform="55.0,450.10707911957167,0.2498512790005949,4017,4620"/>
 <polyline points="1062.650,462.600 1062.650,312.689" fill="none" stroke="#94774e" stroke-width="1"/>
 <text x="907.742" y="403.644" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">客房衣柜</text>
+<rect x="1115.1190" y="804.8959" width="74.9554" height="162.4033" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="storage" data-mm="8260,2550,300,650" data-transform="55.0,450.10707911957167,0.2498512790005949,4017,4620"/>
+<text x="1122.615" y="902.098" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">朝入口浅储物</text>
 <rect x="152.4420" y="787.4063" width="162.4033" height="112.4331" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="basinB" data-mm="4407,2820,650,450" data-transform="55.0,450.10707911957167,0.2498512790005949,4017,4620"/>
 <text x="159.938" y="859.623" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">台盆B</text>
 <rect x="887.7543" y="787.4063" width="162.4033" height="112.4331" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="basinA" data-mm="7350,2820,650,450" data-transform="55.0,450.10707911957167,0.2498512790005949,4017,4620"/>

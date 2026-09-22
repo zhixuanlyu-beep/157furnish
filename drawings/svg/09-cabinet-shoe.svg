@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
-<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">柜体内视立面与深度剖面 / 玄关鞋衣柜</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">柜体内视立面与深度剖面 / 浅鞋柜／正面挂钩</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
 <text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 模块1：鞋层板，净宽664，净深3</text>
 <text x="1380.000" y="241.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">62</text>
-<text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 模块2：挂衣+置物，净宽664，净</text>
-<text x="1380.000" y="315.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深362</text>
+<text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 模块2：正面挂钩／随手物，净宽66</text>
+<text x="1380.000" y="315.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4，净深362</text>
 <text x="1380.000" y="360.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 板厚18，背板18、门18、台面1</text>
 <text x="1380.000" y="389.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8均概念。</text>
 <text x="1380.000" y="434.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 柜门90度概念铰链；移门分轨示意。</text>
@@ -23,9 +23,8 @@
 <polyline points="105.475,577.528 307.442,577.528" fill="none" stroke="#967245" stroke-width="2"/>
 <text x="106.083" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">700</text>
 <polyline points="312.917,1050.000 312.917,320.000" fill="none" stroke="#8c795b" stroke-width="2"/>
-<text x="319.000" y="371.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">挂衣+置物</text>
+<text x="319.000" y="371.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">正面挂钩／随手物</text>
 <polyline points="318.392,362.583 520.358,362.583" fill="none" stroke="#967245" stroke-width="2"/>
-<polyline points="318.392,374.750 520.358,374.750" fill="none" stroke="#6b7f69" stroke-width="4"/>
 <text x="319.000" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">700</text>
 <rect x="1020.0000" y="320.0000" width="121.6667" height="730.0000" fill="#edddc3" stroke="#526159" stroke-width="2" />
 <polyline points="1029.125,1019.583 1136.192,1019.583" fill="none" stroke="#967245" stroke-width="2"/>

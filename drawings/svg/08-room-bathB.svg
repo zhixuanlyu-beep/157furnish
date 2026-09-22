@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
 <text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">逐室 / 卫生间B</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
 <text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 坐便</text>
 <text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 洗面</text>
 <text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 独立淋浴</text>
 <text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 淋浴B 1502×900 高50</text>
-<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 坐便B 650×720 高780</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 坐便B 720×650 高780</text>
 <text x="1380.000" y="437.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 台盆B 650×450 高850</text>
 <text x="1380.000" y="482.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 淋浴固定玻璃B 702×10 高2</text>
 <text x="1380.000" y="511.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">000</text>
@@ -25,13 +25,15 @@
 <rect x="949.1184" y="177.2482" width="38.1398" height="38.1398" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="401.8116" y="196.3182" width="651.5557" height="38.1398" fill="#33463e" stroke="none" stroke-width="1" />
 <rect x="949.1184" y="215.3881" width="38.1398" height="841.9371" fill="#33463e" stroke="none" stroke-width="1" />
-<rect x="427.2382" y="580.5771" width="11.1241" height="270.1572" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="365.2610" y="590.1121" width="11.1241" height="251.0873" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
 <polygon points="401.812,-96.405 150.724,-96.405 150.724,-83.692 401.812,-83.692" fill="#be9364" stroke="#456653"/>
 <polyline points="395.455,161.039 373.595,159.529 351.951,156.120 330.685,150.838 309.961,143.722 289.936,134.827 270.763,124.221 252.587,111.984 235.546,98.210 219.771,83.002 205.382,66.478 192.487,48.762 181.185,29.990 171.563,10.305 163.693,-10.145 157.635,-31.202 153.435,-52.708 151.126,-74.497 150.724,-96.405" fill="none" stroke="#b87943" stroke-width="1"/>
 <rect x="446.3081" y="714.3844" width="477.3837" height="286.0488" fill="#d9e8e8" stroke="#576858" stroke-width="1" data-object="showerB" data-mm="4407,900,1502,900" data-transform="341.42355302776843,154.99999999999994,0.31783205085312816,4077,3560"/>
 <text x="455.843" y="873.409" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">淋浴B</text>
-<rect x="707.5661" y="364.7692" width="206.5908" height="228.8391" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcB" data-mm="5229,2180,650,720" data-transform="341.42355302776843,154.99999999999994,0.31783205085312816,4077,3560"/>
-<text x="717.101" y="495.189" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">坐便B</text>
+<rect x="707.8839" y="399.7307" width="228.8391" height="206.5908" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wcB" data-mm="5230,2140,720,650" data-transform="341.42355302776843,154.99999999999994,0.31783205085312816,4077,3560"/>
+<polyline points="822.303,503.026 760.326,503.026" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="780.985,515.739 760.326,503.026 780.985,490.313" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="717.419" y="519.026" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">坐便B</text>
 <rect x="446.3081" y="247.1713" width="206.5908" height="143.0244" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="basinB" data-mm="4407,2820,650,450" data-transform="341.42355302776843,154.99999999999994,0.31783205085312816,4077,3560"/>
 <text x="455.843" y="334.684" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">台盆B</text>
 <rect x="700.5738" y="711.2061" width="223.1181" height="3.1783" fill="#c3e0e5" stroke="#576858" stroke-width="1" data-object="glassB" data-mm="5207,1800,702,10" data-transform="341.42355302776843,154.99999999999994,0.31783205085312816,4077,3560"/>
@@ -43,4 +45,6 @@
 <text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
 <polyline points="80.000,1125.000 397.832,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
 <text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+<rect x="469.5099" y="399.7307" width="238.3740" height="206.5908" fill="none" stroke="#ca5944" stroke-width="2" />
+<text x="479.045" y="441.157" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">前方750目标</text>
 </svg>

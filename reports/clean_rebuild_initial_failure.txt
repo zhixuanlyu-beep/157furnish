@@ -1,0 +1,27 @@
+pass1 test_regressions.py 0
+pass1 verify_usage.py 0
+pass1 build_model.py 0
+pass1 verify_model.py 0
+pass1 build_model.py 0
+pass1 verify_model.py 0
+pass1 build_drawings.py 0
+pass1 publish_docs.py 0
+Traceback (most recent call last):
+  File "D:\Users\11171344\157furnish\reports\_clean_rebuild_jqfmp79q\scripts\validate_delivery.py", line 68, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\Users\11171344\157furnish\reports\_clean_rebuild_jqfmp79q\scripts\validate_delivery.py", line 67, in main
+    if errors:raise RuntimeError('Delivery failed')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Delivery failed
+Traceback (most recent call last):
+  File "D:\Users\11171344\157furnish\reports\_clean_rebuild_jqfmp79q\scripts\rebuild.py", line 28, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\Users\11171344\157furnish\reports\_clean_rebuild_jqfmp79q\scripts\rebuild.py", line 26, in main
+    subprocess.run([sys.executable,'scripts/validate_delivery.py'],cwd=R,check=True,stdout=subprocess.PIPE)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Python313\\python.exe', 'scripts/validate_delivery.py']' returned non-zero exit status 1.

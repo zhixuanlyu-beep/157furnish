@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R1" data-layout-sha256="cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
 <rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
-<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R1</text>
-<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">柜体内视立面与深度剖面 / 储物层架</text>
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">柜体内视立面与深度剖面 / 朝入口浅储物</text>
 <polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
 <text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
-<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 cce273f7f522057af32384f4a368b22cda17a240002f50307a5b1c659f2960e6</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
 <text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
-<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 模块1：可抽出深柜/清洁工具，净宽</text>
-<text x="1380.000" y="241.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">364，净深1312</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 模块1：入口浅层用品，净宽614，</text>
+<text x="1380.000" y="241.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">净深262</text>
 <text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 板厚18，背板18、门18、台面1</text>
 <text x="1380.000" y="315.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8均概念。</text>
 <text x="1380.000" y="360.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 柜门90度概念铰链；移门分轨示意。</text>
 <text x="1380.000" y="405.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 挂杆、层板与抽屉需依据衣物及厂家五</text>
 <text x="1380.000" y="434.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">金深化。</text>
-<rect x="100.0000" y="534.4444" width="85.9259" height="515.5556" fill="#f0e2ca" stroke="#526159" stroke-width="2" />
-<polyline points="100.000,1050.000 100.000,534.444" fill="none" stroke="#8c795b" stroke-width="2"/>
-<text x="104.296" y="585.444" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">可抽出深柜/清洁工具</text>
-<polyline points="103.867,1028.519 182.059,1028.519" fill="none" stroke="#967245" stroke-width="2"/>
-<polyline points="103.867,872.420 182.059,872.420" fill="none" stroke="#967245" stroke-width="2"/>
-<polyline points="103.867,716.321 182.059,716.321" fill="none" stroke="#967245" stroke-width="2"/>
-<text x="104.296" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">400</text>
-<rect x="1020.0000" y="534.4444" width="290.0000" height="515.5556" fill="#edddc3" stroke="#526159" stroke-width="2" />
-<polyline points="1026.444,1028.519 1306.133,1028.519" fill="none" stroke="#967245" stroke-width="2"/>
-<polyline points="1026.444,872.420 1306.133,872.420" fill="none" stroke="#967245" stroke-width="2"/>
-<polyline points="1026.444,716.321 1306.133,716.321" fill="none" stroke="#967245" stroke-width="2"/>
-<text x="1020.000" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深1350</text>
-<text x="100.000" y="223.000" font-size="23" fill="#263c34" font-family="Microsoft YaHei, sans-serif">正立面：宽400 × 高2400</text>
+<rect x="100.0000" y="320.0000" width="263.6111" height="730.0000" fill="#f0e2ca" stroke="#526159" stroke-width="2" />
+<polyline points="100.000,1050.000 100.000,320.000" fill="none" stroke="#8c795b" stroke-width="2"/>
+<text x="108.111" y="371.000" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">入口浅层用品</text>
+<polyline points="107.300,1009.444 356.311,1009.444" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="107.300,795.852 356.311,795.852" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="107.300,582.259 356.311,582.259" fill="none" stroke="#967245" stroke-width="2"/>
+<text x="108.111" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">650</text>
+<rect x="1020.0000" y="320.0000" width="121.6667" height="730.0000" fill="#edddc3" stroke="#526159" stroke-width="2" />
+<polyline points="1032.167,1009.444 1134.367,1009.444" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="1032.167,795.852 1134.367,795.852" fill="none" stroke="#967245" stroke-width="2"/>
+<polyline points="1032.167,582.259 1134.367,582.259" fill="none" stroke="#967245" stroke-width="2"/>
+<text x="1020.000" y="1083.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深300</text>
+<text x="100.000" y="223.000" font-size="23" fill="#263c34" font-family="Microsoft YaHei, sans-serif">正立面：宽650 × 高1800</text>
 <text x="1020.000" y="256.000" font-size="21" fill="#263c34" font-family="Microsoft YaHei, sans-serif">深度剖面</text>
 </svg>

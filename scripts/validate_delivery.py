@@ -20,7 +20,10 @@ def main():
  for v in D['services']:
   x,y,w,h=D['furniture'][v['attached_to']]['box'];distance=math.hypot(max(x-v['x'],0,v['x']-x-w),max(y-v['y'],0,v['y']-y-h));service_offsets[v['id']]=round(distance,1);check(distance<=350,'service detached from furniture '+v['id'])
  evidence['service_offsets_mm']=service_offsets;evidence['original_photo_sha256']=hashfile(ROOT/D['source_image'])
- model=json.loads((ROOT/'reports/model_verification.json').read_text(encoding='utf-8'));check(model['passed'],'model actual geometry');check(model['layout_sha256']==SHA,'stale model');check(model['blend_sha256']==hashfile(ROOT/'model/157furnish_R1.blend'),'blend changed');check(model['glb_sha256']==hashfile(ROOT/'model/157furnish_R1.glb'),'glb changed')
+ for fuel in D['fuel_variants']:
+  model=json.loads((ROOT/('reports/model_verification_'+fuel+'.json')).read_text(encoding='utf-8'));check(model['passed'],'model actual geometry '+fuel);check(model['layout_sha256']==SHA,'stale model '+fuel);check(model['dependencies']==model_dependencies(),'stale model dependencies '+fuel)
+  for ext in ['blend','glb']:check(model[ext+'_sha256']==hashfile(ROOT/('model/157furnish_'+REV+'_'+fuel+'.'+ext)),ext+' changed '+fuel)
+  assert_projection_current(json.loads((ROOT/('model/projection_snapshot_'+fuel+'.json')).read_text(encoding='utf-8')))
  for path in ['model/projection_snapshot.json','model/scene_config.json','reports/usage.json','reports/comparison.json','reports/solar.json','reports/onsite_conditions.json']:
   v=json.loads((ROOT/path).read_text(encoding='utf-8'));check(v['layout_sha256']==SHA,'stale '+path)
  idx=json.loads((ROOT/'reports/drawing_index.json').read_text(encoding='utf-8'));check(len(idx)==len(set(n for n,t in idx)),'duplicate sheet')
@@ -31,7 +34,9 @@ def main():
   # Candidates intentionally differ; recommended and room sheets must equal current source.
   for r in root.iter():
    if 'data-object' in r.attrib and not n.startswith('06-'):
-    vals=list(map(float,r.attrib['data-mm'].split(',')));check(vals==D['furniture'][r.attrib['data-object']]['box'],'svg object '+n);footprint_count+=1
+    object_id=r.attrib['data-object'];expected_box=D['furniture'][object_id]['box']
+    if n=='03-chairs_pulled.svg' and object_id.startswith('dining'):expected_box=D['operations']['dining_pull'+object_id[-1]]['box']
+    vals=list(map(float,r.attrib['data-mm'].split(',')));check(vals==expected_box,'svg object '+n);footprint_count+=1
     ox,oy,s,cx,top=map(float,r.attrib['data-transform'].split(','));x,y,w,h=vals;expected=[ox+(x-cx)*s,oy+(top-y-h)*s,w*s,h*s];actual=[float(r.attrib[k]) for k in ['x','y','width','height']];check(max(abs(a-b) for a,b in zip(expected,actual))<.001,'actual SVG geometry '+n)
   check(hashfile(svg)==png['assets'][n]['svg_sha256'],'png source '+n);check(hashfile(image)==png['assets'][n]['png_sha256'],'png bytes '+n)
   with Image.open(image) as im:check(im.size==(1800,1250),'png size '+n);im.verify()
@@ -47,11 +52,14 @@ def main():
   content=p.read_text(encoding='utf-8');urls=re.findall(r'(?:href|src)="([^"]+)"',content) if p.suffix=='.html' else re.findall(r'\]\(([^)]+)\)',content)
   for url in urls:
    if url.startswith(('http:','https:','#','data:')):continue
-   path=(p.parent/url.split('#')[0]).resolve();check(path.exists() or path==(ROOT/'reports/delivery.json').resolve(),'broken link '+str(p.name)+' '+url);links+=1
+   path=(p.parent/url.split('#')[0]).resolve();generated_here={(ROOT/'reports'/n).resolve() for n in ['delivery.json','manifest.json']};check(path.exists() or path in generated_here,'broken link '+str(p.name)+' '+url);links+=1
  evidence.update(drawings=len(idx),tables=len(list((ROOT/'tables').glob('*.csv'))),svg_footprints=footprint_count,local_links=links,model_reopened=True,rendered_3d=False)
  for name in ['repeatability','clean_rebuild']:
   p=ROOT/'reports'/(name+'.json');v=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {};evidence[name+'_passed']=v.get('passed',False) and v.get('layout_sha256')==SHA
  usage=json.loads((ROOT/'reports/usage.json').read_text(encoding='utf-8'))
+ check(not usage['fixed_hits'],'recommended fixed conflicts must be resolved')
+ check(all(v['passed'] and v['side_passed'] for v in usage['wc_clearances'].values()),'toilet front and side minimum')
+ regression=json.loads((ROOT/'reports/regressions.json').read_text(encoding='utf-8'));check(regression['passed'] and regression['layout_sha256']==SHA,'regression checks')
  report=bound({'data_consistency_passed':not errors,'usage_all_states_passed':usage['usage_passed'],'routine_baseline_passed':usage['routine_baseline_passed'],'site_conditions_passed':False,'errors':errors,'evidence':evidence});dump('reports/delivery.json',report)
  manifest={str(p.relative_to(ROOT)).replace('\\','/'):hashfile(p) for folder in ['data','scripts','drawings','tables','model','docs'] for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in str(p) and not p.name.endswith('.blend1')}
  for n in ['README.md','AGENTS.md','requirements.txt',D['source_image']]:manifest[n]=hashfile(ROOT/n)

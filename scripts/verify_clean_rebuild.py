@@ -20,7 +20,9 @@ def main():
     count+=1
     if hashfile(ROOT/rel)!=hashfile(target/rel):differences.append(rel)
   passed=result.returncode==0 and not differences
-  dump('reports/clean_rebuild.json',bound({'passed':passed,'subprocess_exit':result.returncode,'compared_files':count,'differences':differences,'inputs':['scripts/','data/','requirements.txt',D['source_image']],'external_project_files_used':False,'environment_dependencies':'Python+Pillow+NumPy+Blender+system Chinese font'}))
+  failure_path=target/'reports/delivery.json'
+  failure_details=json.loads(failure_path.read_text(encoding='utf-8')) if result.returncode and failure_path.exists() else None
+  dump('reports/clean_rebuild.json',bound({'passed':passed,'subprocess_exit':result.returncode,'compared_files':count,'differences':differences,'failure_details':failure_details,'inputs':['scripts/','data/','requirements.txt',D['source_image']],'external_project_files_used':False,'environment_dependencies':'Python+Pillow+NumPy+Blender+system Chinese font'}))
   print('CLEAN_REBUILD',passed,'compared',count,'differences',differences)
   if not passed:raise RuntimeError('Clean rebuild failed; see clean_rebuild.log')
  finally:

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">阳台燃料并列 / 阳台电灶</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 净深1143，源于墙内侧；未实测。</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 东灶朝西；西洗烘朝东。</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 洗衣路线不穿过灶前。</text>
+<text x="1380.000" y="347.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 配电容量</text>
+<text x="1380.000" y="392.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 专用回路</text>
+<text x="1380.000" y="437.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">6. 设备散热</text>
+<text x="1380.000" y="482.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">7. 不燃灶后衬板</text>
+<text x="1380.000" y="527.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">8. 经核实烟道接入</text>
+<text x="1380.000" y="572.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">9. 两案均须排烟，禁止默认直排外立面。</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="-437.5631" y="747.0831" width="511.9477" height="791.0862" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="97.6462" y="739.3292" width="630.1938" height="810.4708" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="751.1015" y="739.3292" width="510.9785" height="798.8400" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="105.4000" y="494.5015" width="1156.6800" height="221.5662" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="1262.0800" y="659.8523" width="38.7692" height="940.1538" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1262.0800" y="524.1600" width="38.7692" height="135.6923" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1262.0800" y="475.1169" width="38.7692" height="49.0431" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="86.0154" y="455.7323" width="38.7692" height="38.7692" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="124.7846" y="455.7323" width="1124.3077" height="38.7692" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1249.0923" y="455.7323" width="32.3723" height="38.7692" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="66.6308" y="688.9292" width="38.7692" height="38.7692" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="66.6308" y="514.4677" width="38.7692" height="174.4615" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="66.6308" y="475.1169" width="38.7692" height="39.3508" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="-61.5015" y="708.3138" width="147.5169" height="38.7692" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="74.3846" y="727.6985" width="23.2615" height="822.1015" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="86.0154" y="716.0677" width="135.6923" height="23.2615" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="667.5538" y="716.0677" width="348.9231" height="23.2615" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1190.9385" y="716.0677" width="90.5262" height="23.2615" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="834.2615" y="685.0523" width="11.6308" height="31.0154" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="834.2615" y="494.5015" width="11.6308" height="31.5969" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1262.0800" y="524.1600" width="38.7692" height="135.6923" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="124.7846" y="455.7323" width="1124.3077" height="38.7692" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="66.6308" y="514.4677" width="38.7692" height="174.4615" fill="#b8d9df" stroke="#466b74" stroke-width="1" />
+<rect x="450.4462" y="743.2062" width="217.1077" height="6.7846" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="450.4462" y="735.4523" width="217.1077" height="6.7846" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<rect x="847.8308" y="743.2062" width="162.8308" height="6.7846" fill="#aac9c9" stroke="#466b74" stroke-width="1" />
+<polygon points="840.077,528.037 692.754,528.037 692.754,535.791 840.077,535.791" fill="#be9364" stroke="#456653"/>
+<polyline points="836.200,679.237 823.375,678.338 810.677,676.326 798.202,673.214 786.046,669.026 774.302,663.795 763.058,657.561 752.400,650.370 742.410,642.278 733.162,633.346 724.729,623.641 717.173,613.239 710.553,602.218 704.918,590.662 700.313,578.658 696.770,566.299 694.319,553.678 692.977,540.892 692.754,528.037" fill="none" stroke="#b87943" stroke-width="1"/>
+<rect x="1136.0800" y="514.6615" width="126.0000" height="174.4615" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="hob" data-mm="14227,8870,650,900" data-transform="55.0,441.0,0.19384615384615383,8650,10150"/>
+<polyline points="1199.080,601.892 1161.280,601.892" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="1173.880,609.646 1161.280,601.892 1173.880,594.138" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="1141.895" y="617.892" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">阳台灶台／燃料未选</text>
+<rect x="1130.8462" y="782.1692" width="126.0000" height="145.3846" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="tower" data-mm="14200,7640,650,750" data-transform="55.0,441.0,0.19384615384615383,8650,10150"/>
+<text x="1136.662" y="870.862" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">蒸烤微波高柜</text>
+<rect x="109.2769" y="514.6615" width="139.5692" height="155.0769" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="laundry" data-mm="8930,8970,720,800" data-transform="55.0,441.0,0.19384615384615383,8650,10150"/>
+<polyline points="179.062,592.200 220.932,592.200" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="208.332,584.446 220.932,592.200 208.332,599.954" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="115.092" y="608.200" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">洗烘叠放预留</text>
+<rect x="1019.7723" y="514.6615" width="116.3077" height="174.4615" fill="none" stroke="#c17b42" stroke-width="2" />
+<rect x="927.3077" y="782.1692" width="203.5385" height="145.3846" fill="none" stroke="#c17b42" stroke-width="2" />
+<rect x="248.8462" y="514.6615" width="203.5385" height="155.0769" fill="none" stroke="#c17b42" stroke-width="2" />
+<rect x="510.5385" y="516.6000" width="290.7692" height="145.3846" fill="none" stroke="#c17b42" stroke-width="2" />
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 273.846,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+</svg>
