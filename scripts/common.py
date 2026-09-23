@@ -16,15 +16,22 @@ def assert_projection_current(snapshot):
 
 def candidate_data(c,data=D):
  out=copy.deepcopy(data);changes=c['changes']
+ for field in ['rooms','operations','routes']:
+  for n in changes.get('remove_'+field,[]):out[field].pop(n,None)
+ out['edges']=[e for e in out['edges'] if e['id'] not in changes.get('remove_edges',[])]
+ for e in changes.get('edges',[]):
+  out['edges']=[old for old in out['edges'] if old['id']!=e['id']]+[copy.deepcopy(e)]
+ for field in ['services','hvac']:
+  if field in changes:out[field]=copy.deepcopy(changes[field])
  for n in changes.get('remove_furniture',[]):
   out['furniture'].pop(n,None)
   out['operations']={k:v for k,v in out['operations'].items() if v['owner']!=n}
- for field in ['furniture','operations','routes']:
+ for field in ['rooms','furniture','operations','routes','states']:
   for n,v in changes.get(field,{}).items():out[field][n]={**out[field].get(n,{}),**v}
  for n in changes.get('restore_original_edges',[]):out['edges'].append(copy.deepcopy(next(e for e in out['original']['edges'] if e['id']==n)))
  # Components must follow changed equipment envelopes; regenerate in a candidate, never reuse R1 positions.
  for n,v in out['operations'].items():
-  if n in changes.get('operations',{}) and 'box' in changes['operations'][n]:v.pop('parts',None)
+  if n in changes.get('operations',{}) and 'box' in changes['operations'][n] and 'parts' not in changes['operations'][n]:v.pop('parts',None)
  return out
 def dump(path,obj): (ROOT/path).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def bound(obj):return {'revision':REV,'layout_sha256':SHA,**obj}

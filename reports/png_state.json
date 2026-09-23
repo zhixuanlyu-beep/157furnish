@@ -1,6 +1,6 @@
 {
   "revision": "R2",
-  "layout_sha256": "d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96",
+  "layout_sha256": "668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394",
   "engine": "Pillow / Microsoft YaHei",
   "font": "C:\\Windows\\fonts\\msyh.ttc",
   "size": [
@@ -9,212 +9,236 @@
   ],
   "assets": {
     "01-baseline.svg": {
-      "svg_sha256": "0d625a81107a54783fca0e58d8995b67ad1fea621ca41093fa473a46e3522c33",
-      "png_sha256": "d84ddffe248eda977fabf6351c6750f72743da867cdc8281c707a34852c02108"
+      "svg_sha256": "9e385440d18a552cd6d16ae9ba4aa71d32dd3acce1c37cf01713507679290e02",
+      "png_sha256": "8fee3bc99e9eb8be0ab37b5bf096e494d19a0fd831351ee5b85eca5a9b837d8b"
     },
     "02-plan.svg": {
-      "svg_sha256": "86dbeed4353e2d957223d9c8af1dcbca5bcbd73306a914ae154a960613040ac2",
-      "png_sha256": "dbdc789d16247825b80c60354303c530c4dbe6dea4e2e2522a74b72483600463"
+      "svg_sha256": "e5b410b84db6bf22c8dea485b8320d3e77b739eed3516046cdfe7e5e96a90d85",
+      "png_sha256": "8b8c1662def60748f65e268c0fdaca7cbcd0e32b7db9d6f8a2be91083ee6a637"
     },
     "03-normal4.svg": {
-      "svg_sha256": "bef9d2d190aa5d37ea60901bf4f343a3b2b4e03101327a698989ae550349688a",
-      "png_sha256": "ae7794529cb4919b80b80788c912e67ced32068d43b88da715385c8632a7bc9a"
+      "svg_sha256": "44ae413d96c90723342286bb24e189b8657b03cdb748c62f385344bfc9fecc4f",
+      "png_sha256": "0ba186249ff1d2411077ae956a46388a4b165e11cedb50674111168a2ff142f0"
     },
     "03-normal6.svg": {
-      "svg_sha256": "f034f4abde49c1f1d6d64cd5a7919e54c332f679d08290d5e002a1aaf2f5f70c",
-      "png_sha256": "44fd927f0bc0b565f30242c6f7b12ccdd11aa75b6046873220ef68fedbb9b640"
+      "svg_sha256": "80b80c4a18c984b6d0477b349bae75cf9144643fba7c2b15247fcd3b2dd7989c",
+      "png_sha256": "d8630e617bef55a28dc6a1439c69a3a1fefd228df8d1e072fcd2cfe542a0ec92"
     },
     "03-chairs_pulled.svg": {
-      "svg_sha256": "3725d022c02f97a227e0a6f2fd5c69e19a475a345f5315acc74df0c25f8d5b05",
-      "png_sha256": "039fb3101104ae56d64a76ce88c28699c2b874942026e5d7328e026135fc62aa"
+      "svg_sha256": "6e3b611c2be76cd47411eb3d9ef035ca3816c73e5b595460f7bab5ba5abb9ee8",
+      "png_sha256": "f6045ad00295f7139293e6e357cd3a8dc0a251fe31a3ae6c75f013bc1ad38bd0"
     },
     "03-laundry_open.svg": {
-      "svg_sha256": "eda93da78121ef18dc5b58f6a5faa5988ee7a638cbc6dabb63d30fdb64d754f6",
-      "png_sha256": "8b3f44b644269e2d70d443bf13847cc6559ae3e994bfa3e3784842b1593f3108"
+      "svg_sha256": "519d42906074865c66b068da4db32f2eecb958a6c987959415acfe75e4bf74ec",
+      "png_sha256": "487594e0036f43d469256b93245a0efee89fc601d15ca884e3d531814f5419d3"
     },
     "04-operations.svg": {
-      "svg_sha256": "c2970ea3b6599cb064587879b3167a7b14d92422e783a263818c798fa083e719",
-      "png_sha256": "7cd7614e3fb961596d6c02b3ae629606e7762863b64496f8eb6f97a926a4529e"
+      "svg_sha256": "1240e3306d75f69800d6c2021cd970b4afef3f83c77b1b8e064ee230c480a8f5",
+      "png_sha256": "4f093619a6a6903b685495813feb875f2fb14abe483f44ea67a56cbb2a74493a"
     },
     "05-routes.svg": {
-      "svg_sha256": "33d89a4197f3097fa9aab0f57bf6120d8437d47bdd8fbae144a59f4514fe63a9",
-      "png_sha256": "ebdb9689dd2787eae2b622ad54aca719470c69640de0a9d5efddc4c914c2d731"
+      "svg_sha256": "cfa77b316493c5dfe9829e03cd5fbd08dbbb14721bd20f5474df064cb6837c80",
+      "png_sha256": "214356eb088d9a0bb4eb1363fa2b3d225c3f1713e842c2e6521117dcb4158f62"
     },
     "06-candidate-recommended.svg": {
-      "svg_sha256": "188880bf447caec9954bc3a013d22996bcb4ce0d87ebf1d11fa3763cf43c07e7",
-      "png_sha256": "80de73efe0b5e788fcbd5a74f101a1a0f46c3303dcde6a213a18ac146a8b64af"
+      "svg_sha256": "d9f6b5c129f6ed23075b5dd23e18b2e668469a6396660278f6dab60b51250f94",
+      "png_sha256": "fa3324592c6e0d4053dcc2cea8f9653b0fce23a846972f6b5ec7ac59f82fbd41"
     },
     "06-candidate-wall_prep.svg": {
-      "svg_sha256": "13c03c2b9886263fc1f22de9b22ca8c84c957f5fd7d9050aee8e081afb42c55f",
-      "png_sha256": "5cffcf3a510d7b83f25c069e33435ad4d1de13d61c3e58ba8413350b44f55a0e"
+      "svg_sha256": "8572710beacd1d3f089af23234f2da5b65ed427c40a0a0835153fb9d69c18033",
+      "png_sha256": "833b2dcc578c5c7881dd8a3bf72655fc52d7a7dac536072943cadf237a5d9f69"
     },
     "06-candidate-wet_island.svg": {
-      "svg_sha256": "1625fae60abeda847d9e0d9d984bd8ba6b8855aaee4a1d23118950aeb931c6c2",
-      "png_sha256": "89df034db8295bd3e6d6bbd8e2ab6c1dfe72bf0119ceffff7ed1e8c8f3be8032"
+      "svg_sha256": "3d9aa15f804beefab9bf0a3704b5493da6f2ea4d2b799c83025f7a6f20e127b7",
+      "png_sha256": "3ba225b0d2a683e6a5027be0b0596556b7b5f98cb306239ebd3400664c47dd0e"
     },
     "06-candidate-A_growth.svg": {
-      "svg_sha256": "227d872baae23d1c3ce051036b44fd5999100e7fdc5bb236a9c3d3df0630f486",
-      "png_sha256": "f6955fe59a5d652cbf260ed7149470a22c63b588660415b941059d6bd9913da4"
+      "svg_sha256": "857a54f4b67a9862fb6d81a66dc3caea76a40414e5b4341b8e4ecb26021323ca",
+      "png_sha256": "4de774853a4dca6c5f8fc4cb29670d80fbd760456e56c830b8a9d70f665d3e6e"
     },
     "06-candidate-fallback.svg": {
-      "svg_sha256": "eeb44fb04257baf4ed4970c847a4084488c8c0ef32fc43d7847cc8acfe6b2480",
-      "png_sha256": "9b8fd93a0418b6f272e8545a79dec51ef1e6272c748cbc37945b69636122e874"
+      "svg_sha256": "85386067db0a19ce3b8b3c63f57e81ffce9eaedaff628a5f4b2831ba5b85d448",
+      "png_sha256": "797f89b450707d62133dc223df12602ebeb8d47d5ff71d3d0edc30677153e459"
+    },
+    "06-candidate-single_bath_utility.svg": {
+      "svg_sha256": "1c8bc6636f510713fbee231863c3938624f4966a7dd65b86a618c33545dcbe9f",
+      "png_sha256": "955e7b6db059c34474de79e9e7e1cdd542e08beb87b47d124a515fcf04def587"
     },
     "07-alterations.svg": {
-      "svg_sha256": "6102f4bf6c58b0211db85c73cfa04d374342fc57faae0429971f15792f7fe0ca",
-      "png_sha256": "3e2faaeb24c8c5f550bdeec255002b79d28748b9750b85739b079e41a2af270c"
+      "svg_sha256": "9f01a0ad24593ab093cd5a8fd53735964a6419a592a2dbde76f807624f07b97e",
+      "png_sha256": "2cc11110a8938a78db96f6fe81be26425fe3e772886b3b0bceb773e4b2cd2f17"
     },
     "14-balcony-gas.svg": {
-      "svg_sha256": "88f3f4b628573abd7b1f3b3b5e26fb10195b6d83ecfb187e8bdcf95aade9842d",
-      "png_sha256": "9fea752a885f88711f039562920a4af08a4da7ed839605df52ef177658d85ea9"
+      "svg_sha256": "8f509b206814b9bf5b572c7bedc98ca20289bd1571e2c6666b28947d7e0bda44",
+      "png_sha256": "6fe6dd81ec0ca124d2b1d0b569cd28fb68a7578d6d25235a053bc79c6b72476c"
     },
     "14-balcony-electric.svg": {
-      "svg_sha256": "ab4f7a4555a970e55cb5717a105d064595f907cc26d4c48037264ec1e615c4ff",
-      "png_sha256": "c4b51f9f424c70d1e278141e0aec1591b6473d328e4c04b277e7db0a5145417c"
+      "svg_sha256": "073dda57d28e12f3cad9c21e6bc73b1c0969cab527d77e77c79b4a2ec23a3145",
+      "png_sha256": "c5716deb2a0113ac5b7a90f40796504bb7f299affa6ca4d77b952db3ee5a9ea9"
     },
     "15-window-conditions.svg": {
-      "svg_sha256": "c2887fc60e4cd5f0ff2c066913817f94740c95b31d3cea6b718446b29a6e021b",
-      "png_sha256": "67254f757e1898302fb7552b868f86fd2f0698bd74d3d97dd994280ce8e7a2b7"
+      "svg_sha256": "660a0df60b764f6224aa027816af41fd44bd5bef6a81a78882ea71ad73ce26ba",
+      "png_sha256": "16d25d929edb880df40ea1696c1895e9867689fdbca74bc1e35717d898daa396"
     },
     "15-window-elevation.svg": {
-      "svg_sha256": "05b7815ed27a66042e01fc0d3d16396e549291d19505d6e6b2501b5e14cc2bf6",
-      "png_sha256": "7a112fc5585194c4b8a323ae74dead286999ad2266f1e3aaa0c5628362e41b19"
+      "svg_sha256": "0c7830d0aedebdae8f97613d08fad9392c5a87d0a853d9fea1bf678a2b793247",
+      "png_sha256": "4c02f64205b1bdc85d7ec582d9396d07adf874f154a7672bec43959e25e810a8"
     },
     "16-state-temporary_drying.svg": {
-      "svg_sha256": "e90b3bcf68b03d144ba2989952abdfa823ce30ba186b7b22e691345ac2f05e77",
-      "png_sha256": "1adacdb2e0af46b9677c15e20978da822b91656b417c17d367b2d78ca1054a0a"
+      "svg_sha256": "a6d4954afbfba336ea98e0815bbca60887bf41437d2ac945d8324d1603dfbe05",
+      "png_sha256": "44118ab0acbd912f18f42e0c2fcc40f83e89231a27c6874dc6cbdeb6766f0d14"
     },
     "16-state-cooking.svg": {
-      "svg_sha256": "4f9150c10da12a09f32e792784901ec621be918e818726b198bd07916629b4cd",
-      "png_sha256": "03ef0520988aef2d299f448839b13e0ab5b2366a07b38d312df3a1ca88788e05"
+      "svg_sha256": "c1e32e9ad0e0df125e56387ab5249065a32d68907aa2dc8a5e4721f1047e0aff",
+      "png_sha256": "718f4a5e9714356939fa8e9a791dd3de46963b6c82d35fce5bad0339222341e8"
     },
     "16-state-luggage_open.svg": {
-      "svg_sha256": "b1ec25bb85195442e38d6b4aa798104c3a025a5c62691ed2d9037509c564822a",
-      "png_sha256": "28b32c31fcacb19708465290da3f9f4372d3490e563f0b596378874a4e6cd5fc"
+      "svg_sha256": "fc3b1e263dfe34ddfcfb2866a214609c4790637b89d02d73fc40fbf920710933",
+      "png_sha256": "5e44e22b1b6776cb4dee18670a71fa34847c0a703129ac75f29bebd6e5fc698c"
     },
     "16-state-screen_lowered.svg": {
-      "svg_sha256": "438633ddcc9fc00cc3d81f0b0fa13ece3bd80d9d5a068227a0b6ece2b9875bf1",
-      "png_sha256": "78d8e9271cd70788046ffd7044450ed2944fef26302460227973844f8b0e7a4f"
+      "svg_sha256": "0f079fd7da1fa76c052f830a3ce8e8b58e9345e2f238c5c3cfe249d68d463c08",
+      "png_sha256": "78c3598ca3dcfa879232199fdf9666f86e39245f8df2ec054796b7aeede1618a"
     },
     "17-public-flow.svg": {
-      "svg_sha256": "f18d8626cba205eaec6975d1a3b284a51519811b88982d0d77f87f5e4c6d78c2",
-      "png_sha256": "d17a7701c3e9ed9005020bd6b047dd37844391174d7707fb630ed93416b1f594"
+      "svg_sha256": "400ed7d2df0c4c922739fd2b99cc142eed91554a4ee529967792d140008ac822",
+      "png_sha256": "19b1e7a34f092096e9e25c692ed575b1d32fdb95d436fbe606afe7af5ae027ed"
     },
     "08-room-A.svg": {
-      "svg_sha256": "b68dfb57847eeb00ce53785128d60bf62dc522750bdc0ce3f18809ee6d6c9009",
-      "png_sha256": "4430b8129b446393bedb99c23d12eaa035e0be94bc6254312b46367616a1aac3"
+      "svg_sha256": "8923e5a7404121fe03578d3b911f9bda9861fdcef0f61d1b4b0f961f533f3ccb",
+      "png_sha256": "ab43a21aa2ef6cb0aa5e459d5da3b3d90249b00eba11b7ef7e5ca4f6fdcee567"
     },
     "08-room-B.svg": {
-      "svg_sha256": "320b47dfa0b5e5894048dd6e8fc187927ad2433dfda9e668e436e4c7273b4235",
-      "png_sha256": "8dddc0996250acfa28e3a9d0aaa2636df5d629f474597714946a0d0bf29072bb"
+      "svg_sha256": "c64fa053cad912f0087edce2f592b3ad80fb983fc775836affa88d1c2e3bd0f0",
+      "png_sha256": "38fc3ceb17aa68d5f77ce3e72ae4de364c680f9b7cc0f62464641d3e7c7f8547"
     },
     "08-room-C.svg": {
-      "svg_sha256": "58dd035fcf3175c694b4aad5dfbd322a7154f63d8c4ca49e047dba1fe031edb6",
-      "png_sha256": "8cdb2888f6ed2bc93cc6090268c50f2460b6fb2bca842fb5ac9321545da4f4c2"
+      "svg_sha256": "69356d4f8431238ec45016af2187fa74b5f60b93f8a57c53a5f0dc68e9e5486e",
+      "png_sha256": "9e85052ffadf66a22463176ac924872269419017d346e3d6f4d5ae5956b8888d"
     },
     "08-room-hall.svg": {
-      "svg_sha256": "99f9d85feac0aa30dc9ec89f287709f825c1fb5bbdf1cea64a93b50f3938a0f0",
-      "png_sha256": "37bcd54d5be703afc4291055c1c605b02474796f128f4440e7f60443753b23fa"
+      "svg_sha256": "80d37f5be09355acce8281f850719afef74ed1028112a326d06095c34ee54033",
+      "png_sha256": "616724e8d2cb45e887200680c57065f969152a43eb955f1064da5367d979b149"
     },
     "08-room-bathB.svg": {
-      "svg_sha256": "553b271a3834b134033065033f7426820ee5194b8a85c679c9ea142b482dfa73",
-      "png_sha256": "924d0a1642c9c8a4cf2af230af6f292404ddb1067e19411c5058ca19ee42aef4"
+      "svg_sha256": "cf39b87d30d6fd1fcc3a6702bb0b7a314d99295144e013aef1c6932ea4eb86af",
+      "png_sha256": "2272455c154187568e78ebf8288d79c0039901f556995ec758db870787643e87"
     },
     "08-room-bathA.svg": {
-      "svg_sha256": "d34f4dacbfe824ab234181c4b5ba3b150470a4b4caa7713c3c7fe9955dd9d64d",
-      "png_sha256": "521e3ea5a984f9c7889ec0dc620d46f3f8684ebd078c38f87c87b79d96fedf3c"
+      "svg_sha256": "2bc7d9033ece49c84048d1ad3654924f0e0c89491629a1d3181753651d5cd9b7",
+      "png_sha256": "195570128f989abeac9ec64509c65b28038e88445a451b97efae99ffc9e30654"
     },
     "08-room-store.svg": {
-      "svg_sha256": "a9ba39063d4756f9d0d008f82ec6ded1773271a870f07e15e5fad1f6e6aa9b0f",
-      "png_sha256": "0dbf4f3a47a4527ec33a86dbb0468fa7ca4099d65e8021f5c6675c8ebbdadd09"
+      "svg_sha256": "5210a755a4dc4b174e7e2f4b12616d981dba6d5aff96d909d9d03ad6e6e8ed1a",
+      "png_sha256": "b060544d216f22929abb04c75e900c294b3770a77aa6917c1e2db2c375de2636"
     },
     "08-room-living.svg": {
-      "svg_sha256": "952a8393eea6253cec133aafe86b677a93b89fdde9853f1b411cf385d818c455",
-      "png_sha256": "6380bcd1784edc6d7c59766ce301a88633816fcdcbb41235747c5f7d900c68f9"
+      "svg_sha256": "b13a25cfb687bb1241aeed8490cc3398ace85db15fa930f30b383121a92c8e2e",
+      "png_sha256": "5f7335235fac7bf9a5175a9e16bc9be929b2bc375e3c1b0335268d7c5ba1b747"
     },
     "08-room-kitchen.svg": {
-      "svg_sha256": "7aef7f10885106a8898c29fee0af2cdd3d89cf7e48296c65f7b30b84a9b09e66",
-      "png_sha256": "a8c768a22a2a8e2d499f341e5df4ba69b81f01fc67acdf387d0b92dc1b5ca959"
+      "svg_sha256": "b155c35fc9acaa1de7c14352aa5bc66b7094e1d926258233722bc2db6f3e375d",
+      "png_sha256": "0ab60cbde36d731656ef3fad55448c699187f3d92d63fc3b18c0eb16d7f50df7"
     },
     "08-room-balcony.svg": {
-      "svg_sha256": "bd1f43cbc67a59d331769b6927ebe091a0f9fbf86f0ecef5c8fb0375693a267e",
-      "png_sha256": "98d0495ccb5f0a09880d57d9a4fd4396c8d5759a1c3965be9da7c5d3ed2541b1"
+      "svg_sha256": "972633fbb58ea1bae10df616f65c6cb0a86f5e8a5b70c134016e9095ebf57a6e",
+      "png_sha256": "d87c583199f4f04199d9db2ad9ec2f57d6194679542888e74e3cd539bc2ad24c"
     },
     "09-cabinet-wardB.svg": {
-      "svg_sha256": "4f38b234c7b90505f6828e84db966102294d2e6defaacac95b8a539bde4d6d02",
-      "png_sha256": "9137bc18b3c157298a0b4f05c72ca0b5490b925eeef0e657bbe7ad5c45de3a8f"
+      "svg_sha256": "435247eefaa10d16840809b27bb78c5e1a52d55fd772dd85e12f9ca1d06102fe",
+      "png_sha256": "11d9cb64adeca23fa1256073eb1c6dd00c01ff1f077580d79495b06642acae23"
     },
     "09-cabinet-bedsideB.svg": {
-      "svg_sha256": "8d4b8789b4ab00cecb06e558cb988a8329977e18708fc73ee8a2481bfc47bfcd",
-      "png_sha256": "03e4411a8fece2413bcc702c0df7b03d8af8b8d1cc52493ff66d6cdae14296b8"
+      "svg_sha256": "1e5944e669ab25773ee8d1152a629217462e7e663adbb032aa2c5ae6bcd723a0",
+      "png_sha256": "dbfe380220af226ab857f678f617b954614c2a7a5952035fcb12eff25c76412f"
     },
     "09-cabinet-wardA.svg": {
-      "svg_sha256": "8020a60887605173db668eb72b5aeca62667825fdeb622b24e65477581086e59",
-      "png_sha256": "7db9349e21567500052f5550a52a24bcc934dc8f49add8dc0f6ff1eacbbe3267"
+      "svg_sha256": "10144696962364b42cc902c5de0313120967744c59532ed68f690e21e452b981",
+      "png_sha256": "ad821480bdb4cab87d54ada24451d7740752a8f951ecf9a437f47b4fde13897b"
     },
     "09-cabinet-toys.svg": {
-      "svg_sha256": "1bc7902f402f11b1de8162101c384e61001cdbe0e55992651f990f98dc03c9e1",
-      "png_sha256": "e63d3529bc0c92e9e20fb153f08b7b19e08e065cbb3cd9674c094a84fcdbe277"
+      "svg_sha256": "5ecf5e6c0b8e027454e2b28e81fbb23c503b7e7bed39703f27d8808074d15a66",
+      "png_sha256": "47b888097606e1b27a54d186a97379ae12c4a60597944d37af7449411a81590c"
     },
     "09-cabinet-wardC.svg": {
-      "svg_sha256": "2472ee02e5e0a8e64a821e4de9f300f85a985a1109b3478b4aa345da5276ac15",
-      "png_sha256": "51fa25e08e08689f3808416710b8302834e48854af2104d4d913b1d6236d1ea7"
+      "svg_sha256": "47e0850ad6ca421aa90dab43630edb962d2b5a854782c5cac2a65b81e05543ce",
+      "png_sha256": "ed1d12ce7a4b8087284e503f411dabbf87a80d94799b06697896f7498675afe5"
     },
     "09-cabinet-island.svg": {
-      "svg_sha256": "c3a38a725d5f3f8f03d722f14970b43c44bed71b8615b62494ef8d20a5a3eb66",
-      "png_sha256": "3b34ea95813b18ce3ee0a3440bff04d446421b1fdd8d3b1a0be86f6e5c6165e9"
+      "svg_sha256": "d9dfd3d409b90144c3c98b722f053eef2e31e8dcfdd5fcfa04e80684c066db58",
+      "png_sha256": "4b6cc263dcf16aed27677f23fbf0e48315983700a2b6573046f514868906573c"
     },
     "09-cabinet-coffee.svg": {
-      "svg_sha256": "7c3ec308c3726580566fc1cd01f33c01e5917d71cc4651a4f9b66b21948fc8bf",
-      "png_sha256": "01b539bd76af94c9ab3df5a47d6dc536e27728927327cc2829f0ac152d9bba45"
+      "svg_sha256": "94940e3d4288cf001ac4cacb1316bc2a7d9b873f0d7cf911587494dad5d298cd",
+      "png_sha256": "82edf7783a529085ecf4e2eff3fb76669679704cf3b3d8454f7d93c265c3c73b"
     },
     "09-cabinet-shoe.svg": {
-      "svg_sha256": "5cf42cedd1d57c995eddfeb6926a37da2001873cc3f8ca6f76eac4ca6e00ea42",
-      "png_sha256": "a9166f39245e5fe793a7cc8daafca22ace3eda35d7d3258e7c2f8aacad8da840"
+      "svg_sha256": "892fcda8155d74a36c034191a6f8b538c3ea421e642fae8fed7adb61ead403cf",
+      "png_sha256": "97d9ce2307ba9cf92d6c90fd05364c8205b64ca35eb3003d49a60940faae88aa"
     },
     "09-cabinet-storage.svg": {
-      "svg_sha256": "e05f32b651af23c168eafcfca9d86a06bfb43eb6280e4ab3fc85303afefccdc1",
-      "png_sha256": "de5d7641ec8d249f55114557cb2860a23f8180629eae6db9689903c381226e45"
+      "svg_sha256": "85e2277451a0150e0a628c29159d4a8109f27d1d6f383c6eec1afd7ef0558dcf",
+      "png_sha256": "e77a117d87ef5204fc9dbc7af3f6d50405d992042dfe4bac16a3ee2996fe598a"
     },
     "09-cabinet-sink.svg": {
-      "svg_sha256": "ea325b9f95f0ac6cd4d4530c71cf2e5239618f46002480fffb9063890ce933b6",
-      "png_sha256": "04358035e5255c1424ab26b47646d158cac618b6c3cf24301f44031f17a89887"
+      "svg_sha256": "51e625f48d1eebfdb287bac9cb854cab3297086d86a38fcba08e0f887cf60c99",
+      "png_sha256": "0dd47153cf85bcf65c03b651f5d356c590d0fc4ac4e451f89f515dc57cea7d7f"
     },
     "09-cabinet-prep.svg": {
-      "svg_sha256": "af2db983579b58c162570401d8cdaa7e5988f712d50b2c0fc546d7d2dd732079",
-      "png_sha256": "bebd9c85bbbc89452668f2e1da264a3e11c4c16faf2b9921753e4778f11543b0"
+      "svg_sha256": "e51aa68dcac007dd2ffa5b0d23e415b3270265d9af7962a8661dd590902bc2c7",
+      "png_sha256": "963fde5b2972808c9fd88de50b545f4916186be37f25041736ead11b0f38a996"
     },
     "09-cabinet-hob.svg": {
-      "svg_sha256": "a1d9fcbc76b984e2adf98bc58bf949a49711fe7cdc951a289abb223aa7c1cbf5",
-      "png_sha256": "c85ce4c757ad3a6d993be62fc5e4c62ba6026daeb0a7eb4f0d1e6fd8b795d094"
+      "svg_sha256": "f2348bf7fe1e4b7460680eb8d337ed2c8cf4801040cf07f818768861c14fca50",
+      "png_sha256": "6d277301b166d3ca702695684029aff6ec77dd79d18401e58014d1257c411980"
     },
     "09-cabinet-tower.svg": {
-      "svg_sha256": "e1198a2989975f821459f6c6792af1aa314772d9bd12aa15e3a1cd0c061f7144",
-      "png_sha256": "285b80ad1f1122083d30bc8d257ac89e711f7db94b73c87b0632c214f88891fb"
+      "svg_sha256": "d0a3fed605dee14fb54c24ac2bfdfa033c2b151ac88241e307fdeeb17879d41b",
+      "png_sha256": "a02b9a5d453e3cf7bdc99fcea1a9073f3a8f9a75445abc58eeeef6f9348aa4eb"
     },
     "10-equipment.svg": {
-      "svg_sha256": "27716e260c10166056758db3edf6fb9420a348a0840d75abaf4f35a0edf76ddb",
-      "png_sha256": "135d1eed8874a3a0f2fb549aa19dcf0339e1068a08022a785cd491a3ae1b0933"
+      "svg_sha256": "3d1979d25d6220050214ea601bb5da495bf95c41e40693a830f863eb4f06bb80",
+      "png_sha256": "228f9febb9982ab0a182e66f1ac8422477bece9ad169dcc20b762c27d1138962"
     },
     "11-services.svg": {
-      "svg_sha256": "35566e08729b62a3e7bea2b6ba103d19be3153c6c44f91b1348dbf9fe4e97d05",
-      "png_sha256": "38d7ed3785c328b8cda299d83ec60beb705bd6a2c0501b220fc6d33b06a688b3"
+      "svg_sha256": "e5c9f7a8b6d3dbdf7c06bf676813bd96a6753af9ee7cb08e774646e9f3a612de",
+      "png_sha256": "25d1ea75ad3a942a77b640dbc1d22df68d024f6c2b6f52788c181898f300dda5"
     },
     "12-hvac.svg": {
-      "svg_sha256": "ce2cf3b99a866f6e1b435554bdf732d6abddc536c9efcaf41fe4dc9ca632d1c2",
-      "png_sha256": "e321b1e8b494298e7ed9efe4a8bf7ebba12d214ef942507cfbd7f95f6528f243"
+      "svg_sha256": "93f8a7e65812240e791b9347e66da8f46338b51051b4d408fa13d0edc8dc73c1",
+      "png_sha256": "f9a2732582fefdb828fb43bcb24737496eba5aa3658772f8ea32b2bd7e2703b7"
     },
     "13-solar-A.svg": {
-      "svg_sha256": "1e47a59e13739e0dc9ecdba12e2715301118b49c0529f0fd1433b3eb1e0efe95",
-      "png_sha256": "21235c288c246b500ac0a7f884428897798a79908cdd7206089052fd1d164b62"
+      "svg_sha256": "9eadc55456f044349e70eaccd7027506e3459f36c44db2f51cea183b4ea1643c",
+      "png_sha256": "4fabb7b42c9c396bba1ec749c3da92612ff295c7ee337777f304d436ddea6ec6"
     },
     "13-solar-B.svg": {
-      "svg_sha256": "f1104fbca22e7906877ed509af91b139e9fc332ffd7efec158cfd4978d0e8140",
-      "png_sha256": "b6a2ce51649ed20c688d2f5acdeb86e58c3d940b1777704bba4fcb72433d23cf"
+      "svg_sha256": "06273157a3217d62c70870b6e48fbe07c09e3f3468cb7103aef42ec6c7379850",
+      "png_sha256": "e4d343a63ddfe067f59b4733032f96468e6bb8ce2fe14ac008a88dfd7fb08b31"
     },
     "13-solar-C.svg": {
-      "svg_sha256": "9e167ed766aa05d8019b9f7df331cfb0d9cb6dbf98073b5b251a655bd463c2c6",
-      "png_sha256": "7bd8bbb540b1fe113895f3360f8dd15e39209774fef31fcb41bf184832feadaf"
+      "svg_sha256": "f93b69ea54c710125bf8d3e35696f3293f543e71c2d356c941d4c0c92c86f37c",
+      "png_sha256": "5556d8b99e9accd3ee203cd60f417992d2501542e57371cda76440db9fae3231"
+    },
+    "06-single-demolition.svg": {
+      "svg_sha256": "de66e3a020be21b43ee54fbfee99129d003344d621682c822fbd4c385d894508",
+      "png_sha256": "ee5e7318a914b459da098e123db923b6a6948b74c0e1ce9204a537cf6c1a4ce5"
+    },
+    "06-single-zones.svg": {
+      "svg_sha256": "5d89a6f873c91e2ccf876b02cb37d3f6260837d931316e931ccf4f21398e3845",
+      "png_sha256": "27d342d60589c768692dd58bac20f05bc08d51aa900c70a8b0eeeffd6a1e585f"
+    },
+    "06-single-doors.svg": {
+      "svg_sha256": "64d44110ef63cc1c6dfb6ffb9461496be04fa46227ad0891bdb4f3762ce7996c",
+      "png_sha256": "c4d2188ceab6e6e053d94d19649bc9bd0ec3eb17ab006495b94e9d663d0c3d54"
+    },
+    "06-single-laundry.svg": {
+      "svg_sha256": "dad7d6434eb1f3946a52f1c2c9b1adcfd5ae18f6a4ae62ad4c9336a09d696450",
+      "png_sha256": "32f122bd1c0a5654d5a4c0aa24c50f99b52a0a5739cad7ccea37ac9c2f2ce83c"
+    },
+    "06-single-balcony.svg": {
+      "svg_sha256": "a9f246f5e3e23e3b7bc6787645a1656237658d0ff12e5394ddcaaee6f93f4147",
+      "png_sha256": "7a3f17742f4dac54c7f8f40f0f74af002597bd94c778656e6c76cabc32eff357"
     }
   }
 }

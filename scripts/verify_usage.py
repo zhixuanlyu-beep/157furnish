@@ -156,7 +156,11 @@ def main():
  comparison=[]
  for c in D['candidates']:
   data=candidate_data(c)
-  result=verify(data,False) if c['id']!='recommended' else out
+  result=verify(data,'study' in c) if c['id']!='recommended' else out
+  if 'study' in c:
+   from single_bath import review
+   result['study_review']=review(c,data,result)
+   dump('reports/usage_'+c['id']+'.json',result)
   comparison.append({**c,'fixed_hits':result['fixed_hits'],'single_routes_passed':sum(r['reachable'] for r in result['routes'] if r['width_mm']==500 and r['state']=='normal4'),'route_count':len(data['routes']),'storage_rail_mm':sum(v['rail_mm'] for n,f in data['furniture'].items() for v in capacity(n,f)),'operation_hits':{k:v for k,v in result['operation_fixed_hits'].items() if v},'function_access':result['function_access'],'routes':result['routes'],'note':'完整候选：家具、操作及目标区一起变更；不覆盖推荐'})
  dump('reports/comparison.json',bound({'priority':['固定实体','必要路线','操作','容量','拆改代价'],'candidates':comparison}))
  print(json.dumps({'fixed':out['fixed_hits'],'door':out['door_sweep'],'operations':{k:v for k,v in out['operation_fixed_hits'].items() if v},'normal500_fail':[r['name'] for r in out['routes'] if not r['reachable'] and r['width_mm']==500 and r['state']=='normal4']},ensure_ascii=False))

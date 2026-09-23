@@ -52,6 +52,10 @@
     "候选 / 受阻回退：灶留原厨房附近"
   ],
   [
+    "06-candidate-single_bath_utility.svg",
+    "候选 / 单卫候选：三空间整体重分＋独立家政"
+  ],
+  [
     "07-alterations.svg",
     "07 拟拆改 / 厨房西隔墙与南入口墙"
   ],
@@ -206,5 +210,25 @@
   [
     "13-solar-C.svg",
     "13 卧室日照点射线 / 客房C"
+  ],
+  [
+    "06-single-demolition.svg",
+    "单卫候选 / 整体拆改研究"
+  ],
+  [
+    "06-single-zones.svg",
+    "单卫候选 / 新分区与尺寸"
+  ],
+  [
+    "06-single-doors.svg",
+    "单卫候选 / 内开门与洗漱坐便"
+  ],
+  [
+    "06-single-laundry.svg",
+    "单卫候选 / 洗烘开启与装卸"
+  ],
+  [
+    "06-single-balcony.svg",
+    "单卫候选 / 洗烘迁出后的阳台"
   ]
 ]

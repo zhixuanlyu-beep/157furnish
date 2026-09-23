@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">单卫候选 / 整体拆改研究</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 红色：两卫中隔墙及储物西墙拟拆。</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 绿色：新隔墙；蓝框：拟封旧门。</text>
+<text x="1380.000" y="302.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 北侧新家政入口及洗漱入口待结构核实</text>
+<text x="1380.000" y="331.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">。</text>
+<text x="1380.000" y="376.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 外围、梁柱和立管不默认改动。</text>
+<text x="1380.000" y="421.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 原储物纳入湿区条件失败则受阻。</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="-782.7850" y="94.5639" width="867.6876" height="907.0467" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="100.2373" y="94.5639" width="1161.0913" height="240.2434" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="1276.6633" y="94.5639" width="1535.2576" height="907.0467" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="115.5720" y="365.4767" width="460.0406" height="636.1339" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="606.2819" y="365.4767" width="639.7120" height="268.3570" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="606.2819" y="664.5030" width="639.7120" height="337.1075" fill="#f5ead9" stroke="none" stroke-width="1" />
+<rect x="-530.2738" y="1001.6105" width="3041.3793" height="51.1156" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="540.3428" y="319.4726" width="30.6694" height="30.6694" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="84.9026" y="314.1055" width="30.6694" height="713.0629" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1245.9939" y="350.1420" width="30.6694" height="677.0264" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="100.2373" y="334.8073" width="127.7890" height="30.6694" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="458.0467" y="334.8073" width="434.4828" height="30.6694" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1173.6653" y="334.8073" width="87.6633" height="30.6694" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="575.6126" y="365.4767" width="30.6694" height="636.1339" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="606.2819" y="633.8337" width="269.1237" height="30.6694" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="1069.6450" y="633.8337" width="176.3489" height="30.6694" fill="#33463e" stroke="none" stroke-width="1" />
+<polygon points="95.126,104.531 95.126,306.438 105.349,306.438 105.349,104.531" fill="#be9364" stroke="#456653"/>
+<polygon points="450.379,345.030 235.694,345.030 235.694,355.254 450.379,355.254" fill="#be9364" stroke="#456653"/>
+<polygon points="883.073,654.280 1061.978,654.280 1061.978,644.057 883.073,644.057" fill="#be9364" stroke="#456653"/>
+<rect x="126.5619" y="789.7363" width="184.0162" height="204.4625" fill="#bdc9cc" stroke="#576858" stroke-width="1" data-object="laundry" data-mm="4370,850,720,800" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<polyline points="218.570,891.968 218.570,836.763" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="208.347,853.375 218.570,836.763 228.793,853.375" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="134.229" y="907.968" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">叠放洗烘预留</text>
+<rect x="318.2454" y="840.8519" width="127.7890" height="153.3469" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="utility_sink" data-mm="5120,850,500,600" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<text x="325.913" y="933.525" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">清洗台</text>
+<rect x="453.7018" y="840.8519" width="115.0101" height="153.3469" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="utility_base" data-mm="5650,850,450,600" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<text x="461.369" y="933.525" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">家政下柜</text>
+<rect x="318.2454" y="904.7465" width="250.4665" height="89.4523" fill="none" stroke="#576858" stroke-width="1" data-object="utility_upper" data-mm="5120,850,980,350" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<polyline points="443.479,994.199 443.479,904.746" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="325.913" y="989.753" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">家政上柜</text>
+<rect x="607.0487" y="365.4767" width="281.1359" height="115.0101" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="wash_basin" data-mm="6250,2860,1100,450" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<text x="614.716" y="438.982" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1100外置台盆</text>
+<rect x="607.0487" y="365.4767" width="281.1359" height="38.3367" fill="none" stroke="#576858" stroke-width="1" data-object="wash_mirror" data-mm="6250,3160,1100,150" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<polyline points="747.617,403.813 747.617,365.477" fill="none" stroke="#94774e" stroke-width="1"/>
+<text x="614.716" y="399.367" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">镜柜</text>
+<rect x="1054.3103" y="764.1785" width="184.0162" height="166.1258" fill="#e3e7e1" stroke="#576858" stroke-width="1" data-object="single_wc" data-mm="8000,1100,720,650" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<polyline points="1146.318,847.241 1096.481,847.241" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="1113.093,857.465 1096.481,847.241 1113.093,837.018" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="1061.978" y="863.241" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">坐便朝西</text>
+<rect x="606.2819" y="720.4746" width="230.0203" height="281.1359" fill="#d9e8e8" stroke="#576858" stroke-width="1" data-object="single_shower" data-mm="6247,821,900,1100" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<text x="613.949" y="877.043" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">900×1100淋浴</text>
+<rect x="606.2819" y="717.9189" width="230.0203" height="2.5558" fill="#c3e0e5" stroke="#576858" stroke-width="1" data-object="shower_north_glass" data-mm="6247,1921,900,10" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<text x="613.949" y="735.197" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">淋浴固定玻璃</text>
+<rect x="836.3022" y="720.4746" width="2.5558" height="109.8986" fill="#c3e0e5" stroke="#576858" stroke-width="1" data-object="shower_east_glass" data-mm="7147,1491,10,430" data-transform="54.999999999999886,201.90669371196748,0.25557809330628806,4090,3950"/>
+<text x="843.970" y="791.424" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">淋浴侧固定玻璃</text>
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 335.578,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+<polyline points="555.677,1027.168 555.677,350.142" fill="none" stroke="#ca5944" stroke-width="7"/>
+<polyline points="1099.037,1027.168 1099.037,350.142" fill="none" stroke="#ca5944" stroke-width="7"/>
+<rect x="575.6126" y="365.4767" width="30.6694" height="636.1339" fill="none" stroke="#36765a" stroke-width="4" />
+<rect x="606.2819" y="633.8337" width="269.1237" height="30.6694" fill="none" stroke="#36765a" stroke-width="4" />
+<rect x="1069.6450" y="633.8337" width="176.3489" height="30.6694" fill="none" stroke="#36765a" stroke-width="4" />
+<rect x="84.9026" y="426.5598" width="30.6694" height="217.2414" fill="none" stroke="#286fa1" stroke-width="4" />
+<rect x="1245.9939" y="388.2231" width="30.6694" height="178.9047" fill="none" stroke="#286fa1" stroke-width="4" />
+<rect x="624.1724" y="334.8073" width="217.2414" height="30.6694" fill="none" stroke="#286fa1" stroke-width="4" />
+</svg>

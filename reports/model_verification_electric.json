@@ -1,6 +1,6 @@
 {
   "revision": "R2",
-  "layout_sha256": "d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96",
+  "layout_sha256": "668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394",
   "blend": {
     "furniture_max_error_mm": {
       "bedB": 0.0001,
@@ -92,11 +92,11 @@
     "errors": []
   },
   "passed": true,
-  "blend_sha256": "7e2fb890032e8b02b40b157d5d02c0d8f8984f81baa95fdbcd3b0b06c80964e3",
-  "glb_sha256": "78600a36949f868d006ebd31df40e2d131b2c370cd7b875fb722755e68bb176f",
+  "blend_sha256": "e57101a79e607fa95a075408e32f8279d06e7eeaca10747022b0bc3416b3c842",
+  "glb_sha256": "6add6f15daa48d209510ac2c15766ed6b40f4971c42940343c1375da5e408d32",
   "fuel": "electric",
   "dependencies": {
     "build_model.py": "d4009879d6c4110596cca1d97be7f260cfe26a8a6952289afb79dcfccb69fbcc",
-    "common.py": "76ee1cb8f906afbeba8d48a2e25401547e4278c5962a75671b0f212382a7c3ca"
+    "common.py": "4d1bcee2cb69f4318dce104776d9b0680124e62e67ef8020982d8a1f76014de4"
   }
 }

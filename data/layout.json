@@ -3017,6 +3017,926 @@
         "燃气与排烟仍须现场确认"
       ],
       "cost_rank": 1
+    },
+    {
+      "id": "single_bath_utility",
+      "label": "单卫候选：三空间整体重分＋独立家政",
+      "cost_rank": 5,
+      "conditions": [
+        "旧两卫隔墙及储物分隔拟拆；外围梁柱立管不默认改动",
+        "家政北入口、套卫封门及原储物侧门封闭须核墙体性质",
+        "原储物纳入湿区：防水、楼板及楼下条件不成立则方案受阻",
+        "排污立管决定坐便定位；洗烘给排水、排风、噪声、检修待核",
+        "洗澡与如厕需错开；家政小水池为尚未选择的默认项"
+      ],
+      "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+      "status": "概念候选／未实测，产品及现场待核",
+      "study": {
+        "envelope": [
+          4327,
+          821,
+          4423,
+          2489
+        ],
+        "crop": [
+          4090,
+          600,
+          4930,
+          3350
+        ],
+        "usage_limits": [
+          "洗澡与如厕需错开",
+          "湿区门关闭后才能使用完整坐便前区",
+          "家政柜门与装卸分状态，实际开启轨迹按产品复核"
+        ],
+        "site_gates": [
+          {
+            "id": "structure",
+            "requirement": "两卫中隔墙及储物墙可拆、新家政入口可开，套卫及储物旧洞可封",
+            "status": "待核",
+            "if_failed": "方案受阻"
+          },
+          {
+            "id": "drain",
+            "requirement": "排污立管、坑距及污水接管允许当前坐便定位",
+            "status": "待核",
+            "if_failed": "方案受阻"
+          },
+          {
+            "id": "waterproof",
+            "requirement": "原储物纳入湿区的防水、楼板和楼下空间条件成立",
+            "status": "待核",
+            "if_failed": "方案受阻"
+          },
+          {
+            "id": "laundry",
+            "requirement": "洗烘给排水、排风、独立电源、噪声、叠放锚固和检修成立",
+            "status": "待核",
+            "if_failed": "方案受阻"
+          }
+        ],
+        "shower_entry": [
+          7147,
+          841,
+          650,
+          650
+        ],
+        "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+        "status": "概念候选／未实测，产品及现场待核",
+        "demolition_edges": [
+          "bath_AB",
+          "store_w"
+        ],
+        "sealed_openings": [
+          "bathB_entry",
+          "store_entry",
+          "bathA_entry"
+        ],
+        "new_edges": [
+          "utility_partition",
+          "wet_partition"
+        ]
+      },
+      "changes": {
+        "remove_edges": [
+          "bath_AB",
+          "store_w"
+        ],
+        "remove_rooms": [
+          "bathA",
+          "bathB",
+          "store"
+        ],
+        "remove_furniture": [
+          "showerA",
+          "showerB",
+          "wcA",
+          "wcB",
+          "basinA",
+          "basinB",
+          "glassA",
+          "glassB",
+          "storage"
+        ],
+        "remove_routes": [
+          "主卫",
+          "公卫",
+          "储物取物"
+        ],
+        "rooms": {
+          "utility": {
+            "label": "独立家政收纳",
+            "boxes": [
+              [
+                4327,
+                821,
+                1800,
+                2489
+              ]
+            ],
+            "functions": [
+              "洗烘",
+              "紧凑小水池默认项",
+              "台下及上柜收纳"
+            ],
+            "source_area_m2": null,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "wash": {
+            "label": "外置洗漱",
+            "boxes": [
+              [
+                6247,
+                2260,
+                2503,
+                1050
+              ]
+            ],
+            "functions": [
+              "台盆",
+              "镜柜",
+              "本区内站位"
+            ],
+            "source_area_m2": null,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "wet": {
+            "label": "可锁单卫",
+            "boxes": [
+              [
+                6247,
+                821,
+                2503,
+                1319
+              ]
+            ],
+            "functions": [
+              "坐便",
+              "淋浴",
+              "洗澡如厕错时"
+            ],
+            "source_area_m2": null,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "B": {
+            "functions": [
+              "1800双人床",
+              "衣柜床品",
+              "套卫门封闭，改经北过道到单卫"
+            ]
+          },
+          "hall": {
+            "functions": [
+              "连接三卧、家政及外置洗漱",
+              "不加柜压缩动线"
+            ]
+          },
+          "balcony": {
+            "functions": [
+              "东端烹饪附条件",
+              "洗烘迁出，西端留空",
+              "晾晒仍分状态",
+              "两燃料不锁定"
+            ]
+          }
+        },
+        "furniture": {
+          "laundry": {
+            "label": "叠放洗烘预留",
+            "box": [
+              4370,
+              850,
+              720,
+              800
+            ],
+            "kind": "appliance",
+            "room": "utility",
+            "front": "north",
+            "height": 1950,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "utility_sink": {
+            "label": "紧凑清洗台（默认）",
+            "box": [
+              5120,
+              850,
+              500,
+              600
+            ],
+            "kind": "cabinet",
+            "room": "utility",
+            "front": "north",
+            "height": 850,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核",
+            "modules": [
+              500
+            ],
+            "contents": [
+              "水槽及清洁用品"
+            ]
+          },
+          "utility_base": {
+            "label": "封闭家政柜",
+            "box": [
+              5650,
+              850,
+              450,
+              600
+            ],
+            "kind": "cabinet",
+            "room": "utility",
+            "front": "north",
+            "height": 850,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核",
+            "modules": [
+              450
+            ],
+            "contents": [
+              "清洁工具"
+            ]
+          },
+          "utility_upper": {
+            "label": "家政上柜",
+            "box": [
+              5120,
+              850,
+              980,
+              350
+            ],
+            "kind": "cabinet",
+            "room": "utility",
+            "front": "north",
+            "height": 650,
+            "z": 1550,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核",
+            "modules": [
+              490,
+              490
+            ],
+            "contents": [
+              "清洁耗材",
+              "备用用品"
+            ]
+          },
+          "wash_basin": {
+            "label": "1100外置台盆",
+            "box": [
+              6250,
+              2860,
+              1100,
+              450
+            ],
+            "kind": "basin",
+            "room": "wash",
+            "front": "south",
+            "height": 850,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "wash_mirror": {
+            "label": "镜柜",
+            "box": [
+              6250,
+              3160,
+              1100,
+              150
+            ],
+            "kind": "cabinet",
+            "room": "wash",
+            "front": "south",
+            "height": 700,
+            "z": 1200,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核",
+            "modules": [
+              550,
+              550
+            ],
+            "contents": [
+              "洗漱用品",
+              "备用用品"
+            ]
+          },
+          "single_wc": {
+            "label": "坐便朝西",
+            "box": [
+              8000,
+              1100,
+              720,
+              650
+            ],
+            "kind": "wc",
+            "room": "wet",
+            "front": "west",
+            "height": 780,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "single_shower": {
+            "label": "900×1100淋浴",
+            "box": [
+              6247,
+              821,
+              900,
+              1100
+            ],
+            "kind": "shower",
+            "room": "wet",
+            "front": "east",
+            "height": 50,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "shower_north_glass": {
+            "label": "淋浴固定玻璃",
+            "box": [
+              6247,
+              1921,
+              900,
+              10
+            ],
+            "kind": "glass",
+            "room": "wet",
+            "front": "north",
+            "height": 2000,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "shower_east_glass": {
+            "label": "淋浴侧固定玻璃",
+            "box": [
+              7147,
+              1491,
+              10,
+              430
+            ],
+            "kind": "glass",
+            "room": "wet",
+            "front": "north",
+            "height": 2000,
+            "z": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          }
+        },
+        "operations": {
+          "laundry_use": {
+            "owner": "laundry",
+            "box": [
+              4370,
+              1650,
+              720,
+              1250
+            ],
+            "kind": "开启件600＋人员650概念包络",
+            "component": "combined",
+            "travel_mm": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核",
+            "parts": {
+              "moving": [
+                4370,
+                1650,
+                720,
+                600
+              ],
+              "operator": [
+                4370,
+                2250,
+                720,
+                650
+              ]
+            }
+          },
+          "utility_sink_use": {
+            "owner": "utility_sink",
+            "box": [
+              5120,
+              1450,
+              500,
+              600
+            ],
+            "kind": "小水池站位",
+            "component": "operator",
+            "travel_mm": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "utility_base_use": {
+            "owner": "utility_base",
+            "box": [
+              5650,
+              1450,
+              450,
+              600
+            ],
+            "kind": "家政柜取物",
+            "component": "operator",
+            "travel_mm": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "wash_use": {
+            "owner": "wash_basin",
+            "box": [
+              6250,
+              2260,
+              1100,
+              600
+            ],
+            "kind": "洗漱站位在本区内",
+            "component": "operator",
+            "travel_mm": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "single_wc_use": {
+            "owner": "single_wc",
+            "box": [
+              7250,
+              1100,
+              750,
+              650
+            ],
+            "kind": "坐便前750目标／600最低，关门使用",
+            "component": "operator",
+            "travel_mm": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "shower_entry_use": {
+            "owner": "single_shower",
+            "box": [
+              7147,
+              841,
+              650,
+              650
+            ],
+            "kind": "淋浴入口650概念，扣五金后待核",
+            "component": "operator",
+            "travel_mm": 0,
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          }
+        },
+        "routes": {
+          "洗烘": {
+            "start": [
+              13900,
+              1850
+            ],
+            "end": [
+              4730.0,
+              2575.0
+            ],
+            "target_box": [
+              4370,
+              2250,
+              720,
+              650
+            ],
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "单卫坐便": {
+            "start": [
+              13900,
+              1850
+            ],
+            "end": [
+              7625.0,
+              1425.0
+            ],
+            "target_box": [
+              7250,
+              1100,
+              750,
+              650
+            ],
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "外置洗漱": {
+            "start": [
+              13900,
+              1850
+            ],
+            "end": [
+              6800.0,
+              2560.0
+            ],
+            "target_box": [
+              6250,
+              2260,
+              1100,
+              600
+            ],
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "淋浴入口": {
+            "start": [
+              13900,
+              1850
+            ],
+            "end": [
+              7472.0,
+              1166.0
+            ],
+            "target_box": [
+              7147,
+              841,
+              650,
+              650
+            ],
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          "家政取物": {
+            "start": [
+              13900,
+              1850
+            ],
+            "end": [
+              5610.0,
+              1775.0
+            ],
+            "target_box": [
+              5120,
+              1450,
+              980,
+              650
+            ],
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          }
+        },
+        "edges": [
+          {
+            "id": "AB_east",
+            "a": [
+              4267,
+              721
+            ],
+            "b": [
+              4267,
+              4430
+            ],
+            "thickness": 120,
+            "external": false,
+            "openings": [
+              {
+                "id": "B_entry",
+                "start": 2790,
+                "width": 850,
+                "kind": "door",
+                "hinge": 1,
+                "sign": -1,
+                "sill": 0,
+                "height": 2100,
+                "status": "原图拓扑／洞口宽高与轨道均概念待实测"
+              }
+            ],
+            "status": "概念候选／未实测，产品及现场待核",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测"
+          },
+          {
+            "id": "store_e",
+            "a": [
+              8810,
+              721
+            ],
+            "b": [
+              8810,
+              3370
+            ],
+            "thickness": 120,
+            "external": false,
+            "openings": [],
+            "status": "概念候选／未实测，产品及现场待核",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测"
+          },
+          {
+            "id": "bath_north",
+            "a": [
+              4267,
+              3370
+            ],
+            "b": [
+              8810,
+              3370
+            ],
+            "thickness": 120,
+            "external": false,
+            "openings": [
+              {
+                "id": "utility_entry",
+                "start": 500,
+                "width": 900,
+                "kind": "door",
+                "hinge": 1,
+                "sign": 1,
+                "sill": 0,
+                "height": 2100,
+                "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+                "status": "概念候选／未实测，产品及现场待核"
+              },
+              {
+                "id": "wash_entry",
+                "start": 3100,
+                "width": 1100,
+                "kind": "passage",
+                "hinge": 0,
+                "sign": -1,
+                "sill": 0,
+                "height": 2100,
+                "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+                "status": "概念候选／未实测，产品及现场待核"
+              }
+            ],
+            "status": "概念候选／未实测，产品及现场待核",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测"
+          },
+          {
+            "id": "utility_partition",
+            "a": [
+              6187,
+              821
+            ],
+            "b": [
+              6187,
+              3310
+            ],
+            "thickness": 120,
+            "external": false,
+            "openings": [],
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          {
+            "id": "wet_partition",
+            "a": [
+              6247,
+              2200
+            ],
+            "b": [
+              8750,
+              2200
+            ],
+            "thickness": 120,
+            "external": false,
+            "openings": [
+              {
+                "id": "wet_entry",
+                "start": 1053,
+                "width": 760,
+                "kind": "door",
+                "hinge": 0,
+                "sign": -1,
+                "sill": 0,
+                "height": 2100,
+                "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+                "status": "概念候选／未实测，产品及现场待核",
+                "lockable": true
+              }
+            ],
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          }
+        ],
+        "services": [
+          {
+            "id": "主槽给排水",
+            "x": 14525.0,
+            "y": 5040.0,
+            "z": 500,
+            "kind": "water",
+            "note": "保留原东墙湿区；标高管径待核",
+            "status": "概念点位",
+            "attached_to": "sink"
+          },
+          {
+            "id": "阳台排烟／燃料接口条件",
+            "x": 14552.0,
+            "y": 9320.0,
+            "z": 2100,
+            "kind": "conditional",
+            "note": "两燃料均须确认烟道接入；燃气迁移许可／电灶专线分案；禁止默认直排外立面",
+            "status": "概念点位",
+            "attached_to": "hob"
+          },
+          {
+            "id": "洗碗机电源",
+            "x": 14525.0,
+            "y": 5790.0,
+            "z": 500,
+            "kind": "electric",
+            "note": "邻柜可检修，独立回路按厂家",
+            "status": "概念点位",
+            "attached_to": "dishwasher"
+          },
+          {
+            "id": "净水电源",
+            "x": 14525.0,
+            "y": 5040.0,
+            "z": 500,
+            "kind": "electric",
+            "note": "槽柜内隔水",
+            "status": "概念点位",
+            "attached_to": "sink"
+          },
+          {
+            "id": "高柜电源",
+            "x": 14525.0,
+            "y": 8015.0,
+            "z": 1600,
+            "kind": "electric",
+            "note": "蒸烤微波分回路，散热待厂家",
+            "status": "概念点位",
+            "attached_to": "tower"
+          },
+          {
+            "id": "咖啡插座",
+            "x": 12450.0,
+            "y": 1125.0,
+            "z": 1100,
+            "kind": "electric",
+            "note": "带接地避开水",
+            "status": "概念点位",
+            "attached_to": "coffee"
+          },
+          {
+            "id": "岛台地插候选",
+            "x": 12675.0,
+            "y": 5650.0,
+            "z": 150,
+            "kind": "electric",
+            "note": "避通行，楼板开槽未核",
+            "status": "概念点位",
+            "attached_to": "island"
+          },
+          {
+            "id": "洗烘给排水",
+            "x": 4730,
+            "y": 1250,
+            "z": 500,
+            "kind": "water",
+            "note": "家政间接口概念；污水接管、排风、电源及检修待核",
+            "status": "概念候选／未实测，产品及现场待核",
+            "attached_to": "laundry",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测"
+          },
+          {
+            "id": "洗烘电源",
+            "x": 4730,
+            "y": 1250,
+            "z": 1300,
+            "kind": "electric",
+            "note": "家政间接口概念；污水接管、排风、电源及检修待核",
+            "status": "概念候选／未实测，产品及现场待核",
+            "attached_to": "laundry",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测"
+          },
+          {
+            "id": "床头B",
+            "x": 3660,
+            "y": 4000,
+            "z": 650,
+            "kind": "electric",
+            "note": "双控+USB，另一侧无线开关",
+            "status": "概念点位",
+            "attached_to": "bedB"
+          },
+          {
+            "id": "床头A",
+            "x": 2450,
+            "y": 7460,
+            "z": 650,
+            "kind": "electric",
+            "note": "防护插座，灯位避直照",
+            "status": "概念点位",
+            "attached_to": "bedA"
+          },
+          {
+            "id": "书桌A",
+            "x": 3380.0,
+            "y": 7310.0,
+            "z": 1100,
+            "kind": "electric",
+            "note": "独立任务照明",
+            "status": "概念点位",
+            "attached_to": "deskA"
+          },
+          {
+            "id": "床头C",
+            "x": 7950,
+            "y": 8100,
+            "z": 650,
+            "kind": "electric",
+            "note": "灯与充电",
+            "status": "概念点位",
+            "attached_to": "bedC"
+          },
+          {
+            "id": "餐桌学习电源",
+            "x": 10900.0,
+            "y": 2625.0,
+            "z": 1050,
+            "kind": "electric",
+            "note": "邻近咖啡柜供电，线缆不得跨主要通路",
+            "status": "概念点位",
+            "attached_to": "table"
+          },
+          {
+            "id": "投影电源",
+            "x": 9455.0,
+            "y": 6770.0,
+            "z": 2500,
+            "kind": "electric",
+            "note": "吊装投射距离按机型",
+            "status": "概念点位",
+            "attached_to": "sofa"
+          },
+          {
+            "id": "床头B左",
+            "x": 1200.0,
+            "y": 3900.0,
+            "z": 850,
+            "kind": "electric",
+            "note": "左侧床头灯与充电，点位结合护墙板深化",
+            "status": "概念点位",
+            "attached_to": "bedsideB"
+          },
+          {
+            "id": "冰箱电源",
+            "x": 14475.0,
+            "y": 7190.0,
+            "z": 300,
+            "kind": "electric",
+            "note": "邻侧可检修插座，散热及电线长度按厂家",
+            "status": "概念点位",
+            "attached_to": "fridge"
+          },
+          {
+            "id": "家政小水池接口",
+            "attached_to": "utility_sink",
+            "x": 5370.0,
+            "y": 1150.0,
+            "z": 300,
+            "kind": "water",
+            "note": "仅关联设备中心示意，不代表已知立管或可施工接口",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          {
+            "id": "外置台盆接口",
+            "attached_to": "wash_basin",
+            "x": 6800.0,
+            "y": 3085.0,
+            "z": 300,
+            "kind": "water",
+            "note": "仅关联设备中心示意，不代表已知立管或可施工接口",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          {
+            "id": "坐便排污候选位",
+            "attached_to": "single_wc",
+            "x": 8360.0,
+            "y": 1425.0,
+            "z": 300,
+            "kind": "water",
+            "note": "仅关联设备中心示意，不代表已知立管或可施工接口",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          },
+          {
+            "id": "淋浴地漏候选位",
+            "attached_to": "single_shower",
+            "x": 6697.0,
+            "y": 1371.0,
+            "z": 300,
+            "kind": "water",
+            "note": "仅关联设备中心示意，不代表已知立管或可施工接口",
+            "source": "用户整体重分方案＋R2外围墙内侧推导；非照片像素量测",
+            "status": "概念候选／未实测，产品及现场待核"
+          }
+        ]
+      }
     }
   ],
   "assumptions": {

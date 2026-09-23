@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" data-revision="R2" data-layout-sha256="668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394">
+<rect x="0.0000" y="0.0000" width="1800.0000" height="1250.0000" fill="#fcfbf6" stroke="none" stroke-width="1" />
+<text x="45.000" y="48.000" font-size="22" fill="#576858" font-family="Microsoft YaHei, sans-serif">157FURNISH  /  R2</text>
+<text x="45.000" y="100.000" font-size="34" fill="#263c34" font-family="Microsoft YaHei, sans-serif">单卫候选 / 洗烘迁出后的阳台</text>
+<polyline points="45.000,119.000 1755.000,119.000" fill="none" stroke="#456653" stroke-width="2"/>
+<text x="45.000" y="1208.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">毫米 · X东 Y北 · 概念深化，非施工/下单图 · 仅二维图，无三维渲染</text>
+<text x="45.000" y="1232.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">布局 SHA256 668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394</text>
+<text x="1380.000" y="172.000" font-size="22" fill="#263c34" font-family="Microsoft YaHei, sans-serif">读图与条件</text>
+<text x="1380.000" y="212.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1. 西端已撤洗烘，原设备接口不沿用。</text>
+<text x="1380.000" y="257.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">2. 晾晒保留独立状态；东端烹饪仍附条件</text>
+<text x="1380.000" y="286.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">。</text>
+<text x="1380.000" y="331.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">3. 燃气迁移许可／电灶配电分别核实。</text>
+<text x="1380.000" y="376.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">4. 两案都须合法排烟；不默认外墙直排。</text>
+<text x="1380.000" y="421.000" font-size="17" fill="#263c34" font-family="Microsoft YaHei, sans-serif">5. 重新计算烹饪及携篮路线，保留失败。</text>
+<defs><clipPath id="planClip"><rect x="50" y="145" width="1280" height="970"/></clipPath></defs><g clip-path="url(#planClip)">
+<rect x="55.0000" y="509.3213" width="1260.0000" height="241.3575" fill="#edf0e7" stroke="none" stroke-width="1" />
+<rect x="848.9668" y="716.8929" width="12.6697" height="33.7858" fill="#33463e" stroke="none" stroke-width="1" />
+<rect x="848.9668" y="509.3213" width="12.6697" height="34.4193" fill="#33463e" stroke="none" stroke-width="1" />
+<polygon points="855.302,545.852 694.819,545.852 694.819,554.299 855.302,554.299" fill="#be9364" stroke="#456653"/>
+<polyline points="851.078,710.558 837.108,709.579 823.275,707.387 809.686,703.997 796.445,699.435 783.651,693.737 771.403,686.946 759.793,679.113 748.910,670.298 738.837,660.568 729.650,649.996 721.420,638.665 714.208,626.659 708.070,614.071 703.053,600.995 699.194,587.532 696.524,573.784 695.062,559.855 694.819,545.852" fill="none" stroke="#b87943" stroke-width="1"/>
+<rect x="1177.7451" y="531.2821" width="137.2549" height="190.0452" fill="#dfc39f" stroke="#576858" stroke-width="1" data-object="hob" data-mm="14227,8870,650,900" data-transform="55.0,509.3212669683258,0.21116138763197587,8910,9874"/>
+<polyline points="1246.373,626.305 1205.196,626.305" fill="none" stroke="#466b74" stroke-width="2"/>
+<polyline points="1218.922,634.751 1205.196,626.305 1218.922,617.858" fill="none" stroke="#466b74" stroke-width="2"/>
+<text x="1184.080" y="642.305" font-size="16" fill="#263c34" font-family="Microsoft YaHei, sans-serif">阳台灶台／燃料未选</text>
+</g>
+<polyline points="1275.000,225.000 1275.000,163.000 1265.000,180.000 1275.000,163.000 1285.000,180.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="1265.000" y="148.000" font-size="18" fill="#263c34" font-family="Microsoft YaHei, sans-serif">北</text>
+<polyline points="80.000,1125.000 291.161,1125.000" fill="none" stroke="#33463e" stroke-width="3"/>
+<text x="80.000" y="1145.000" font-size="14" fill="#263c34" font-family="Microsoft YaHei, sans-serif">1000 mm</text>
+</svg>

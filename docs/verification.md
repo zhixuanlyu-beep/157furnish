@@ -1,6 +1,6 @@
 # R2 核验摘要
 
-版本 `R2`；布局 SHA256 `d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96`。
+版本 `R2`；布局 SHA256 `668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394`。
 
 **数据一致性、使用检查、现场条件分别报告。** 见[交付核验](../reports/delivery.json)及[校验清单](../reports/manifest.json)。
 

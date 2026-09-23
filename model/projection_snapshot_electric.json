@@ -1,10 +1,10 @@
 {
   "revision": "R2",
-  "layout_sha256": "d9b4359b2b866b116cf96863e3055fa512a87d94c43bcca20d89990c7ed41a96",
+  "layout_sha256": "668e39924f6c4857e320cb33a8b92d7e261b9c682babee755a253c7963718394",
   "generator_sha256": "d4009879d6c4110596cca1d97be7f260cfe26a8a6952289afb79dcfccb69fbcc",
   "dependencies": {
     "build_model.py": "d4009879d6c4110596cca1d97be7f260cfe26a8a6952289afb79dcfccb69fbcc",
-    "common.py": "76ee1cb8f906afbeba8d48a2e25401547e4278c5962a75671b0f212382a7c3ca"
+    "common.py": "4d1bcee2cb69f4318dce104776d9b0680124e62e67ef8020982d8a1f76014de4"
   },
   "fuel": "electric",
   "furniture": {

@@ -4,6 +4,8 @@ from common import *
 from build_drawings import table
 def write(n,s):(ROOT/n).write_text(s.strip()+'\n',encoding='utf-8')
 def main():
+ from single_bath import docs
+ docs()
  U=json.loads((ROOT/'reports/usage.json').read_text(encoding='utf-8'));I=json.loads((ROOT/'reports/drawing_index.json').read_text(encoding='utf-8'));C=json.loads((ROOT/'reports/comparison.json').read_text(encoding='utf-8'))['candidates']
  models={f:json.loads((ROOT/('reports/model_verification_'+f+'.json')).read_text(encoding='utf-8')) for f in D['fuel_variants']}
  conditions=[
@@ -21,7 +23,8 @@ def main():
  ('12','储物间','入口外正面取物、300深单元、门净宽及伸手试验','深处不计容量；扩大侧开口仅结构条件候选'),
  ('13','空调新风','负荷、回风、冷凝水、排风、外机、穿梁、吊顶净高及噪声','风量仅讨论值，厨房排烟不接新风'),
  ('14','日照与投影','北京气候假设、图示北向、外遮挡、窗帘、投射比及眼点','二维点射线非日照合规、照度或投影选型承诺'),
- ('15','家庭与预算','儿童防夹防坠、锚固圆角及桌椅试坐；165cm主厨为继承参数','其他身高、预算及产品型号未核，不补造')]
+ ('15','家庭与预算','儿童防夹防坠、锚固圆角及桌椅试坐；165cm主厨为继承参数','其他身高、预算及产品型号未核，不补造'),
+ ('16','独立单卫候选','三空间整体重分；拟拆两卫中隔墙与储物西墙、新家政入口、套卫及储物侧门封闭；排污立管、洗烘接口排风噪声检修待核','原储物纳入湿区须确认防水、楼板和楼下条件；任一必要条件不成立则方案受阻；R2推荐保持不变，详见single-bath.md')]
  dump('reports/onsite_conditions.json',bound({'passed':False,'reason':'两个燃料案均未实测及取得专业确认','items':[dict(id=a,topic=b,required=c,decision=e,status='待核') for a,b,c,e in conditions]}))
  table('现场待核.csv',['编号','专题','所需确认','条件不成立时'],conditions)
  write('docs/constraints.md','# R2 现场条件与使用边界\n\n用于设计深化，不作施工、拆墙或柜体下单依据。\n\n'+'\n\n'.join('## '+a+' '+b+'\n\n'+c+'。'+e+'。' for a,b,c,e in conditions))
@@ -55,7 +58,7 @@ def main():
  ml=' · '.join(f'[{v["label"]} Blender](model/157furnish_R2_{f}.blend) / [GLB](model/157furnish_R2_{f}.glb)' for f,v in D['fuel_variants'].items())
  write('README.md',f'''# 157furnish · R2
 
-三房两卫、客餐厨一体化及阳台迁灶条件研究。先打开[离线方案册](docs/方案册.html)、[设计取舍](docs/design.md)、[核验摘要](docs/verification.md)及[现场条件](docs/constraints.md)。
+三房两卫、客餐厨一体化及阳台迁灶条件研究。新增[单卫＋家政整体重分候选](docs/single-bath.md)，保留R2对比。先打开[离线方案册](docs/方案册.html)、[设计取舍](docs/design.md)、[核验摘要](docs/verification.md)及[现场条件](docs/constraints.md)。
 
 - {len(I)}张可编辑SVG及同源PNG：[图纸](drawings/svg)，按实际内容编索引。
 - {ml}。
@@ -99,7 +102,7 @@ R2使用中文微软雅黑，SVG/PNG共用二维原语与裁剪范围。总图�
 ''')
  page=(ROOT/'docs/方案册.html').read_text(encoding='utf-8');links=''.join(f'<li><a href="../tables/{html.escape(p.name)}">{html.escape(p.name)}</a></li>' for p in sorted((ROOT/'tables').glob('*.csv')))
  page=re.sub(r'<h2>表格</h2><ul>.*?</ul>','<h2>表格</h2><ul>'+links+'</ul>',page,flags=re.S).replace('三房两卫 · 可关闭厨房 · 无水岛台 · 两处淋浴','三房两卫 · 客餐厨一体 · 阳台两燃料并列条件案').replace('固定实体及500单人基线通过不等于全部使用通过','数据一致性通过不等于使用通过')
- intro='<section><h2>R1 → R2 改进</h2><table><tr><th>专题</th><th>R1</th><th>R2</th></tr>'+''.join('<tr>'+''.join('<td>'+html.escape(x)+'</td>' for x in row)+'</tr>' for row in improvements)+'</table><p>固定实体冲突 '+str(len(U['fixed_hits']))+' 项；全状态使用未全部通过；现场条件待核，详见核验摘要和失败表。</p>'
+ intro='<section><p><a href="single-bath.md">新增单卫＋家政整体重分候选：二维图、使用核验及现场条件</a>；R2推荐与模型保持独立。</p><h2>R1 → R2 改进</h2><table><tr><th>专题</th><th>R1</th><th>R2</th></tr>'+''.join('<tr>'+''.join('<td>'+html.escape(x)+'</td>' for x in row)+'</tr>' for row in improvements)+'</table><p>固定实体冲突 '+str(len(U['fixed_hits']))+' 项；全状态使用未全部通过；现场条件待核，详见核验摘要和失败表。</p>'
  intro+=''.join(f'<p>{v["label"]}：<a href="../model/157furnish_R2_{f}.blend">Blender</a> · <a href="../model/157furnish_R2_{f}.glb">GLB</a>；'+html.escape('、'.join(v['requirements']))+'</p>' for f,v in D['fuel_variants'].items())+'</section>'
  page=page.replace('<details>',intro+'<details>',1).replace('li{margin:5px}','li{margin:5px}td,th{border:1px solid #bbc7b8;padding:10px;text-align:left}table{border-collapse:collapse;width:100%}')
  (ROOT/'docs/方案册.html').write_text(page,encoding='utf-8');print('DOCS_COMPLETE')

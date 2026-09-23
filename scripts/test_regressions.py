@@ -5,6 +5,18 @@ from common import *
 from verify_usage import find_path,route_grid
 
 class Regressions(unittest.TestCase):
+ def test_single_candidate_isolated_and_repartitioned(self):
+  before=copy.deepcopy(D);c=next(v for v in D['candidates'] if v['id']=='single_bath_utility');data=candidate_data(c)
+  self.assertEqual(D,before)
+  self.assertNotIn('bath_AB',{e['id'] for e in data['edges']})
+  self.assertNotIn('store_w',{e['id'] for e in data['edges']})
+  self.assertNotIn('bathB_entry',openings(data));self.assertNotIn('store_entry',openings(data))
+  self.assertEqual(sum(v['kind']=='wc' for v in data['furniture'].values()),1)
+  self.assertEqual(data['furniture']['laundry']['room'],'utility')
+  self.assertEqual(data['operations']['laundry_use']['parts'],c['changes']['operations']['laundry_use']['parts'])
+  self.assertNotIn('主卫',data['routes'])
+  self.assertEqual(data['rooms']['utility']['boxes'][0][2]+120+data['rooms']['wet']['boxes'][0][2],c['study']['envelope'][2])
+  self.assertEqual(data['rooms']['wash']['boxes'][0][3]+120+data['rooms']['wet']['boxes'][0][3],c['study']['envelope'][3])
  def test_toilet_old_fronts_are_rejected(self):
   for n,old in [('wcB',370),('wcA',180)]:
    v=D['original']['furniture'][n];glass=D['original']['furniture']['glass'+n[-1]]

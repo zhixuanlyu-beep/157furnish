@@ -6,6 +6,12 @@ def main():
  errors=[];evidence={}
  def check(ok,label):
   if not ok:errors.append(label)
+ for c in D['candidates']:
+  if 'study' not in c:continue
+  v=json.loads((ROOT/('reports/usage_'+c['id']+'.json')).read_text(encoding='utf-8'))
+  check(v['layout_sha256']==SHA,'stale candidate '+c['id'])
+  check(v['study_review']['data_consistency_passed'],'candidate consistency '+c['id'])
+  evidence[c['id']]={'usage_all_states_passed':v['usage_passed'],'site_conditions_passed':v['study_review']['site_conditions_passed']}
  dims={v['id']:v['value'] for v in D['dimensions']}
  check(sum(dims['chain_x_north'])==sum(dims['chain_x_south'])==15077,'X chain');check(sum(dims['chain_y_west'])==sum(dims['chain_y_east'])==10074,'Y chain')
  degree=collections.Counter(tuple(p) for e in D['edges'] if e['external'] for p in [e['a'],e['b']]);check(all(n==2 for n in degree.values()),'external boundary closed')
@@ -33,8 +39,10 @@ def main():
   svg=ROOT/'drawings/svg'/n;image=ROOT/'drawings/png'/n.replace('.svg','.png');root=ET.parse(svg).getroot();check(root.attrib.get('data-layout-sha256')==SHA,'stale svg '+n)
   # Candidates intentionally differ; recommended and room sheets must equal current source.
   for r in root.iter():
-   if 'data-object' in r.attrib and not n.startswith('06-'):
-    object_id=r.attrib['data-object'];expected_box=D['furniture'][object_id]['box']
+   candidate_sheet=n.startswith('06-single-') or n=='06-candidate-single_bath_utility.svg'
+   if 'data-object' in r.attrib and (not n.startswith('06-') or candidate_sheet):
+    source=candidate_data(next(c for c in D['candidates'] if c['id']=='single_bath_utility')) if candidate_sheet else D
+    object_id=r.attrib['data-object'];expected_box=source['furniture'][object_id]['box']
     if n=='03-chairs_pulled.svg' and object_id.startswith('dining'):expected_box=D['operations']['dining_pull'+object_id[-1]]['box']
     vals=list(map(float,r.attrib['data-mm'].split(',')));check(vals==expected_box,'svg object '+n);footprint_count+=1
     ox,oy,s,cx,top=map(float,r.attrib['data-transform'].split(','));x,y,w,h=vals;expected=[ox+(x-cx)*s,oy+(top-y-h)*s,w*s,h*s];actual=[float(r.attrib[k]) for k in ['x','y','width','height']];check(max(abs(a-b) for a,b in zip(expected,actual))<.001,'actual SVG geometry '+n)

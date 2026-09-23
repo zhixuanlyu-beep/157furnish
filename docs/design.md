@@ -26,6 +26,7 @@
 | 辅助岛槽／仅排水落实后 | [] | {'bedA_west': ['west_AB_0_sill', 'west_AB_end']} | 16/16 | 4 |
 | 儿童成长床与床边联动 | [] | {'bedA_west': ['west_AB_0_sill', 'west_AB_end']} | 16/16 | 1 |
 | 受阻回退：灶留原厨房附近 | [] | {'bedA_west': ['west_AB_0_sill', 'west_AB_end']} | 16/16 | 1 |
+| 单卫候选：三空间整体重分＋独立家政 | [] | {'bedA_west': ['west_AB_0_sill', 'west_AB_end']} | 17/17 | 5 |
 
 ## 逐室使用
 

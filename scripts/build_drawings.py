@@ -56,7 +56,8 @@ class Sheet:
     b=v['box']
     if not visible(b):continue
     color={'bed':'#cfdbcb','chair':'#a9bfa8','sofa':'#a9bfa8','appliance':'#bdc9cc','glass':'#c3e0e5','shower':'#d9e8e8','wc':'#e3e7e1','basin':'#e3e7e1'}.get(v['kind'],'#dfc39f')
-    self.rect(rb(b),color,'#576858',1,f'data-object="{n}" data-mm="{",".join(map(str,b))}" data-transform="{ox},{oy},{s},{cx},{cy+ch}"')
+    upper=v['kind']=='cabinet' and v['z']>=1200
+    self.rect(rb(b),'none' if upper else color,'#576858',1,f'data-object="{n}" data-mm="{",".join(map(str,b))}" data-transform="{ox},{oy},{s},{cx},{cy+ch}"')
     x,y,w,h=b
     if v['kind']=='bed':
      mw,md=v['mattress'];west=v.get('head')=='west'
@@ -71,7 +72,8 @@ class Sheet:
      self.line([self.pt(mx,my),self.pt(mx+dx*length,my+dy*length)],'#466b74',2)
      self.line([self.pt(mx+dx*length-dx*65-dy*40,my+dy*length-dy*65+dx*40),self.pt(mx+dx*length,my+dy*length),self.pt(mx+dx*length-dx*65+dy*40,my+dy*length-dy*65-dx*40)],'#466b74',2)
     if labels:
-     px,py=self.pt(x+30,y+h/2);label=v['label'] if crop!=[-250,-250,15600,10600] else n
+     px,py=self.pt(x+30,y+80 if upper else y+h/2);label=v['label'] if crop!=[-250,-250,15600,10600] else n
+     if crop!=[-250,-250,15600,10600]:label={'utility_sink':'清洗台','utility_base':'家政下柜'}.get(n,label)
      self.text(px,py,label[:16],max(11,min(16,int(s*120))))
   if six:
    for n,b in data['states']['six_extra'].items():self.rect(rb(b),'#b7c995','#456653',2);px,py=self.pt(b[0],b[1]+b[3]);self.text(px,py,'加端椅',13)
@@ -226,6 +228,8 @@ def main():
  table('门窗洞口.csv',['ID','类型','参考框','名义宽','扣框净宽假设','高度','来源'],[[n,v['kind'],str(v['box']),v['width'],v['width']-60,v['height'],v['status']] for n,v in openings().items()])
  table('空调新风.csv',['空间','位置','新风讨论值m3h','条件'],[[v['room'],str(v['point']),v['fresh_m3h'],v['condition']] for v in D['hvac']])
  cmp=json.loads((ROOT/'reports/comparison.json').read_text(encoding='utf-8'))['candidates'];table('方案取舍.csv',['候选','固定命中','单人路线通过数','路线总数','挂杆净长mm','拆改排序','条件'],[[c['label'],str(c['fixed_hits']),c['single_routes_passed'],c['route_count'],c['storage_rail_mm'],c['cost_rank'],'；'.join(c['conditions'])] for c in cmp])
+ from single_bath import drawings
+ drawings(Sheet,table)
  dump('reports/drawing_index.json',INDEX)
  # Retire only generated sheets absent from the current index; R1 remains in Git history.
  for folder,ext in [('svg','.svg'),('png','.png')]:
