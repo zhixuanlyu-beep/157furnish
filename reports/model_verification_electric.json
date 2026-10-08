@@ -92,7 +92,7 @@
     "errors": []
   },
   "passed": true,
-  "blend_sha256": "e57101a79e607fa95a075408e32f8279d06e7eeaca10747022b0bc3416b3c842",
+  "blend_sha256": "4b2bf6d2abae9d4a4af7e6229afca2c57ac5923e37b84bec98d39753e73c29aa",
   "glb_sha256": "6add6f15daa48d209510ac2c15766ed6b40f4971c42940343c1375da5e408d32",
   "fuel": "electric",
   "dependencies": {

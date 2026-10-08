@@ -143,6 +143,6 @@
     "model_reopened": true,
     "rendered_3d": false,
     "repeatability_passed": true,
-    "clean_rebuild_passed": false
+    "clean_rebuild_passed": true
   }
 }

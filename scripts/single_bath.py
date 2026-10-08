@@ -3,8 +3,22 @@ from common import *
 
 ID='single_bath_utility'
 
-def review(c,data,result):
+def shower_interior_routes(data):
  from verify_usage import route_grid,find_path
+ b=data['furniture']['single_shower']['box'];entry=data['operations']['shower_entry_use']['box']
+ start=[entry[0]+entry[2]/2,entry[1]+entry[3]/2];end=[b[0]+b[2]/2,b[1]+b[3]/2]
+ routes=[]
+ for width in [500,600,620,900]:
+  grid,step,_=route_grid(data,width);path,status=find_path(grid,step,start,end,b,width)
+  routes.append(dict(width_mm=width,reachable=bool(path),status=status,path=path,start=start,target_box=b,scope='淋浴前站位至淋浴内；不代表全屋路线',source=data['operations']['shower_entry_use']['source'],dimension_status=data['operations']['shower_entry_use']['status']))
+ return routes
+
+def layout_description(c,data):
+ sizes=lambda b:'×'.join(map(str,b[2:]))
+ edges={e['id']:e for e in data['edges']};rooms=data['rooms'];f=data['furniture']
+ return ('外围'+sizes(c['study']['envelope'])+'；西侧家政'+str(rooms['utility']['boxes'][0][2])+'宽、新墙'+str(edges['utility_partition']['thickness'])+'、东侧'+str(rooms['wet']['boxes'][0][2])+'宽。外置洗漱'+str(rooms['wash']['boxes'][0][3])+'深、新墙'+str(edges['wet_partition']['thickness'])+'，南湿区'+str(rooms['wet']['boxes'][0][3])+'深。家政南端叠放洗烘、'+str(f['utility_sink']['box'][2])+'宽小水池默认项、封闭下柜和上柜；不设两侧深柜。洗漱台'+sizes(f['wash_basin']['box'])+'及镜柜，站位在区内。湿区淋浴'+sizes(f['single_shower']['box'])+'，坐便朝西，门内开。原套卫门与储物侧门封闭。单位均为毫米，尺寸由候选数据生成。')
+
+def review(c,data,result):
  result['limitations']=[v for v in result['limitations'] if '800mm名义入口' not in v]
  result['limitations'].append('本候选淋浴名义入口650mm；扣框五金后实际净宽待核。')
  errors=[]
@@ -54,10 +68,7 @@ def review(c,data,result):
  wash=data['rooms']['wash']['boxes'][0];stand=data['operations']['wash_use']['box']
  inside_wash=all(wash[0]<=x<=wash[0]+wash[2] and wash[1]<=y<=wash[1]+wash[3] for x,y in rect(stand))
  cooking={f:{'status':v['status'],'requirements':v['requirements'],'routes':[r for r in result['routes'] if r['name']=='阳台烹饪' and r['state'] in ['normal4','laundry_open','cooking','temporary_drying']]} for f,v in D['fuel_variants'].items()}
- shower=[];b=data['furniture']['single_shower']['box'];start=data['routes']['淋浴入口']['start']
- for width in [500,600,620,900]:
-  grid,step,_=route_grid(data,width);path,status=find_path(grid,step,start,[b[0]+b[2]/2,b[1]+b[3]/2],b,width)
-  shower.append(dict(width_mm=width,reachable=bool(path),status=status,path=path))
+ shower=shower_interior_routes(data)
  return dict(data_consistency_passed=not errors,errors=errors,site_conditions_passed=False,site_status='待核；任一必要条件不成立则方案受阻',site_gates=c['study']['site_gates'],wash_standing_inside=inside_wash,laundry_component_hits=component_hits,cabinet_vs_laundry=cabinet_hits,door_vs_operations=door_ops,shower_interior_routes=shower,balcony_recheck=cooking,limitations=c['study']['usage_limits']+['家政门开启途中扫过装卸站位，进出与装卸需分时','新增淋浴名义侧入口650，五金后净宽及现场进入体验待核','柜门与人体按平面保守包络；上柜需另核高度及碰头','路线门全开；完整坐便站位要求关门，未认证动态进门关门过程'])
 
 def drawings(Sheet,table):
@@ -83,17 +94,17 @@ def drawings(Sheet,table):
  q.save('06-single-laundry.svg')
  q=Sheet('单卫候选 / 洗烘迁出后的阳台',['西端已撤洗烘，原设备接口不沿用。','晾晒保留独立状态；东端烹饪仍附条件。','燃气迁移许可／电灶配电分别核实。','两案都须合法排烟；不默认外墙直排。','重新计算烹饪及携篮路线，保留失败。']);q.plan(data=data,crop=D['balcony']['net_box'],opened=True);q.save('06-single-balcony.svg')
  table('单卫候选路线.csv',['路线','状态','宽mm','可达','原因'],[[r['name'],r['state'],r['width_mm'],r['reachable'],r['status']] for r in result['routes']])
- table('单卫淋浴内部路线.csv',['宽mm','可达','说明'],[[v['width_mm'],v['reachable'],v['status']] for v in result['study_review']['shower_interior_routes']])
+ table('单卫淋浴内部路线.csv',['宽mm','可达','说明','检查范围','起点','目标区','来源','尺寸状态'],[[v['width_mm'],v['reachable'],v['status'],v['scope'],str(v['start']),str(v['target_box']),v['source'],v['dimension_status']] for v in result['study_review']['shower_interior_routes']])
 
 def docs():
- c=next(c for c in D['candidates'] if c['id']==ID);u=json.loads((ROOT/('reports/usage_'+ID+'.json')).read_text(encoding='utf-8'));r=u['study_review']
- rows=['# 单卫＋家政收纳：独立候选','', 'R2推荐及两燃料模型保留。本候选仅二维研究，不代表已选定或可施工。所有尺寸未实测，来源为用户方案及R2概念包络，唯一坐标源为data/layout.json。', '', '[新分区图](../drawings/svg/06-single-zones.svg) · [拆改图](../drawings/svg/06-single-demolition.svg) · [内开门图](../drawings/svg/06-single-doors.svg) · [洗烘装卸图](../drawings/svg/06-single-laundry.svg) · [阳台复核图](../drawings/svg/06-single-balcony.svg)', '', '外围4423×2489；西侧家政1800宽、新墙120、东侧2503宽。外置洗漱1050深、新墙120，南湿区1319深。家政南端叠放洗烘、500宽小水池默认项、封闭下柜和上柜；不设两侧深柜。洗漱台1100×450及镜柜，站位在区内。湿区淋浴900×1100，坐便朝西，门内开。原套卫门与储物侧门封闭。', '', '## 数据一致性', '', str(r['data_consistency_passed'])+'；'+str(r['errors']), '', '## 使用检查', '', '以下为候选自身结果；全屋继承限制仍保留，不能把数据一致性当作使用通过。', '', '固定实体命中：'+str(u['fixed_hits']), '','坐便前侧空间：'+str(u['wc_clearances']), '', '门扇固定命中：'+str({k:v for k,v in u['door_sweep'].items() if v}), '', '门扇与操作区：'+str(r['door_vs_operations']), '', '洗烘开启件／操作者互撞：'+str(r['laundry_component_hits'])+'；家政柜门对装卸包络：'+str(r['cabinet_vs_laundry']), '', '必要操作实体命中：'+str({k:v for k,v in u['operation_fixed_hits'].items() if v}), '', '洗漱站位完全在洗漱区：'+str(r['wash_standing_inside']), '', '| 候选路线 | 状态 | 500 | 600 | 620 | 900 |','| --- | --- | --- | --- | --- | --- |']
+ c=next(c for c in D['candidates'] if c['id']==ID);data=candidate_data(c);u=json.loads((ROOT/('reports/usage_'+ID+'.json')).read_text(encoding='utf-8'));r=u['study_review']
+ rows=['# 单卫＋家政收纳：独立候选','', 'R2推荐及两燃料模型保留。本候选仅二维研究，不代表已选定或可施工。所有尺寸未实测，来源为用户方案及R2概念包络，唯一坐标源为data/layout.json。', '', '[新分区图](../drawings/svg/06-single-zones.svg) · [拆改图](../drawings/svg/06-single-demolition.svg) · [内开门图](../drawings/svg/06-single-doors.svg) · [洗烘装卸图](../drawings/svg/06-single-laundry.svg) · [阳台复核图](../drawings/svg/06-single-balcony.svg)', '', layout_description(c,data), '', '## 数据一致性', '', str(r['data_consistency_passed'])+'；'+str(r['errors']), '', '## 使用检查', '', '以下为候选自身结果；全屋继承限制仍保留，不能把数据一致性当作使用通过。', '', '固定实体命中：'+str(u['fixed_hits']), '','坐便前侧空间：'+str(u['wc_clearances']), '', '门扇固定命中：'+str({k:v for k,v in u['door_sweep'].items() if v}), '', '门扇与操作区：'+str(r['door_vs_operations']), '', '洗烘开启件／操作者互撞：'+str(r['laundry_component_hits'])+'；家政柜门对装卸包络：'+str(r['cabinet_vs_laundry']), '', '必要操作实体命中：'+str({k:v for k,v in u['operation_fixed_hits'].items() if v and data['operations'][k].get('required',True)}), '', '非必要操作实体命中（保留限制）：'+str({k:v for k,v in u['operation_fixed_hits'].items() if v and not data['operations'][k].get('required',True)}), '', '洗漱站位完全在洗漱区：'+str(r['wash_standing_inside']), '', '| 候选路线 | 状态 | 500 | 600 | 620 | 900 |','| --- | --- | --- | --- | --- | --- |']
  for state in ['normal4','laundry_open','cooking','temporary_drying']:
   for name in list(c['changes']['routes'])+['阳台烹饪']:
    rr=[next(v for v in u['routes'] if v['name']==name and v['state']==state and v['width_mm']==w) for w in [500,600,620,900]]
    rows.append('| '+' | '.join([name,state]+['通过' if v['reachable'] else '失败' for v in rr])+' |')
  rows+=['','全部状态与失败原因见[路线表](../tables/单卫候选路线.csv)及[完整核验JSON](../reports/usage_single_bath_utility.json)。','']+r['limitations']+['', '## 专业与现场条件', '', r['site_status']]+['- '+v['requirement']+'；'+v['status']+'；失败则'+v['if_failed'] for v in r['site_gates']]+['','## 阳台迁灶复核','','洗烘和关联水电接口已迁入家政。迁出释放西端设备及装卸空间，东端烹饪与晾晒仍按各状态重新计算，结果见上表。端窗、合法排烟、燃气许可或电灶容量等既有条件仍未确认；不默认迁出洗烘即允许迁灶。','','布局 SHA256：'+SHA]
  wc=u['wc_clearances']['single_wc']
- summary=['','坐便前方概念净距 '+str(wc['front_mm'])+' mm（目标750、最低600）；固定实体命中 '+str(len(u['fixed_hits']))+' 项，门扇命中实体 '+str(sum(len(v) for v in u['door_sweep'].values()))+' 项。此为未实测几何结果。','', '淋浴内部路线：'+ '；'.join(str(v['width_mm'])+' mm '+('通过' if v['reachable'] else '失败：'+v['status']) for v in r['shower_interior_routes']), '', '家政门开启途中扫过装卸站位，需要先完成进出再装卸；湿区门与坐便前区共享，关门后使用。洗澡与如厕需错开。', '']
+ summary=['','坐便前方概念净距 '+str(wc['front_mm'])+' mm（目标750、最低600）；固定实体命中 '+str(len(u['fixed_hits']))+' 项，门扇命中实体 '+str(sum(len(v) for v in u['door_sweep'].values()))+' 项。此为未实测几何结果。','', '淋浴局部路线（从淋浴前站位进入，独立于全屋路线）：'+ '；'.join(str(v['width_mm'])+' mm '+('通过' if v['reachable'] else '失败：'+v['status']) for v in r['shower_interior_routes']), '', '家政门开启途中扫过装卸站位，需要先完成进出再装卸；湿区门与坐便前区共享，关门后使用。洗澡与如厕需错开。', '']
  rows[8:8]=summary
  (ROOT/'docs/single-bath.md').write_text('\n'.join(rows)+'\n',encoding='utf-8')

@@ -5,6 +5,16 @@ from common import *
 from verify_usage import find_path,route_grid
 
 class Regressions(unittest.TestCase):
+ def test_single_shower_local_check_detects_closed_entry(self):
+  from single_bath import shower_interior_routes
+  c=next(v for v in D['candidates'] if v['id']=='single_bath_utility');data=candidate_data(c)
+  local=shower_interior_routes(data)
+  self.assertTrue(next(v for v in local if v['width_mm']==620)['reachable'])
+  # Closing the local shower aperture must fail even though the house is unchanged.
+  b=data['furniture']['single_shower']['box'];glass=data['furniture']['shower_east_glass']['box']
+  data['furniture']['shower_east_glass']['box']=[glass[0],b[1],glass[2],b[3]]
+  self.assertFalse(any(v['reachable'] for v in shower_interior_routes(data)))
+
  def test_single_candidate_isolated_and_repartitioned(self):
   before=copy.deepcopy(D);c=next(v for v in D['candidates'] if v['id']=='single_bath_utility');data=candidate_data(c)
   self.assertEqual(D,before)
